@@ -366,6 +366,7 @@ class SettingsProfileModel(DataRowModel):
 	missing: MissingProfileModel = MissingProfileModel()
 	update_inquiry: str = ''
 	update_var_flow: str = ''
+	confirmation_msg: str = ''
 	update_prog_var_flow: str = ''
 	variable: str = ''
 	var: List[VarProfileModel] = []
