@@ -27,7 +27,7 @@ sources = [
      # corwdin names: home_activity_checkin_child dev_assess_tools modules_child delivery_menu onboarding goal_checkins_child
      "crowdin_name": "modules_child",
      # possible values for tag 1: onboarding dev_assess ltp_activity home_activity_checkin module goal_checkin safeguarding menu delivery
-     "tags": [1,"delivery",1,"onboarding",1,"menu","2","malaysia",3,"child"],
+     "tags": [1,"safeguarding","2","malaysia",3,"child"],
      "split_no": 1},
 ]
 
