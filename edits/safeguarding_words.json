@@ -2820,12 +2820,11 @@
             "English": {
                 "keywords": [
                     "MENU",
-                    "Main Menu",
                     "Menue",
-                    "meny"
+                    "meny",
+                    "manu"
                 ],
                 "mispellings": [
-                    "manu",
                     "meun"
                 ]
             },
@@ -2833,12 +2832,11 @@
                 "msa": {
                     "keywords": [
                         "MENU",
-                        "Menu Utama",
                         "minu",
-                        "manu"
+                        "manu",
+                        "meno"
                     ],
                     "mispellings": [
-                        "meno",
                         "utama"
                     ]
                 }
@@ -2952,32 +2950,54 @@
             }
         }
     ],
-    "stop": [],
+    "stop": [
+        {
+            "English": {
+                "keywords": [
+                    "STOP",
+                    "stup",
+                    "stopp",
+                    "stoop"
+                ],
+                "mispellings": [
+                    "spot",
+                    "stpo"
+                ]
+            },
+            "Translation": {
+                "msa": {
+                    "keywords": [
+                        "TAMAT",
+                        "timat",
+                        "timaat",
+                        "timt"
+                    ],
+                    "mispellings": []
+                }
+            }
+        }
+    ],
     "start": [
         {
             "English": {
                 "keywords": [
-                    "STOP"
+                    "START",
+                    "Styat",
+                    "strat",
+                    "startd"
                 ],
-                "mispellings": []
+                "mispellings": [
+                    "steet"
+                ]
             },
             "Translation": {
                 "msa": {
-                    "keywords": [],
-                    "mispellings": []
-                }
-            }
-        },
-        {
-            "English": {
-                "keywords": [
-                    "START"
-                ],
-                "mispellings": []
-            },
-            "Translation": {
-                "msa": {
-                    "keywords": [],
+                    "keywords": [
+                        "MULA",
+                        "mola",
+                        "mulla",
+                        "malu"
+                    ],
                     "mispellings": []
                 }
             }
