@@ -2,10 +2,10 @@
 localised_sheets = "13XUkS7VbGJSg1xiOb2tVOIFcoiochpxqaQeBTk2Ibns" #specific for MY
 
 # shared with all deployments
-T_C_onboarding_ID = "1ONzKc52ypBvzmJbkSezm0GHaMMITKCIWqUlboXsJASQ" #"12ddvTz_ZfC-9-b0yxjVrSzczciUUE3GosLUFeOLIv9I"
+T_C_onboarding_ID = "12ddvTz_ZfC-9-b0yxjVrSzczciUUE3GosLUFeOLIv9I"
 T_content_ID = "1hcH8pFdiHZN0UvZgyv3Zht9ARBTx-VXhNBI2o8L7fHU"
-safeguarding ="1G-vscQaPrdxJZZul8laXnVDJ23qCy4BeFIz_A-PzDw4" #"1PHgUhJnZdE0lK6C9teK-hwA6Tf-6Pgj1_OVdxoTgVOA"
-T_delivery_ID = "16rbtGfp9pY_7QUAoL8W89-3dG2TEam6ckXbOo9RUhqI" #"1yf6T8FsNF5SIS7ktj05Wj7ha_Hkfrf66r63kfUWhJbI"
+safeguarding = "1PHgUhJnZdE0lK6C9teK-hwA6Tf-6Pgj1_OVdxoTgVOA"
+T_delivery_ID = "1yf6T8FsNF5SIS7ktj05Wj7ha_Hkfrf66r63kfUWhJbI"
 T_C_menu_ID = "1H142dFZEQrVypc_NMyCD2acCIb6RoMm6R7blPw4OjF0" #"1lf80mIiuv_F6xAa9j5zGvXas50WxdSsLj6vrPccGNwY"
 
 
@@ -23,11 +23,23 @@ C_dev_asess_tool_ID = "1azmH-v6DIJe6w_hpkvkI5scla2pgcC5c3Iyg7hBkyq8"
 # "split_no" is used to divide the file at the final step to get it to a manageable size that can be uploaded to rapidpro
 sources = [
     {"filename": "parenttext_del",
-     "spreadsheet_ids": [T_C_onboarding_ID, C_ltp_activities_ID, T_delivery_ID, C_modules_ID, C_dictionaries_ID, C_home_activity_checkin_ID, T_C_menu_ID, C_goal_checkin_ID, T_content_ID,C_dev_asess_tool_ID, safeguarding,localised_sheets], 
+     "spreadsheet_ids": [
+        T_C_onboarding_ID,
+     C_ltp_activities_ID,
+     T_delivery_ID,
+     C_modules_ID,
+     C_dictionaries_ID,
+     C_home_activity_checkin_ID,
+     T_C_menu_ID,
+     C_goal_checkin_ID,
+     T_content_ID,
+     C_dev_asess_tool_ID,
+     safeguarding,
+     localised_sheets], 
      # corwdin names: home_activity_checkin_child dev_assess_tools modules_child delivery_menu onboarding goal_checkins_child
-     "crowdin_name": "modules_child",
+     "crowdin_name": "onboarding",
      # possible values for tag 1: onboarding dev_assess ltp_activity home_activity_checkin module goal_checkin safeguarding menu delivery
-     "tags": [1,"safeguarding","2","malaysia",3,"child"],
+     "tags": [1,"onboarding",2,"malaysia",3,"child"],
      "split_no": 1},
 ]
 
