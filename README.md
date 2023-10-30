@@ -1,6 +1,6 @@
-# South Africa Parenttext Pipeline
+# Malaysia Parenttext Pipeline
 
-This project builds RapidPro flows for the SA ParentText chatbot. It takes input from specific Google Sheets spreadsheets and produces RapidPro flow JSON files that are ready to upload to any RapidPro server.
+This project builds RapidPro flows for the Malaysia ParentText chatbot. It takes input from specific Google Sheets spreadsheets and produces RapidPro flow JSON files that are ready to upload to any RapidPro server.
 
 ## Usage
 
@@ -34,7 +34,7 @@ These steps need to be followed if you want to run the pipeline from the command
 This repo contains two main scripts:
 
 ```
-python process_safeguarding_words.py (work in progress)
+python process_safeguarding_words.py
 ```
 This process takes excel files with safeguarding words received from local teams and converts to JSON format that can be digested by the main pipeline. For example of required excel input files, see the folder "excel_files" in this repo
 
