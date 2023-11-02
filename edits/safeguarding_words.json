@@ -3002,5 +3002,49 @@
                 }
             }
         }
+    ],
+    "id": [
+        {
+            "English": {
+                "keywords": [
+                    "id"
+                ],
+                "mispellings": []
+            },
+            "Translation": {
+                "msa": {
+                    "keywords": [
+                        "id"
+                    ],
+                    "mispellings": []
+                }
+            }
+        }
+    ],
+    "pause": [
+        {
+            "English": {
+                "keywords": [
+                    "PAUSE",
+                    "Puase",
+                    "Paws",
+                    "Paus"
+                ],
+                "mispellings": []
+            },
+            "Translation": {
+                "msa": {
+                    "keywords": [
+                        "BERHENTI",
+                        "jeda",
+                        "henti",
+                        "berhinti"
+                    ],
+                    "mispellings": [
+                        "hinti"
+                    ]
+                }
+            }
+        }
     ]
 }
