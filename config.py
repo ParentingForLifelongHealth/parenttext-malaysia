@@ -1,5 +1,7 @@
-# Data sources, ids of google sheets where the core date is stored, 
-localised_sheets = "13XUkS7VbGJSg1xiOb2tVOIFcoiochpxqaQeBTk2Ibns" #specific for MY
+# Data sources, ids of google sheets where the core date is stored.
+
+# Specific for MY
+localised_sheets = "13XUkS7VbGJSg1xiOb2tVOIFcoiochpxqaQeBTk2Ibns"
 
 # shared with all deployments
 T_C_onboarding_ID = "12ddvTz_ZfC-9-b0yxjVrSzczciUUE3GosLUFeOLIv9I"
@@ -10,7 +12,7 @@ T_C_menu_ID = "1lf80mIiuv_F6xAa9j5zGvXas50WxdSsLj6vrPccGNwY"
 
 
 C_modules_ID = "1435mczruh5CZoI7u0fWNuKGnJw062Si9j7er_NOwqT0"
-C_dictionaries_ID = "1uc4WOOlyHTEV8fUGb8nPCYcPj446TRtsV8fucrOCxC4" #update?
+C_dictionaries_ID = "1uc4WOOlyHTEV8fUGb8nPCYcPj446TRtsV8fucrOCxC4"  # update?
 C_home_activity_checkin_ID = "112bPyJgsE2BHxeJ7AN61o_5Uvf94YUCBR_drdAU5tHM"
 C_ltp_activities_ID = "1AdcFsatjGdbDYRqgw359JEhSZn6nkRbZHVZr-5yQe6I"
 C_goal_checkin_ID = "115XSdB5AJ9A9Nwr7Cs1PER5htOjctWcVTnqxipFiRUY"
@@ -18,29 +20,36 @@ C_dev_asess_tool_ID = "1azmH-v6DIJe6w_hpkvkI5scla2pgcC5c3Iyg7hBkyq8"
 
 
 # "filename" is how it will be generally named in the pipeline.
-# "crowdin_name" will be the name of the file that is produced to send to the translators
+# "crowdin_name" will be the name of the file that is produced to send to the
+# translators
 # tags are used to identify flows to be process
-# "split_no" is used to divide the file at the final step to get it to a manageable size that can be uploaded to rapidpro
+# "split_no" is used to divide the file at the final step to get it to a
+# manageable size that can be uploaded to rapidpro
 sources = [
-    {"filename": "parenttext_del",
-     "spreadsheet_ids": [
-        T_C_onboarding_ID,
-     C_ltp_activities_ID,
-     T_delivery_ID,
-     C_modules_ID,
-     C_dictionaries_ID,
-     C_home_activity_checkin_ID,
-     T_C_menu_ID,
-     C_goal_checkin_ID,
-     T_content_ID,
-     C_dev_asess_tool_ID,
-     safeguarding,
-     localised_sheets], 
-     # corwdin names: home_activity_checkin_child dev_assess_tools modules_child delivery_menu onboarding goal_checkins_child
-     "crowdin_name": "onboarding",
-     # possible values for tag 1: onboarding dev_assess ltp_activity home_activity_checkin module goal_checkin safeguarding menu delivery
-     "tags": [1,"onboarding",2,"malaysia",3,"child"],
-     "split_no": 1},
+    {
+        "filename": "parenttext_del",
+        "spreadsheet_ids": [
+            T_C_onboarding_ID,
+            C_ltp_activities_ID,
+            T_delivery_ID,
+            C_modules_ID,
+            C_dictionaries_ID,
+            C_home_activity_checkin_ID,
+            T_C_menu_ID,
+            C_goal_checkin_ID,
+            T_content_ID,
+            C_dev_asess_tool_ID,
+            safeguarding,
+            localised_sheets],
+        # crowdin names: home_activity_checkin_child dev_assess_tools
+        # modules_child delivery_menu onboarding goal_checkins_child
+        "crowdin_name": "onboarding",
+        # possible values for tag 1: onboarding dev_assess ltp_activity
+        # home_activity_checkin module goal_checkin safeguarding menu delivery
+        "tags": [2, "malaysia", 3, "child"],
+        "split_no": 1,
+        "archive": "https://drive.usercontent.google.com/download?id=1l_43DHz-WUZkrfouJ-GM4QxEA-2exlRy&export=download&authuser=0&confirm=t&uuid=6341bfe2-5b61-4366-a25f-86a04dc80a80&at=APZUnTXFyA2XHo5xC9fmls7UG3PA:1699289412671",  # noqa: E501
+     },
 ]
 
 # Data used when modifying expiration times
