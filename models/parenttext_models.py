@@ -3,13 +3,7 @@ from rpft.parsers.common.rowparser import ParserModel
 from parenttext_pipeline.models.parenttext_models import *
 from typing import List
 
-class IdGeneratorModel(DataRowModel):
-    success_msg: str = ''
-    failure_msg: str = ''
 
-class WebhookSettingsModel(DataRowModel):
-    url: str = ''
-    token: str = ''
 #####
 # content delivery data models (Malaysia specific)
 class Language(ParserModel):
