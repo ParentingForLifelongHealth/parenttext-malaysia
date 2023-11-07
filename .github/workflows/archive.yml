@@ -15,7 +15,7 @@ jobs:
       - name: Create archive
         run: python -m parenttext_pipeline.archive
       - name: Publish output folder
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: Archive Files
           path: output
