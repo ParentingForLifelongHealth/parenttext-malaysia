@@ -7,12 +7,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Install Python dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-      - name: Run parenttext_pipeline.archive
+      - name: Create archive
         run: python -m parenttext_pipeline.archive
       - name: Publish output folder
         uses: actions/upload-artifact@v2
