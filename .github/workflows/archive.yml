@@ -13,6 +13,8 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
       - name: Create archive
+        env:
+          CREDENTIALS: ${{ secrets.CREDENTIALS }}
         run: python -m parenttext_pipeline.archive
       - name: Publish output folder
         uses: actions/upload-artifact@v3
