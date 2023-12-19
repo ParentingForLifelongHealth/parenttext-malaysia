@@ -1,4 +1,40 @@
 {
+    "rejoin": [
+        {
+            "English": {
+                "keywords": [
+                    "START",
+                    "Styat",
+                    "strat",
+                    "startd"
+                ],
+                "mispellings": [
+                    "steet",
+                    "MULA",
+                    "mola",
+                    "mulla",
+                    "malu"
+                ]
+            },
+            "Translation": {
+                "msa": {
+                    "keywords": [
+                        "START",
+                        "Styat",
+                        "strat",
+                        "startd"
+                    ],
+                    "mispellings": [
+                        "steet",
+                        "MULA",
+                        "mola",
+                        "mulla",
+                        "malu"
+                    ]
+                }
+            }
+        }
+    ],
     "generic": [
         {
             "English": {
@@ -2901,36 +2937,6 @@
             }
         }
     ],
-    "book": [
-        {
-            "English": {
-                "keywords": [
-                    "BOOK",
-                    "Bok",
-                    "Bock",
-                    "BUKU"
-                ],
-                "mispellings": [
-                    "buk",
-                    "baca"
-                ]
-            },
-            "Translation": {
-                "msa": {
-                    "keywords": [
-                        "BOOK",
-                        "Bok",
-                        "Bock",
-                        "BUKU"
-                    ],
-                    "mispellings": [
-                        "buk",
-                        "baca"
-                    ]
-                }
-            }
-        }
-    ],
     "review": [
         {
             "English": {
@@ -3055,38 +3061,20 @@
         {
             "English": {
                 "keywords": [
-                    "START",
-                    "Styat",
-                    "strat",
-                    "startd"
-                ],
-                "mispellings": [
-                    "steet",
-                    "MULA",
-                    "mola",
-                    "mulla",
-                    "malu",
                     "kemas",
-                    "csos"
-                ]
+                    "csos",
+                    "MASW"
+                ],
+                "mispellings": []
             },
             "Translation": {
                 "msa": {
                     "keywords": [
-                        "START",
-                        "Styat",
-                        "strat",
-                        "startd"
-                    ],
-                    "mispellings": [
-                        "steet",
-                        "MULA",
-                        "mola",
-                        "mulla",
-                        "malu",
                         "kemas",
-                        "csos"
-                    ]
+                        "csos",
+                        "MASW"
+                    ],
+                    "mispellings": []
                 }
             }
         }
