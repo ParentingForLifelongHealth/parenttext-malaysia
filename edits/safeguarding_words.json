@@ -202,7 +202,7 @@
             "English": {
                 "keywords": [
                     "emergency",
-                    "911.0"
+                    "911"
                 ],
                 "mispellings": [
                     "emergincy",
@@ -215,7 +215,7 @@
                 "msa": {
                     "keywords": [
                         "kecemasan",
-                        "999.0"
+                        "999"
                     ],
                     "mispellings": [
                         "cemasan",
@@ -2797,18 +2797,28 @@
                     "hlep"
                 ],
                 "mispellings": [
-                    "hellp"
+                    "hellp",
+                    "BANTU",
+                    "tolong",
+                    "bntu",
+                    "buntu",
+                    "membantu"
                 ]
             },
             "Translation": {
                 "msa": {
                     "keywords": [
+                        "HELP",
+                        "halp",
+                        "hep",
+                        "hlep"
+                    ],
+                    "mispellings": [
+                        "hellp",
                         "BANTU",
                         "tolong",
                         "bntu",
-                        "buntu"
-                    ],
-                    "mispellings": [
+                        "buntu",
                         "membantu"
                     ]
                 }
@@ -2825,18 +2835,28 @@
                     "manu"
                 ],
                 "mispellings": [
-                    "meun"
+                    "meun",
+                    "MENU",
+                    "minu",
+                    "manu",
+                    "meno",
+                    "utama"
                 ]
             },
             "Translation": {
                 "msa": {
                     "keywords": [
                         "MENU",
-                        "minu",
-                        "manu",
-                        "meno"
+                        "Menue",
+                        "meny",
+                        "manu"
                     ],
                     "mispellings": [
+                        "meun",
+                        "MENU",
+                        "minu",
+                        "manu",
+                        "meno",
                         "utama"
                     ]
                 }
@@ -2853,18 +2873,28 @@
                     "pley"
                 ],
                 "mispellings": [
-                    "plaay"
+                    "plaay",
+                    "MAIN",
+                    "mayin",
+                    "mainan",
+                    "main-main",
+                    "bermain"
                 ]
             },
             "Translation": {
                 "msa": {
                     "keywords": [
+                        "PLAY",
+                        "paly",
+                        "pla",
+                        "pley"
+                    ],
+                    "mispellings": [
+                        "plaay",
                         "MAIN",
                         "mayin",
                         "mainan",
-                        "main-main"
-                    ],
-                    "mispellings": [
+                        "main-main",
                         "bermain"
                     ]
                 }
@@ -2877,18 +2907,26 @@
                 "keywords": [
                     "BOOK",
                     "Bok",
-                    "Bock"
+                    "Bock",
+                    "BUKU"
                 ],
-                "mispellings": []
+                "mispellings": [
+                    "buk",
+                    "baca"
+                ]
             },
             "Translation": {
                 "msa": {
                     "keywords": [
-                        "BUKU",
+                        "BOOK",
+                        "Bok",
+                        "Bock",
+                        "BUKU"
+                    ],
+                    "mispellings": [
                         "buk",
                         "baca"
-                    ],
-                    "mispellings": []
+                    ]
                 }
             }
         }
@@ -2902,17 +2940,27 @@
                     "Reveiw",
                     "Reivew"
                 ],
-                "mispellings": []
+                "mispellings": [
+                    "SEMAK SEMULA",
+                    "semak",
+                    "semula",
+                    "menyemak"
+                ]
             },
             "Translation": {
                 "msa": {
                     "keywords": [
+                        "REVIEW",
+                        "Revew",
+                        "Reveiw",
+                        "Reivew"
+                    ],
+                    "mispellings": [
                         "SEMAK SEMULA",
                         "semak",
                         "semula",
                         "menyemak"
-                    ],
-                    "mispellings": []
+                    ]
                 }
             }
         }
@@ -2929,18 +2977,33 @@
                 "mispellings": [
                     "gro",
                     "frow",
-                    "qrow"
+                    "qrow",
+                    "BERKEMBANG",
+                    "kembang",
+                    "besar",
+                    "membesar",
+                    "besa",
+                    "kebang",
+                    "tumbuh",
+                    "tumboh"
                 ]
             },
             "Translation": {
                 "msa": {
                     "keywords": [
+                        "GROW",
+                        "grwo",
+                        "gorw",
+                        "gow"
+                    ],
+                    "mispellings": [
+                        "gro",
+                        "frow",
+                        "qrow",
                         "BERKEMBANG",
                         "kembang",
                         "besar",
-                        "membesar"
-                    ],
-                    "mispellings": [
+                        "membesar",
                         "besa",
                         "kebang",
                         "tumbuh",
@@ -2961,18 +3024,29 @@
                 ],
                 "mispellings": [
                     "spot",
-                    "stpo"
+                    "stpo",
+                    "TAMAT",
+                    "timat",
+                    "timaat",
+                    "timt"
                 ]
             },
             "Translation": {
                 "msa": {
                     "keywords": [
+                        "STOP",
+                        "stup",
+                        "stopp",
+                        "stoop"
+                    ],
+                    "mispellings": [
+                        "spot",
+                        "stpo",
                         "TAMAT",
                         "timat",
                         "timaat",
                         "timt"
-                    ],
-                    "mispellings": []
+                    ]
                 }
             }
         }
@@ -2987,18 +3061,32 @@
                     "startd"
                 ],
                 "mispellings": [
-                    "steet"
+                    "steet",
+                    "MULA",
+                    "mola",
+                    "mulla",
+                    "malu",
+                    "kemas",
+                    "csos"
                 ]
             },
             "Translation": {
                 "msa": {
                     "keywords": [
+                        "START",
+                        "Styat",
+                        "strat",
+                        "startd"
+                    ],
+                    "mispellings": [
+                        "steet",
                         "MULA",
                         "mola",
                         "mulla",
-                        "malu"
-                    ],
-                    "mispellings": []
+                        "malu",
+                        "kemas",
+                        "csos"
+                    ]
                 }
             }
         }
@@ -3030,17 +3118,27 @@
                     "Paws",
                     "Paus"
                 ],
-                "mispellings": []
+                "mispellings": [
+                    "BERHENTI",
+                    "jeda",
+                    "henti",
+                    "berhinti",
+                    "hinti"
+                ]
             },
             "Translation": {
                 "msa": {
                     "keywords": [
+                        "PAUSE",
+                        "Puase",
+                        "Paws",
+                        "Paus"
+                    ],
+                    "mispellings": [
                         "BERHENTI",
                         "jeda",
                         "henti",
-                        "berhinti"
-                    ],
-                    "mispellings": [
+                        "berhinti",
                         "hinti"
                     ]
                 }
