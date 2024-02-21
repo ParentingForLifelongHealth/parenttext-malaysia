@@ -103,13 +103,6 @@ localisation_sheet_ID = "1RhsMtslpwyTmMLsZJZaaNqweKX7ONpmwR4-rQVpo_qw" #malaysia
 eng_edits_sheet_ID = "13KkCGpENgOUs8smPa7clXwsqurzroMkB0BUMiXF4Tvc" #same for all deployments
 transl_edits_sheet_ID = "1tbwzqlie87UMOe7yhdeeUxkTa4NtqRyivgX9NtxAFe8" #south africa specific
 
-#Data used in safeguarding script
-SG_flow_ID = "b83315a6-b25c-413a-9aa0-953bf60f223c"
-SG_flow_name = "safeguarding_wfr_interaction"
-
-#Path to file containing translated safeguarding words
-SG_path = "./edits/safeguarding_words.json"
-
 #Names of redirect flows to be modified as part of safegurading process
 redirect_flow_names = '["safeguarding_redirect_to_topic_all", "safeguarding_redirect_to_topic_highrisk", "safeguarding_redirect_to_topic_trigger"]'
 
@@ -128,9 +121,11 @@ def create_config():
         "qr_treatment": qr_treatment,
         "redirect_flow_names": redirect_flow_names,
         "select_phrases": select_phrases,
-        "sg_flow_id": SG_flow_ID,
-        "sg_flow_name": SG_flow_name,
-        "sg_path": SG_path,
+        "sg_flow_id": "b83315a6-b25c-413a-9aa0-953bf60f223c",
+        "sg_flow_name": "safeguarding_wfr_interaction",
+        "sg_sources": [
+            {"key": "msa", "path": "excel_files/safeguarding malaysia.xlsx"}
+        ],
         "sources": sources,
         "special_expiration": special_expiration,
         "special_words": special_words,
