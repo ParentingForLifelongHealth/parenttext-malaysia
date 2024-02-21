@@ -39,4 +39,4 @@ python -m parenttext_pipeline.cli
 script produce_flows.py contains the full process to produce RapidPro flows from the relevant Google Sheets. It takes a number of inputs from the 'config.py' file so any adjustments should be made in that file. That file contains information on what the various inputs mean
 
 
-[1]: actions/workflows/main.yaml
+[1]: https://github.com/IDEMSInternational/parenttext-malaysia/actions
