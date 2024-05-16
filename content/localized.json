@@ -2082,7 +2082,6 @@
       {
         "ID": "stress",
         "priority_c": "",
-        "priority_c79": "",
         "priority_p": "",
         "relationship": "",
         "name_c.eng": "",
@@ -2091,7 +2090,6 @@
       {
         "ID": "relation",
         "priority_c": "1",
-        "priority_c79": "1",
         "priority_p": "1",
         "relationship": "yes|no",
         "name_c.eng": "Improve My Relationship with My Child",
@@ -2100,7 +2098,6 @@
       {
         "ID": "develop",
         "priority_c": "3",
-        "priority_c79": "2",
         "priority_p": "2",
         "relationship": "yes|no",
         "name_c.eng": "Understand Child Development",
@@ -2109,7 +2106,6 @@
       {
         "ID": "learning",
         "priority_c": "2",
-        "priority_c79": "",
         "priority_p": "3",
         "relationship": "yes|no",
         "name_c.eng": "Prepare My Child for Success in School",
@@ -2118,7 +2114,6 @@
       {
         "ID": "structure",
         "priority_c": "4",
-        "priority_c79": "3",
         "priority_p": "4",
         "relationship": "yes|no",
         "name_c.eng": "Give My Child Structure",
@@ -2127,7 +2122,6 @@
       {
         "ID": "behave",
         "priority_c": "5",
-        "priority_c79": "4",
         "priority_p": "5",
         "relationship": "yes|no",
         "name_c.eng": "Supporting Positive Child Behaviour",
@@ -2136,7 +2130,6 @@
       {
         "ID": "safety",
         "priority_c": "6",
-        "priority_c79": "5",
         "priority_p": "6",
         "relationship": "yes|no",
         "name_c.eng": "Keep My Child Safe & Healthy",
@@ -2145,7 +2138,6 @@
       {
         "ID": "ipv",
         "priority_c": "7",
-        "priority_c79": "6",
         "priority_p": "",
         "relationship": "yes",
         "name_c.eng": "Have a Healthy Relationship with My Spouse",
@@ -2154,7 +2146,6 @@
       {
         "ID": "budget",
         "priority_c": "8",
-        "priority_c79": "7",
         "priority_p": "",
         "relationship": "yes|no",
         "name_c.eng": "Build a Family Budget and Save Money",
