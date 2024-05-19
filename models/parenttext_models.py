@@ -10,11 +10,6 @@ class Language(ParserModel):
     eng: str = ""
     msa: str = ""
 
-class GoalDataModel(DataRowModel):
-    priority_c: str = ""
-    priority_p: str = ""
-    relationship: List[str] = []
-    name_c: Language = Language()
 
 
 class ModuleDataModel(DataRowModel):
