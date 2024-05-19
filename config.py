@@ -55,8 +55,6 @@ sources = [
             C_ltp_activities_ID,
             edited_delivery,
             delivery_data,
-            C_modules_ID,
-            C_dictionaries_ID,
             edited_menu,
             menu_data,
             C_goal_checkin_ID,
@@ -64,14 +62,17 @@ sources = [
             C_dev_asess_tool_ID,
             safeguarding_data,
             edited_safeguarding,
+            C_modules_ID,
+            C_dictionaries_ID,
             localised_sheets],
         # crowdin names: home_activity_checkin_child dev_assess_tools
         # modules_child delivery_menu onboarding goal_checkins_child
-        "crowdin_name": "delivery_menu",
+        "crowdin_name": "modules_child",
         # possible values for tag 1: onboarding dev_assess ltp_activity
         # home_activity_checkin module goal_checkin safeguarding menu delivery
-        "tags": [1,"onboarding",2, "malaysia", 3, "child"],
-        "split_no": 1,
+        #"tags": [1,"module",2, "malaysia", 3, "child"],
+        "tags": [1,"onboarding",1,"menu",1,"delivery",1,"safeguarding", 2, "malaysia", 3, "child"],
+        "split_no": 2,
         #"archive": "https://drive.usercontent.google.com/download?id=1l_43DHz-WUZkrfouJ-GM4QxEA-2exlRy&export=download&authuser=0&confirm=t&uuid=6341bfe2-5b61-4366-a25f-86a04dc80a80&at=APZUnTXFyA2XHo5xC9fmls7UG3PA:1699289412671",  # noqa: E501
      },
 ]
@@ -129,14 +130,21 @@ eng_edits_sheet_ID = "1Ab8H_s26EuOiS4nZ6HGADjD4CZw55586LL66fl8tEWI" #same for al
 transl_edits_sheet_ID = "1tbwzqlie87UMOe7yhdeeUxkTa4NtqRyivgX9NtxAFe8" #south africa specific
 
 #Data used in safeguarding script
-SG_flow_ID = "b83315a6-b25c-413a-9aa0-953bf60f223c"
-SG_flow_name = "safeguarding_wfr_interaction"
+#SG_flow_ID = "b83315a6-b25c-413a-9aa0-953bf60f223c"
+#SG_flow_name = "safeguarding_wfr_interaction"
+
+# Names of redirect flows to be modified as part of safeguarding process.
+redirect_flow_names = (
+    '['
+    '    "safeguarding_redirect_to_topic_all", '
+    '    "safeguarding_redirect_to_topic_start", '
+    '    "safeguarding_redirect_to_topic_trigger"'
+    ']'
+)
 
 #Path to file containing translated safeguarding words
-SG_path = "./edits/safeguarding_words.json"
+SG_path = "./output/safeguarding_words.json"
 
-#Names of redirect flows to be modified as part of safegurading process
-redirect_flow_names = '["safeguarding_redirect_to_topic_all", "safeguarding_redirect_to_topic_highrisk", "safeguarding_redirect_to_topic_trigger"]'
 
 def create_config():
     return {
@@ -153,9 +161,14 @@ def create_config():
         "qr_treatment": qr_treatment,
         "redirect_flow_names": redirect_flow_names,
         "select_phrases": select_phrases,
-        "sg_flow_id": SG_flow_ID,
-        "sg_flow_name": SG_flow_name,
-        "sg_path": SG_path,
+        #"sg_flow_id": SG_flow_ID,
+        #"sg_flow_name": SG_flow_name,
+        "sg_sources": [
+            {
+               "key": "msa",
+               "path": "excel_files/safeguarding malaysia.xlsx",
+            }
+        ],
         "sources": sources,
         "special_expiration": special_expiration,
         "special_words": special_words,
