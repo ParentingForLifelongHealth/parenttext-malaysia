@@ -17,7 +17,7 @@ class ModuleDataModel(DataRowModel):
     priority_in_topic: str = ""
     age: List[int] = []
     child_gender: List[str] = []
-    name_c: Language = Language()
+    name: Language = Language()
 
 class GoalTopicLinkModel(DataRowModel):
     goal_id_c: str = ""
