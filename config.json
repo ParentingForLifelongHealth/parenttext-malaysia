@@ -1,0 +1,196 @@
+{
+    "meta": {
+        "version": "1.0.0",
+        "pipeline_version": "1.0.0"
+    },
+    "flows_outputbasename": "parenttext_all",
+    "output_split_number": 1,
+    "sheet_names": {
+        "MY_sheets": "13XUkS7VbGJSg1xiOb2tVOIFcoiochpxqaQeBTk2Ibns",
+        "T_content": "1hcH8pFdiHZN0UvZgyv3Zht9ARBTx-VXhNBI2o8L7fHU",
+        "N_onboarding_data": "1_m_Plv3EgM6bSyokcI4qgY5sCE8s6zf4Bz1qli2zDSk",
+        "T_onboarding": "1Sl0Jl_N4cGQi2INmE_EnX_aYUMUrUB6cKbuWVPzirtY",
+        "C_ltp_activities": "1AdcFsatjGdbDYRqgw359JEhSZn6nkRbZHVZr-5yQe6I",
+        "C_modules": "1435mczruh5CZoI7u0fWNuKGnJw062Si9j7er_NOwqT0",
+        "C_goal_checkin": "115XSdB5AJ9A9Nwr7Cs1PER5htOjctWcVTnqxipFiRUY",
+        "C_dev_asess_tool" : "1azmH-v6DIJe6w_hpkvkI5scla2pgcC5c3Iyg7hBkyq8",
+        "N_safeguarding_data": "1BKwGQJvtvIlZhirvaZ5UFOmMxVe0pB4eM3_4F0_Snu4",
+        "T_safeguarding": "1bWOyM5yShTTJSaxwqRCrjUzkwbp7DF6_nSF_96YcZ2c",
+        "T_delivery": "1q6E2c4Bg_UvqTmhxAsTIQngwAtj0aFoqu8wsPHnqmaU",
+        "N_delivery_data": "1JcWCrDWTWQsg5yV0wHmeS-Ln8JPpVET5U6akOJIFUK4",
+        "T_menu": "1lIiFjZKS0eXzzo6XwDdqYv4e1A73WFCpWZg5ju-tCZE",
+        "N_menu_data": "1W42uFzCBUbiYXCUh-nxgCDMsjcJMC4IZXG00TVGUZxA",
+        "T_survey": "1dewoAzGyWAIljHK5KnL3TNP8g5pz0Vt6Lux2O6rycYU",
+        "ab_testing_sheet_ID": "1i_oqiJYkeoMsYdeFOcKlvvjnNCEdQnZlsm17fgNvK0s",
+        "localisation_sheet_ID" : "1RhsMtslpwyTmMLsZJZaaNqweKX7ONpmwR4-rQVpo_qw", 
+        "eng_edits_sheet_ID" : "1Ab8H_s26EuOiS4nZ6HGADjD4CZw55586LL66fl8tEWI",
+        "transl_edits_sheet_ID" : "1tbwzqlie87UMOe7yhdeeUxkTa4NtqRyivgX9NtxAFe8"
+    },
+    "sources": {
+        "flow_definitions": {
+            "parent_sources": [],
+            "format": "sheets",
+            "subformat": "google_sheets",
+            "files_list": [
+                    "N_onboarding_data",
+                    "T_onboarding",
+                    "T_survey",
+                    "C_ltp_activities",
+                    "C_modules",
+                    "C_goal_checkin",
+                    "C_dev_asess_tool",
+                    "T_content",
+                    "N_safeguarding_data",
+                    "T_safeguarding",
+                    "N_delivery_data",
+                    "T_delivery",
+                    "N_menu_data",
+                    "T_menu",
+                    "MY_sheets"
+                ]
+        },
+        "edits_pretranslation": {
+            "parent_sources": [ ],
+            "format": "sheets",
+            "subformat": "google_sheets",
+            "files_list": [
+                "ab_testing_sheet_ID",
+                "localisation_sheet_ID"
+            ]
+        },
+        "edits_posttranslation": {
+            "parent_sources": [],
+            "format": "sheets",
+            "subformat": "google_sheets",
+            "files_list": [
+                "eng_edits_sheet_ID",
+                "transl_edits_sheet_ID"
+            ]
+        },
+        "translation": {
+            "format": "translation_repo",
+            "translation_repo": "https://github.com/IDEMSInternational/plh-digital-content",
+            "folder_within_repo": "translations/parent_text_v2_malaysia",
+            "commit_hash": "",
+            "commit_tag": "",
+            "languages": [
+                {"language": "msa", "code": "ms"}
+            ]
+        },
+        "expiration_times": {
+            "format": "json",
+            "files_dict": {
+                "special_expiration_file": "./edits/specific_expiration.json"
+            }
+        },
+        "qr_treatment": {
+            "format": "json",
+            "files_dict": {
+                "select_phrases_file": "./edits/select_phrases.json",
+                "special_words_file": "./edits/special_words.json"
+            }
+        },
+        "safeguarding": {
+            "format": "safeguarding",
+            "sources": [
+                {
+                    "key": "msa",
+                    "location": "1ruiWdipznfftmvE_ilgU4YicKljnDf8g"
+                 }
+            ]
+        },
+        "goals_api": {
+            "format": "sheets",
+            "subformat": "google_sheets",
+            "files_list": [
+                "13XUkS7VbGJSg1xiOb2tVOIFcoiochpxqaQeBTk2Ibns"
+            ]
+        }
+    },
+    "steps": [
+        {
+            "id": "create_flows",
+            "type": "create_flows",
+            "models_module": "models.parenttext_models",
+            "sources": [
+                "flow_definitions"
+            ],
+            "tags": [3,"child"]
+        },
+        {
+            "id": "update_expiration_times",
+            "type": "update_expiration_times",
+            "sources": [
+                "expiration_times"
+            ],
+            "default_expiration_time": 1440
+        },
+        {
+            "id": "edits_pretranslation",
+            "type": "edits",
+            "sources": [
+                "edits_pretranslation"
+            ]
+        },
+        {
+            "id": "hasanyword_pretranslation",
+            "type": "has_any_word_check"
+        },
+        {
+            "id": "overall_integrity_check_pretranslation",
+            "type": "overall_integrity_check"
+        },
+        {
+            "id": "extract_texts_for_translators",
+            "type": "extract_texts_for_translators"
+        },
+        {
+            "id": "translation",
+            "type": "translation",
+            "sources": [
+                "translation"
+            ],
+            "languages": [
+                {"language": "msa", "code": "ms"}
+            ]
+        },
+        {
+            "id": "edits_posttranslation",
+            "type": "edits",
+            "sources": [
+                "edits_posttranslation"
+            ]
+        },
+        {
+            "id": "hasanyword_posttranslation",
+            "type": "has_any_word_check"
+        },
+        {
+            "id": "fix_arg_qr_translation",
+            "type": "fix_arg_qr_translation"
+        },
+        {
+            "id": "overall_integrity_check_posttranslation",
+            "type": "overall_integrity_check"
+        },
+        {
+            "id": "qr_treatment",
+            "type": "qr_treatment",
+            "sources": [
+                "qr_treatment"
+            ],
+            "qr_treatment": "reformat_whatsapp",
+            "count_threshold": "13",
+            "length_threshold": "18",
+            "add_selectors": "yes"
+        },
+        {
+            "id": "safeguarding",
+            "type": "safeguarding",
+            "sources": [
+                "safeguarding"
+            ],
+            "redirect_flow_names": "[\"safeguarding_redirect_to_topic_all\", \"safeguarding_redirect_to_topic_start\", \"safeguarding_redirect_to_topic_trigger\"]"
+        }
+    ]
+}
