@@ -1,0 +1,251 @@
+{
+  "meta": {
+    "version": "0.1.0"
+  },
+  "sheets": {
+    "==content==": [
+      {
+        "flow_type": "flow_editing",
+        "flow_name": "",
+        "sheet_name": "settings",
+        "status": "released",
+        "order": "1"
+      },
+      {
+        "flow_type": "flow_editing",
+        "flow_name": "",
+        "sheet_name": "unicef_questions",
+        "status": "released",
+        "order": "0"
+      },
+      {
+        "flow_type": "flow_editing",
+        "flow_name": "",
+        "sheet_name": "scale_up_customisation",
+        "status": "released",
+        "order": "0"
+      }
+    ],
+    "settings": [
+      {
+        "type_of_edit": "replace_saved_value",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "@fields.deployment",
+        "change": "Global",
+        "condition_var": "",
+        "category": "Malaysia"
+      },
+      {
+        "type_of_edit": "replace_attachments",
+        "flow_id": "orientation",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*",
+        "change": "@(fields.voiceover_video_path & \"onboarding_c.mp4\")",
+        "condition_var": "",
+        "category": "@(fields.voiceover_video_path & \"onboarding.mp4\")"
+      },
+      {
+        "type_of_edit": "replace_attachments",
+        "flow_id": "orientation",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*",
+        "change": "@(fields.voiceover_video_path & \"onboarding_t.mp4\")",
+        "condition_var": "",
+        "category": "@(fields.voiceover_video_path & \"onboarding.mp4\")"
+      },
+      {
+        "type_of_edit": "replace_attachments",
+        "flow_id": "orientation",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*",
+        "change": "@(fields.voiceover_video_path & \"onboarding_b.mp4\")",
+        "condition_var": "",
+        "category": "@(fields.voiceover_video_path & \"onboarding.mp4\")"
+      }
+    ],
+    "unicef_questions": [
+      {
+        "type_of_edit": "replace_flow",
+        "flow_id": "onboarding_wrapper",
+        "original_row_id": "",
+        "node_identifier": "onboarding_question_range - parent_age",
+        "change": "onboarding_question_range - parent_age",
+        "condition_var": "@fields.scale_up",
+        "category": "skip_onboarding_question - parent_age",
+        "category:yes": "onboarding_question_range - parent_age",
+        "condition:yes": "yes",
+        "condition_type:yes": "has_only_phrase"
+      },
+      {
+        "type_of_edit": "replace_flow",
+        "flow_id": "onboarding_wrapper",
+        "original_row_id": "",
+        "node_identifier": "onboarding_question_with_opt - location",
+        "change": "onboarding_question_with_opt - location",
+        "condition_var": "@fields.scale_up",
+        "category": "skip_onboarding_question - location",
+        "category:yes": "onboarding_question_with_opt - location",
+        "condition:yes": "yes",
+        "condition_type:yes": "has_only_phrase"
+      },
+      {
+        "type_of_edit": "replace_flow",
+        "flow_id": "onboarding_wrapper",
+        "original_row_id": "",
+        "node_identifier": "onboarding_question_with_opt - parent_ethnicity",
+        "change": "onboarding_question_with_opt - parent_ethnicity",
+        "condition_var": "@fields.scale_up",
+        "category": "skip_onboarding_question - parent_ethnicity",
+        "category:yes": "onboarding_question_with_opt - parent_ethnicity",
+        "condition:yes": "yes",
+        "condition_type:yes": "has_only_phrase"
+      },
+      {
+        "type_of_edit": "replace_flow",
+        "flow_id": "onboarding_wrapper",
+        "original_row_id": "",
+        "node_identifier": "onboarding_question_with_opt - parent_education",
+        "change": "onboarding_question_with_opt - parent_education",
+        "condition_var": "@fields.scale_up",
+        "category": "skip_onboarding_question - parent_education",
+        "category:yes": "onboarding_question_with_opt - parent_education",
+        "condition:yes": "yes",
+        "condition_type:yes": "has_only_phrase"
+      },
+      {
+        "type_of_edit": "replace_flow",
+        "flow_id": "onboarding_wrapper",
+        "original_row_id": "",
+        "node_identifier": "onboarding_question_with_opt - parent_prog_exp",
+        "change": "onboarding_question_with_opt - parent_prog_exp",
+        "condition_var": "@fields.scale_up",
+        "category": "skip_onboarding_question - parent_prog_exp",
+        "category:yes": "onboarding_question_with_opt - parent_prog_exp",
+        "condition:yes": "yes",
+        "condition_type:yes": "has_only_phrase"
+      },
+      {
+        "type_of_edit": "replace_flow",
+        "flow_id": "onboarding_wrapper",
+        "original_row_id": "",
+        "node_identifier": "consent",
+        "change": "consent",
+        "condition_var": "@fields.scale_up",
+        "category": "consent_pilot",
+        "category:yes": "consent",
+        "condition:yes": "yes",
+        "condition_type:yes": "has_only_phrase"
+      },
+      {
+        "type_of_edit": "replace_flow",
+        "flow_id": "timed_programme",
+        "original_row_id": "",
+        "node_identifier": "safeguarding_id_generator_wrapper",
+        "change": "safeguarding_id_generator_wrapper",
+        "condition_var": "@fields.scale_up",
+        "category": "safeguarding_id_generator_wrapper",
+        "category:yes": "skip_id_generator",
+        "condition:yes": "yes",
+        "condition_type:yes": "has_only_phrase"
+      },
+      {
+        "type_of_edit": "replace_flow",
+        "flow_id": "post_programme_checkin",
+        "original_row_id": "",
+        "node_identifier": "closing_survey - helpful",
+        "change": "closing_survey - helpful",
+        "condition_var": "@fields.scale_up",
+        "category": "empty",
+        "category:yes": "closing_survey - helpful",
+        "condition:yes": "yes",
+        "condition_type:yes": "has_only_phrase"
+      },
+      {
+        "type_of_edit": "replace_flow",
+        "flow_id": "post_programme_checkin",
+        "original_row_id": "",
+        "node_identifier": "closing_survey - useful_goal",
+        "change": "closing_survey - useful_goal",
+        "condition_var": "@fields.scale_up",
+        "category": "empty",
+        "category:yes": "closing_survey - useful_goal",
+        "condition:yes": "yes",
+        "condition_type:yes": "has_only_phrase"
+      },
+      {
+        "type_of_edit": "replace_flow",
+        "flow_id": "post_programme_checkin",
+        "original_row_id": "",
+        "node_identifier": "closing_survey - recommend",
+        "change": "closing_survey - recommend",
+        "condition_var": "@fields.scale_up",
+        "category": "empty",
+        "category:yes": "closing_survey - recommend",
+        "condition:yes": "yes",
+        "condition_type:yes": "has_only_phrase"
+      }
+    ],
+    "scale_up_customisation": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "one_child_time_msg",
+        "original_row_id": "",
+        "node_identifier": "ParentText will help you with all of the children in your life, but in this programme, we are focusing on just one child at a time.",
+        "change": "ParentText will help you with all of the children in your life, but in this programme, we are focusing on just one child at a time.",
+        "condition_var": "@fields.scale_up",
+        "category": "ParentText will help you with all of the children in your life, but in this programme, we are focusing on just one child at a time.",
+        "category:yes": "ParentText will help you with all of the children in your life, but in this programme, we are focusing on just one child in your home between the ages of 2-9.",
+        "condition:yes": "yes",
+        "condition_type:yes": "has_only_phrase"
+      }
+    ],
+    "pilot": [
+      {
+        "type_of_edit": "replace_flow",
+        "flow_id": "onboarding_wrapper",
+        "original_row_id": "",
+        "node_identifier": "consent",
+        "change": "consent",
+        "condition_var": "",
+        "category": "consent_pilot"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "share",
+        "original_row_id": "",
+        "node_identifier": "Here is the link!\n[insert link]",
+        "change": "[insert link]",
+        "condition_var": "",
+        "category": "**************"
+      },
+      {
+        "type_of_edit": "replace_saved_value",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "@fields.content_group_id",
+        "change": "c",
+        "condition_var": "",
+        "category": "p"
+      },
+      {
+        "type_of_edit": "replace_flow",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "settings_update_get_ipv",
+        "change": "settings_update_get_ipv",
+        "condition_var": "",
+        "category": "empty"
+      },
+      {
+        "type_of_edit": "replace_flow",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "onboarding_question_date - child_dob",
+        "change": "onboarding_question_date - child_dob",
+        "condition_var": "",
+        "category": "onboarding_question_date_4to5 - child_dob"
+      }
+    ]
+  }
+}

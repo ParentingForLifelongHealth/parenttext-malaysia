@@ -1,0 +1,68 @@
+[
+  {
+    "SourceText": "I've got another lesson ready for you! Are you ready to continue with your goal, @results.name?",
+    "text": "Saya ada menyediakan pelajaran lain untuk anda! Adakah anda bersedia untuk meneruskan matlamat anda, @results.name?",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "Press a number on your keypad:",
+    "text": "Tekan satu nombor pada pad kekunci anda:",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "1. Yes",
+    "text": "1. Ya",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "2. No, remind me tomorrow",
+    "text": "2. Tidak, ingatkan saya esok",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Great, see you tomorrow!",
+    "text": "Baik, jumpa anda esok!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Sorry, I don't understand what you mean.",
+    "text": "Maaf, saya tidak faham apa yang anda maksudkan.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "1",
+    "text": "1",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "2",
+    "text": "2",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "@results.name",
+    "text": "@results.name",
+    "type": "variables",
+    "note": ""
+  },
+  {
+    "SourceText": "1",
+    "text": "1",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "2",
+    "text": "2",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  }
+]
