@@ -1,0 +1,794 @@
+{
+  "meta": {
+    "version": "0.1.0"
+  },
+  "sheets": {
+    "content_index": [
+      {
+        "type": "data_sheet",
+        "sheet_name": "congrats_data",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "CongratsDataModel",
+        "template_arguments": "",
+        "operation": "",
+        "status": "",
+        "group": "",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": "",
+        "tags.4": "goal"
+      },
+      {
+        "type": "data_sheet",
+        "sheet_name": "delivery_messages",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "SingleMessageModel",
+        "template_arguments": "",
+        "operation": "",
+        "status": "",
+        "group": "",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": "",
+        "tags.4": ""
+      },
+      {
+        "type": "data_sheet",
+        "sheet_name": "make_options_wrapper_data",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "OptionsWrapperModel",
+        "template_arguments": "",
+        "operation": "",
+        "status": "",
+        "group": "",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": "",
+        "tags.4": "goal"
+      },
+      {
+        "type": "data_sheet",
+        "sheet_name": "show_options_wrapper_data",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "OptionsWrapperModel",
+        "template_arguments": "",
+        "operation": "",
+        "status": "",
+        "group": "",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": "",
+        "tags.4": "goal"
+      },
+      {
+        "type": "data_sheet",
+        "sheet_name": "description_data",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "SingleMessageModel",
+        "template_arguments": "",
+        "operation": "",
+        "status": "",
+        "group": "",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": "",
+        "tags.4": "goal"
+      },
+      {
+        "type": "data_sheet",
+        "sheet_name": "interaction_data",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "InteractionModel",
+        "template_arguments": "",
+        "operation": "",
+        "status": "",
+        "group": "",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": "",
+        "tags.4": "goal"
+      },
+      {
+        "type": "data_sheet",
+        "sheet_name": "wa_templates",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "WhatsappTemplateModel",
+        "template_arguments": "",
+        "operation": "",
+        "status": "",
+        "group": "",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": "",
+        "tags.4": ""
+      },
+      {
+        "type": "data_sheet",
+        "sheet_name": "activity_offer_data",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "ActivityOfferModel",
+        "template_arguments": "",
+        "operation": "",
+        "status": "",
+        "group": "",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": "",
+        "tags.4": ""
+      },
+      {
+        "type": "data_sheet",
+        "sheet_name": "activity_type_data",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "ActivityTypeModel",
+        "template_arguments": "",
+        "operation": "",
+        "status": "",
+        "group": "",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": "",
+        "tags.4": ""
+      }
+    ],
+    "congrats_data": [
+      {
+        "ID": "intermediate_completion",
+        "msg": "🎉CONGRATULATIONS!🎉 You have earned a badge and completed the goal @results.name. Well done!",
+        "extra_msg": "Remember, if you need support with the skills you have learned, you can get extra help in the Main Menu. Just type {MENU} and select option 7 to get help with your parenting goals."
+      },
+      {
+        "ID": "final_completion",
+        "msg": "🎉You did it! Congratulations!🎉 You have completed the programme and earned yourself the Positive Parenting Trophy 🏆. Well done!\nRemember, you can always return to ParentText and get extra support or review these goals. Just type {MENU}.",
+        "extra_msg": "Completing ParentText is an important achievement. Well done! New goals might be available soon. As they become available, you'll receive a notification through this channel. "
+      },
+      {
+        "ID": "take_a_pause_completion",
+        "msg": "Congratulations! You have earned yourself a badge. You are now ready to begin the course. ⭐",
+        "extra_msg": ""
+      }
+    ],
+    "delivery_messages": [
+      {
+        "ID": "first_selection_intro",
+        "msg": "Now that you've relaxed, it's time to pick your goal.",
+        "next_button_option": "",
+        "metadata.description": "Message after take_a_pause in onboarding before selecting the first goal (if not fixed)"
+      },
+      {
+        "ID": "postgoal_checkin_wrapper",
+        "msg": "Today we are taking a break from your goal, @results.name, and checking in on your progress. Press 1 on your keypad to proceed.",
+        "next_button_option": "1",
+        "metadata.description": "message introducing the post goal check in. Needs to be aligned with whatsapp template \"post_goal_checkin\". 1 can be replaced by anything (anything typed in the chat will work anyway)"
+      },
+      {
+        "ID": "activity_handler",
+        "msg": "What kind of activity do you want to try with your child?",
+        "next_button_option": "",
+        "metadata.description": "message for choosing which type of activity to do. Types in \"activity_type_data\""
+      },
+      {
+        "ID": "pregoal_checkin_wrapper",
+        "msg": "Let’s get started. Press NEXT to begin.",
+        "next_button_option": "NEXT",
+        "metadata.description": "message received after completing the pre goal/course checkin, before receiving the first module. It has a NEXT button, where NEXT can be replaced by anything  (anything typed in the chat will work anyway)"
+      },
+      {
+        "ID": "hook_message",
+        "msg": "These messages don’t seem to be working. When you are ready to keep going, press 1. ",
+        "next_button_option": "1",
+        "metadata.description": "hook message sent after 3 days of no response from the user. Needs to be aligned with whatsapp template \"no_response\". 1 can be replaced by anything (anything typed in the chat will work anyway)"
+      }
+    ],
+    "make_options_wrapper_data": [
+      {
+        "ID": "start_first_goal",
+        "list_var": "fields.goals_to_start",
+        "print_type": "goal",
+        "n_max_opt": "10",
+        "msg_no_options.message": "NA",
+        "msg_no_options.image": "",
+        "msg_one_option.message": "NA",
+        "msg_one_option.question": "",
+        "msg_one_option.affirmative": "",
+        "msg_one_option.negative": "",
+        "msg_one_option.no_message": "",
+        "msg_multiple_options": "This course has @fields.n_goals_prog goals, which one do you want to work on first?",
+        "extra_option": "",
+        "extra_message": "",
+        "update_var": "curr goal"
+      },
+      {
+        "ID": "start_new_goal_daily",
+        "list_var": "fields.goals_to_start",
+        "print_type": "goal",
+        "n_max_opt": "10",
+        "msg_no_options.message": "You have seen all the goals ",
+        "msg_no_options.image": "",
+        "msg_one_option.message": "You are so close to completing the course! You only have one goal left,",
+        "msg_one_option.question": "",
+        "msg_one_option.affirmative": "",
+        "msg_one_option.negative": "",
+        "msg_one_option.no_message": "",
+        "msg_multiple_options": "It’s time to pick a new parenting goal! You have completed @fields.n_goals_completed of @fields.n_goals_prog goals. Which goal would you like to work on next?",
+        "extra_option": "",
+        "extra_message": "",
+        "update_var": "curr goal"
+      },
+      {
+        "ID": "start_new_goal_expired",
+        "list_var": "fields.goals_to_start",
+        "print_type": "goal",
+        "n_max_opt": "10",
+        "msg_no_options.message": "You have seen all the goals ",
+        "msg_no_options.image": "",
+        "msg_one_option.message": "You only have one goal to start",
+        "msg_one_option.question": "",
+        "msg_one_option.affirmative": "",
+        "msg_one_option.negative": "",
+        "msg_one_option.no_message": "",
+        "msg_multiple_options": "You have completed @fields.n_goals_completed of @fields.n_goals_prog goals. Which goal would you like to work on next?",
+        "extra_option": "",
+        "extra_message": "",
+        "update_var": "curr goal"
+      },
+      {
+        "ID": "start_started_goal_daily",
+        "list_var": "fields.goals_started",
+        "print_type": "goal",
+        "n_max_opt": "10",
+        "msg_no_options.message": "🎉You did it! Congratulations!🎉 You have completed the course and earned yourself the Positive Parenting Trophy 🏆. Well done!",
+        "msg_no_options.image": "",
+        "msg_one_option.message": "You have almost completed ParentText! Only this goal remains:",
+        "msg_one_option.question": "",
+        "msg_one_option.affirmative": "",
+        "msg_one_option.negative": "",
+        "msg_one_option.no_message": "",
+        "msg_multiple_options": "You have seen all the goals and you have started @fields.n_goals_started goals. Which one would you like to complete?",
+        "extra_option": "",
+        "extra_message": "",
+        "update_var": "curr goal"
+      },
+      {
+        "ID": "start_started_goal_expired",
+        "list_var": "fields.goals_started",
+        "print_type": "goal",
+        "n_max_opt": "10",
+        "msg_no_options.message": "🎉You did it! Congratulations!🎉 You have completed the course and earned yourself the Positive Parenting Trophy 🏆. Well done!",
+        "msg_no_options.image": "",
+        "msg_one_option.message": "You have almost completed ParentText! Only this goal remains:",
+        "msg_one_option.question": "",
+        "msg_one_option.affirmative": "",
+        "msg_one_option.negative": "",
+        "msg_one_option.no_message": "",
+        "msg_multiple_options": "You have seen all the goals and you have started @fields.n_goals_started goals. Which one would you like to complete?",
+        "extra_option": "",
+        "extra_message": "",
+        "update_var": "curr goal"
+      },
+      {
+        "ID": "start_new_goal_menu",
+        "list_var": "fields.goals_to_start",
+        "print_type": "goal",
+        "n_max_opt": "10",
+        "msg_no_options.message": "There are no goals to start",
+        "msg_no_options.image": "",
+        "msg_one_option.message": "You only have the following goal to start",
+        "msg_one_option.question": "Would you like to begin this goal?",
+        "msg_one_option.affirmative": "Yes",
+        "msg_one_option.negative": "No",
+        "msg_one_option.no_message": "That's okay.",
+        "msg_multiple_options": "Which new goal would you like to start?",
+        "extra_option": "",
+        "extra_message": "",
+        "update_var": "curr goal"
+      },
+      {
+        "ID": "start_started_goal_menu",
+        "list_var": "replace(fields.goals_started,fields.curr_goal,\"\")",
+        "print_type": "goal",
+        "n_max_opt": "10",
+        "msg_no_options.message": "There are no goals started",
+        "msg_no_options.image": "",
+        "msg_one_option.message": "You only have the following goal started",
+        "msg_one_option.question": "Would you like to begin this goal?",
+        "msg_one_option.affirmative": "Yes",
+        "msg_one_option.negative": "No",
+        "msg_one_option.no_message": "That's okay.",
+        "msg_multiple_options": "Which unfinished goal would you like to complete?",
+        "extra_option": "",
+        "extra_message": "",
+        "update_var": "curr goal"
+      },
+      {
+        "ID": "start_started_goal",
+        "list_var": "replace(fields.goals_started,fields.curr_goal,\"\")",
+        "print_type": "goal",
+        "n_max_opt": "10",
+        "msg_no_options.message": "There are no goals to complete",
+        "msg_no_options.image": "",
+        "msg_one_option.message": "You only have the following goal to complete",
+        "msg_one_option.question": "Would you like to begin this goal?",
+        "msg_one_option.affirmative": "Yes",
+        "msg_one_option.negative": "No",
+        "msg_one_option.no_message": "That's okay.",
+        "msg_multiple_options": "Great! Which unfinished goal would you like to complete?",
+        "extra_option": "",
+        "extra_message": "",
+        "update_var": "curr goal"
+      },
+      {
+        "ID": "start_started_module_or_change_goal",
+        "list_var": "fields.c_mod_started",
+        "print_type": "module",
+        "n_max_opt": "10",
+        "msg_no_options.message": "NA",
+        "msg_no_options.image": "",
+        "msg_one_option.message": "You're almost finished with this goal! You only have 1 lesson remaining, ",
+        "msg_one_option.question": "What would you like to do?",
+        "msg_one_option.affirmative": "Finish this skill and complete my goal",
+        "msg_one_option.negative": "Leave this goal unfinished and select a new goal",
+        "msg_one_option.no_message": "That’s okay. You can only earn your Parenting Trophy when all badges are earned. When you are ready, you can return to complete this goal through the Progress Tracker in the Main Menu by typing {MENU}.",
+        "msg_multiple_options": "You're almost finished with this goal! You have @fields.c_n_mod_started unfinished skills. Which skill would you like to complete?",
+        "extra_option": "Leave this goal unfinished and select a new goal",
+        "extra_message": "That’s okay. You can only earn your Parenting Trophy when all badges are earned. When you are ready, you can return to complete this goal through the Progress Tracker in the Main Menu by typing {MENU}.",
+        "update_var": "accessed module"
+      },
+      {
+        "ID": "start_started_module_daily",
+        "list_var": "fields.c_mod_started",
+        "print_type": "module",
+        "n_max_opt": "10",
+        "msg_no_options.message": "NA",
+        "msg_no_options.image": "",
+        "msg_one_option.message": "You only have the following skill to complete:",
+        "msg_one_option.question": "",
+        "msg_one_option.affirmative": "",
+        "msg_one_option.negative": "",
+        "msg_one_option.no_message": "",
+        "msg_multiple_options": "Which skill would you like to complete?",
+        "extra_option": "",
+        "extra_message": "",
+        "update_var": "accessed module"
+      },
+      {
+        "ID": "troubleshooting_menu",
+        "list_var": "fields.goals_accessed",
+        "print_type": "goal",
+        "n_max_opt": "10",
+        "msg_no_options.message": "You haven't started to work on a goal yet.",
+        "msg_no_options.image": "",
+        "msg_one_option.message": "You have only started the goal",
+        "msg_one_option.question": "Would you like support on it?",
+        "msg_one_option.affirmative": "Yes",
+        "msg_one_option.negative": "No",
+        "msg_one_option.no_message": "That's okay. You can access more information at any time in the Main Menu",
+        "msg_multiple_options": "What are you struggling with?",
+        "extra_option": "",
+        "extra_message": "",
+        "update_var": "accessed tbs"
+      },
+      {
+        "ID": "choose_goal_to_review",
+        "list_var": "fields.goals_accessed",
+        "print_type": "goal",
+        "n_max_opt": "10",
+        "msg_no_options.message": "You haven't completed any skill yet.",
+        "msg_no_options.image": "",
+        "msg_one_option.message": "You have only started the goal",
+        "msg_one_option.question": "",
+        "msg_one_option.affirmative": "",
+        "msg_one_option.negative": "",
+        "msg_one_option.no_message": "",
+        "msg_multiple_options": "Which goal do you want to review?",
+        "extra_option": "Return to Main Menu",
+        "extra_message": "",
+        "update_var": "selected goal"
+      },
+      {
+        "ID": "choose_skill_to_review",
+        "list_var": "fields.s_modules_compl",
+        "print_type": "module",
+        "n_max_opt": "10",
+        "msg_no_options.message": "You haven't completed any skill in this goal yet.",
+        "msg_no_options.image": "",
+        "msg_one_option.message": "You have only completed the following skill:",
+        "msg_one_option.question": "Would you like to review it?",
+        "msg_one_option.affirmative": "Yes",
+        "msg_one_option.negative": "No",
+        "msg_one_option.no_message": "That's okay. You can come back here at any time to review it.",
+        "msg_multiple_options": "You have completed @fields.n_s_modules_compl skills within this goal. Which skill do you want to review?",
+        "extra_option": "Return to Main Menu",
+        "extra_message": "",
+        "update_var": "accessed module"
+      }
+    ],
+    "show_options_wrapper_data": [
+      {
+        "ID": "new_goals",
+        "list_var": "fields.goals_to_start",
+        "print_type": "goal",
+        "n_max_opt": "10",
+        "msg_no_options.message": "You are on track to complete this course! There are no new goals to start!",
+        "msg_one_option.message": "You have the following goal to start:",
+        "msg_multiple_options": "You have the following goals to start:"
+      },
+      {
+        "ID": "started_goals",
+        "list_var": "replace(fields.goals_started,fields.curr_goal,\"\")",
+        "print_type": "goal",
+        "n_max_opt": "10",
+        "msg_no_options.message": "There are no other goals to complete.",
+        "msg_one_option.message": "You have the following outstanding goal to complete:",
+        "msg_multiple_options": "You are off track to complete this course! You have the following outstanding goals:"
+      },
+      {
+        "ID": "completed_goals",
+        "list_var": "fields.goals_compl",
+        "print_type": "goal",
+        "n_max_opt": "10",
+        "msg_no_options.message": "You have not completed any goal yet.",
+        "msg_one_option.message": "You have completed the following goal:",
+        "msg_multiple_options": "You have completed the following goals:"
+      }
+    ],
+    "description_data": [
+      {
+        "ID": "started",
+        "msg": "You have completed @fields.c_n_mod_compl out of @fields.c_n_mod skills in this goal. Today you will begin working on the skill @results.name."
+      },
+      {
+        "ID": "new",
+        "msg": "In this goal, you will gain @fields.c_n_mod new skills. You will receive a new lesson each day. Today you will begin the first skill, @results.name."
+      },
+      {
+        "ID": "first",
+        "msg": "ParentText has @fields.n_goals_prog goals. We will begin with the first goal, @results.name. Once you complete this goal, you can choose which goal you want to work on next. Let's get started."
+      }
+    ],
+    "wa_templates": [
+      {
+        "ID": "home_activity",
+        "name": "",
+        "uuid": "",
+        "text": "You’re doing great towards your goal, {{1}}. Were you able to {{2}}?\n\nPress a number on your keypad:\n1. Yes\n2. Not yet"
+      },
+      {
+        "ID": "daily_interaction",
+        "name": "",
+        "uuid": "",
+        "text": "I've got another lesson ready for you! Are you ready to continue with your goal, {{1}}?\n\nPress a number on your keypad:\n1. Yes\n2. No, remind me tomorrow"
+      },
+      {
+        "ID": "first_module_intro",
+        "name": "",
+        "uuid": "",
+        "text": "It’s time to get started on your goal, {{1}}. Are you ready?\n\nPress a number on your keypad:\n1. Yes!\n2. Remind me tomorrow"
+      },
+      {
+        "ID": "unfinished_onboarding",
+        "name": "",
+        "uuid": "",
+        "text": "ParentText has begun. Are you ready to complete your registration and select your parenting goals?\n\nPress a number on your keypad:\n1. Yes\n2. Remind me Later"
+      },
+      {
+        "ID": "select_goal",
+        "name": "",
+        "uuid": "",
+        "text": "You have made great progress. Are you ready to select your next parenting goal?\n\nPress a number on your keypad:\n1. Yes\n2. Remind me Later"
+      },
+      {
+        "ID": "no_response",
+        "name": "",
+        "uuid": "",
+        "text": "These messages don’t seem to be working. When you are ready to keep going, press 1. "
+      },
+      {
+        "ID": "post_goal_checkin",
+        "name": "",
+        "uuid": "",
+        "text": "Today we are taking a break from your goal, {{1}}, and checking in on your progress. Press 1 on your keypad to proceed."
+      },
+      {
+        "ID": "complete_start_module",
+        "name": "",
+        "uuid": "",
+        "text": "You’re off track! Do you want to complete a previous skill or start a new skill?\n\nPress a number on your keypad:\n1. Complete\n2. Start new"
+      },
+      {
+        "ID": "new_goals_available",
+        "name": "",
+        "uuid": "",
+        "text": "There are new parenting goals available for you! \n\nPress a number on your keypad:\n1. Tell me about them!\n2. No thanks! I'm already a parenting expert and have achieved all of my goals. "
+      },
+      {
+        "ID": "new_goal_available",
+        "name": "",
+        "uuid": "",
+        "text": "There is a new parenting goal available for you! \n\nPress a number on your keypad:\n1. Tell me about it!\n2. No thanks! I'm already a parenting expert and have achieved all of my goals."
+      },
+      {
+        "ID": "start_started_mod_or_change_goal",
+        "name": "",
+        "uuid": "",
+        "text": "You're almost finished with this goal! {{1}} What would you like to do?\n\nPress a number on your keypad:\n1. {{2}}\n2. Leave this goal unfinished and select a new goal"
+      },
+      {
+        "ID": "start_started_mod_or_change_goal_one",
+        "name": "",
+        "uuid": "",
+        "text": "You're almost finished with this goal! You only have 1 unfinished skill. What would you like to do?\n\nPress a number on your keypad:\n1. Finish this skill and earn my badge\n2. Leave this goal unfinished and select a new goal"
+      },
+      {
+        "ID": "start_started_mod_or_change_goal_mult",
+        "name": "",
+        "uuid": "",
+        "text": "You're almost finished with this goal! You have @fields.c_n_mod_started unfinished skills. What would you like to do?\n\nPress a number on your keypad:\n1. Complete unfinished skills to earn my badge\n2. Leave this goal unfinished and select a new goal"
+      },
+      {
+        "ID": "start_started_mod_or_later_one",
+        "name": "",
+        "uuid": "",
+        "text": "You're almost finished with this goal! You only have 1 unfinished skill. What would you like to do?\n\nPress a number on your keypad:\n1. Finish this skill and earn my badge\n2. Remind me tomorrow"
+      },
+      {
+        "ID": "start_started_mod_or_later_multiple",
+        "name": "",
+        "uuid": "",
+        "text": "You're almost finished with this goal! You have @fields.c_n_mod_started unfinished skills. What would you like to do?\n\nPress a number on your keypad:\n1. Complete unfinished skills to earn my badge\n2. Remind me tomorrow"
+      }
+    ],
+    "activity_offer_data": [
+      {
+        "ID": "timed_programme",
+        "activity_handler_flow": "activity_handler",
+        "offer_msg": "What would you like to do next?",
+        "accept.child": "Give me an idea for 1-on-1 time with my child",
+        "accept.teen": "Give me an idea for 1-on-1 time with my child",
+        "accept.baby": "Give me an idea for 1-on-1 time with my child",
+        "refuse": "I’m done for today",
+        "refuse_msg": "Great, see you tomorrow!",
+        "next_offer_msg": "What would you like to do?",
+        "next_accept": "View another activity idea",
+        "next_refuse": "Continue my progress tomorrow",
+        "next_refuse_msg": "Great, see you tomorrow!",
+        "next_refuse_flow": "",
+        "next_other_opt": "Go to Main Menu",
+        "next_other_msg": "",
+        "next_other_flow": "menu - main"
+      },
+      {
+        "ID": "demo",
+        "activity_handler_flow": "activity_handler",
+        "offer_msg": "What would you like to do next?",
+        "accept.child": "Give me an idea for 1-on-1 time with my child",
+        "accept.teen": "Give me an idea for 1-on-1 time with my child",
+        "accept.baby": "Give me an idea for 1-on-1 time with my child",
+        "refuse": "I’m done for today",
+        "refuse_msg": "Great, see you tomorrow!",
+        "next_offer_msg": "What would you like to do?",
+        "next_accept": "View another activity idea",
+        "next_refuse": "Continue my progress tomorrow",
+        "next_refuse_msg": "Great, see you tomorrow!",
+        "next_refuse_flow": "",
+        "next_other_opt": "",
+        "next_other_msg": "",
+        "next_other_flow": ""
+      },
+      {
+        "ID": "menu",
+        "activity_handler_flow": "activity_handler",
+        "offer_msg": "",
+        "accept.child": "",
+        "accept.teen": "",
+        "accept.baby": "",
+        "refuse": "",
+        "refuse_msg": "",
+        "next_offer_msg": "What would you like to do?",
+        "next_accept": "View another activity idea",
+        "next_refuse": "Exit menu",
+        "next_refuse_msg": "",
+        "next_refuse_flow": "exit_menu",
+        "next_other_opt": "Go to Main Menu",
+        "next_other_msg": "",
+        "next_other_flow": "safeguarding_menu_wrapper"
+      }
+    ],
+    "interaction_data": [
+      {
+        "ID": "daily_interaction",
+        "question": "I've got another lesson ready for you! Are you ready to continue with your goal, @results.name?\n\nPress a number on your keypad:\n1. Yes\n2. No, remind me tomorrow",
+        "webhook_template_name": "use_webhook_get_name",
+        "webhook_template_args": "goal;fields.curr_goal;webhook_settings",
+        "options.1.text": "1",
+        "options.1.proceed_result_value": "yes",
+        "options.1.stop_message": "",
+        "options.2.text": "2",
+        "options.2.proceed_result_value": "",
+        "options.2.stop_message": "Great, see you tomorrow!",
+        "wa_template_ID": "daily_interaction",
+        "wa_template_vars.1": "@results.name",
+        "wa_template_vars.2": ""
+      },
+      {
+        "ID": "select_goal",
+        "question": "You have made great progress. Are you ready to select your next parenting goal?\n\nPress a number on your keypad:\n1. Yes\n2. Remind me Later",
+        "webhook_template_name": "",
+        "webhook_template_args": "",
+        "options.1.text": "1",
+        "options.1.proceed_result_value": "yes",
+        "options.1.stop_message": "",
+        "options.2.text": "2",
+        "options.2.proceed_result_value": "",
+        "options.2.stop_message": "Great, see you tomorrow!",
+        "wa_template_ID": "select_goal",
+        "wa_template_vars.1": "",
+        "wa_template_vars.2": ""
+      },
+      {
+        "ID": "unfinished_onboarding",
+        "question": "ParentText has begun. Are you ready to complete your registration?\n\nPress a number on your keypad:\n1. Yes\n2. Remind me Later",
+        "webhook_template_name": "",
+        "webhook_template_args": "",
+        "options.1.text": "1",
+        "options.1.proceed_result_value": "yes",
+        "options.1.stop_message": "",
+        "options.2.text": "2",
+        "options.2.proceed_result_value": "",
+        "options.2.stop_message": "Great, see you tomorrow!",
+        "wa_template_ID": "unfinished_onboarding",
+        "wa_template_vars.1": "",
+        "wa_template_vars.2": ""
+      },
+      {
+        "ID": "complete_start_module",
+        "question": "You’re off track! Do you want to complete a previous skill or start a new skill?\n\nPress a number on your keypad:\n1. Complete a previous skill\n2. Start a new skill",
+        "webhook_template_name": "",
+        "webhook_template_args": "",
+        "options.1.text": "1",
+        "options.1.proceed_result_value": "complete",
+        "options.1.stop_message": "",
+        "options.2.text": "2",
+        "options.2.proceed_result_value": "new",
+        "options.2.stop_message": "",
+        "wa_template_ID": "complete_start_module",
+        "wa_template_vars.1": "",
+        "wa_template_vars.2": ""
+      },
+      {
+        "ID": "catch_up_start",
+        "question": "Do you want to catch up and proceed to the next skill?",
+        "webhook_template_name": "",
+        "webhook_template_args": "",
+        "options.1.text": "Yes",
+        "options.1.proceed_result_value": "yes",
+        "options.1.stop_message": "",
+        "options.2.text": "Remind me tomorrow",
+        "options.2.proceed_result_value": "",
+        "options.2.stop_message": "Great, see you tomorrow!",
+        "wa_template_ID": "",
+        "wa_template_vars.1": "",
+        "wa_template_vars.2": ""
+      },
+      {
+        "ID": "start_started_mod_or_change_goal_one",
+        "question": "You're almost finished with this goal! You only have 1 unfinished skill. What would you like to do?\n\nPress a number on your keypad:\n1. Finish this skill and earn my badge\n2. Leave this goal unfinished and select a new goal",
+        "webhook_template_name": "",
+        "webhook_template_args": "",
+        "options.1.text": "1",
+        "options.1.proceed_result_value": "complete",
+        "options.1.stop_message": "",
+        "options.2.text": "2",
+        "options.2.proceed_result_value": "new",
+        "options.2.stop_message": "That’s okay. You can only earn your Parenting Badge when all skills are completed. You can return to complete this goal through the Progress Tracker in the Main Menu by typing {MENU}.",
+        "wa_template_ID": "start_started_mod_or_change_goal",
+        "wa_template_vars.1": "You only have one unfinished skill.",
+        "wa_template_vars.2": "Finish this skill and earn my badge"
+      },
+      {
+        "ID": "start_started_mod_or_change_goal_multiple",
+        "question": "You're almost finished with this goal! You have @fields.c_n_mod_started unfinished skills. What would you like to do?\n\nPress a number on your keypad:\n1. Complete unfinished skills to earn my badge\n2. Leave this goal unfinished and select a new goal",
+        "webhook_template_name": "",
+        "webhook_template_args": "",
+        "options.1.text": "1",
+        "options.1.proceed_result_value": "complete",
+        "options.1.stop_message": "",
+        "options.2.text": "2",
+        "options.2.proceed_result_value": "new",
+        "options.2.stop_message": "That’s okay. You can only earn your Parenting Badge when all skills are completed. You can return to complete this goal through the Progress Tracker in the Main Menu by typing {MENU}.",
+        "wa_template_ID": "start_started_mod_or_change_goal",
+        "wa_template_vars.1": "You have @fields.c_n_mod_started unfinished skills.",
+        "wa_template_vars.2": "Complete unfinished skills to earn my badge"
+      },
+      {
+        "ID": "first_module_intro",
+        "question": "It’s time to get started on your goal, @results.name. Are you ready?\n\nPress a number on your keypad:\n1. Yes!\n2. Remind me tomorrow",
+        "webhook_template_name": "use_webhook_get_name",
+        "webhook_template_args": "goal;fields.curr_goal;webhook_settings",
+        "options.1.text": "1",
+        "options.1.proceed_result_value": "yes",
+        "options.1.stop_message": "",
+        "options.2.text": "2",
+        "options.2.proceed_result_value": "",
+        "options.2.stop_message": "Great, see you tomorrow!",
+        "wa_template_ID": "first_module_intro",
+        "wa_template_vars.1": "@results.name",
+        "wa_template_vars.2": ""
+      }
+    ],
+    "activity_type_data": [
+      {
+        "ID": "quick",
+        "option_name": "Something Quick"
+      },
+      {
+        "ID": "active",
+        "option_name": "Something Active"
+      },
+      {
+        "ID": "calm",
+        "option_name": "Something Calm"
+      },
+      {
+        "ID": "group",
+        "option_name": "Something for the whole family"
+      }
+    ],
+    "closing_data": [
+      {
+        "msg": "I'm really proud of your effort today. Let’s build on it tomorrow!"
+      },
+      {
+        "msg": "We’re learning so much together. See you tomorrow!"
+      },
+      {
+        "msg": "We're making great progress together. See you tomorrow!"
+      },
+      {
+        "msg": "Thank you for showing up and doing the work - that matters so much. See you again tomorrow!"
+      },
+      {
+        "msg": "Thanks for putting in the effort today. See you again tomorrow!"
+      },
+      {
+        "msg": "You did a great job today. I'll be right here again tomorrow to learn together!"
+      },
+      {
+        "msg": "Thanks for being here today - your effort matters. Let's keep going tomorrow!"
+      },
+      {
+        "msg": "Great! You're doing so well. I'll be here with you again tomorrow."
+      },
+      {
+        "msg": "Thanks for all your effort today - I’m proud of you. See you again tomorrow!"
+      },
+      {
+        "msg": "You're making real progress. Let’s build on it together tomorrow!"
+      },
+      {
+        "msg": "Thank you for taking time for this today. I'll see you tomorrow!"
+      },
+      {
+        "msg": "Great! You're showing up for your family, and I'm proud of you. Let's keep going tomorrow!"
+      }
+    ]
+  }
+}

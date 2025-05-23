@@ -1,0 +1,801 @@
+{
+  "meta": {
+    "version": "0.1.0"
+  },
+  "sheets": {
+    "==content==": [
+      {
+        "flow_type": "flow_editing",
+        "flow_name": "",
+        "sheet_name": "comic_names_eng_additional",
+        "status": "released",
+        "order": "1"
+      },
+      {
+        "flow_type": "translation_editing",
+        "flow_name": "",
+        "sheet_name": "comic_names_transl",
+        "status": "released",
+        "order": "1"
+      },
+      {
+        "flow_type": "flow_editing",
+        "flow_name": "",
+        "sheet_name": "external_references_eng",
+        "status": "released",
+        "order": "1"
+      },
+      {
+        "flow_type": "translation_editing",
+        "flow_name": "",
+        "sheet_name": "external_references_transl",
+        "status": "released",
+        "order": "1"
+      },
+      {
+        "flow_type": "flow_editing",
+        "flow_name": "",
+        "sheet_name": "referrals_eng",
+        "status": "released",
+        "order": "1"
+      },
+      {
+        "flow_type": "translation_editing",
+        "flow_name": "",
+        "sheet_name": "referrals_transl",
+        "status": "released",
+        "order": "1"
+      },
+      {
+        "flow_type": "flow_editing",
+        "flow_name": "",
+        "sheet_name": "triggers_eng",
+        "status": "released",
+        "order": "1"
+      },
+      {
+        "flow_type": "translation_editing",
+        "flow_name": "",
+        "sheet_name": "triggers_transl",
+        "status": "released",
+        "order": "1"
+      },
+      {
+        "flow_type": "flow_editing",
+        "flow_name": "",
+        "sheet_name": "parenttext_name_eng",
+        "status": "released",
+        "order": "1"
+      },
+      {
+        "flow_type": "translation_editing",
+        "flow_name": "",
+        "sheet_name": "parenttext_name_transl",
+        "status": "released",
+        "order": "2"
+      },
+      {
+        "flow_type": "flow_editing",
+        "flow_name": "",
+        "sheet_name": "urls_eng",
+        "status": "released",
+        "order": "1"
+      },
+      {
+        "flow_type": "translation_editing",
+        "flow_name": "",
+        "sheet_name": "urls_transl",
+        "status": "released",
+        "order": "1"
+      }
+    ],
+    "parenttext_name_eng": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*ParentText.*",
+        "change": "ParentText",
+        "condition_var": "@fields.scale_up",
+        "category": "NKText",
+        "category:yes": "Naungan Kasih Text",
+        "condition:yes": "yes",
+        "condition_type:yes": "has_only_phrase"
+      },
+      {
+        "type_of_edit": "NOreplace_quick_replies",
+        "flow_id": "menu - main",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*",
+        "change": "ParentText",
+        "condition_var": "@fields.scale_up",
+        "category": "NKText",
+        "category:yes": "Naungan Kasih Text",
+        "condition:yes": "yes",
+        "condition_type:yes": "has_only_phrase"
+      },
+      {
+        "type_of_edit": "NOreplace_wait_for_response_cases",
+        "flow_id": "menu - main",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*",
+        "change": "[{\"category_name\": \"How To Use Parenttext\", \"type\": \"has_only_phrase\", \"arguments\": [\"How to Use ParentText\"]}]",
+        "condition_var": "@fields.scale_up",
+        "category": "[{\"category_name\": \"How To Use NKText\", \"type\": \"has_only_phrase\", \"arguments\": [\"How to Use NKText\"]}]",
+        "category:yes": "[{\"category_name\": \"How To Use Naungan Kasih Text\", \"type\": \"has_only_phrase\", \"arguments\": [\"How to Use Naungan Kasih Text\"]}]",
+        "condition:yes": "yes",
+        "condition_type:yes": "has_only_phrase"
+      }
+    ],
+    "parenttext_name_transl": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*NKText.*",
+        "original": "ParentText",
+        "language": "msa",
+        "replacement": "NKText"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*Naungan Kasih Text.*",
+        "original": "ParentText",
+        "language": "msa",
+        "replacement": "Naungan Kasih Text"
+      },
+      {
+        "type_of_edit": "NOreplace_quick_replies",
+        "flow_id": "menu - main",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*",
+        "original": "ParentText",
+        "language": "msa",
+        "replacement": "NKText"
+      }
+    ],
+    "comic_names_eng_additional": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F3_DAUGTHER_4}.*",
+        "change": "{F3_DAUGTHER_4}",
+        "condition_var": "",
+        "category": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F3_DAUGHTER_4\"][contact.language])"
+      }
+    ],
+    "comic_names_transl": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F1_MOTHER}.*",
+        "original": "{F1_MOTHER}",
+        "language": "msa",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F1_MOTHER\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F1_FATHER}.*",
+        "original": "{F1_FATHER}",
+        "language": "msa",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F1_FATHER\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F1_SON_18}.*",
+        "original": "{F1_SON_18}",
+        "language": "msa",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F1_SON_18\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F1_DAUGHTER_16}.*",
+        "original": "{F1_DAUGHTER_16}",
+        "language": "msa",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F1_DAUGHTER_16\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F1_DAUGHTER_13}.*",
+        "original": "{F1_DAUGHTER_13}",
+        "language": "msa",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F1_DAUGHTER_13\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F1_DAUGHTER_6}.*",
+        "original": "{F1_DAUGHTER_6}",
+        "language": "msa",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F1_DAUGHTER_6\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F1_DAUGHTER_2}.*",
+        "original": "{F1_DAUGHTER_2}",
+        "language": "msa",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F1_DAUGHTER_2\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F1_SON_5}.*",
+        "original": "{F1_SON_5}",
+        "language": "msa",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F1_SON_5\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F2_GRANDMOTHER}.*",
+        "original": "{F2_GRANDMOTHER}",
+        "language": "msa",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F2_GRANDMOTHER\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F2_GRANDFATHER}.*",
+        "original": "{F2_GRANDFATHER}",
+        "language": "msa",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F2_GRANDFATHER\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F2_DAUGHTER_19}.*",
+        "original": "{F2_DAUGHTER_19}",
+        "language": "msa",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F2_DAUGHTER_19\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F2_SON_15}.*",
+        "original": "{F2_SON_15}",
+        "language": "msa",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F2_SON_15\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F2_DAUGHTER_8}.*",
+        "original": "{F2_DAUGHTER_8}",
+        "language": "msa",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F2_DAUGHTER_8\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F2_SON_3}.*",
+        "original": "{F2_SON_3}",
+        "language": "msa",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F2_SON_3\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F3_MOTHER}.*",
+        "original": "{F3_MOTHER}",
+        "language": "msa",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F3_MOTHER\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F3_UNCLE}.*",
+        "original": "{F3_UNCLE}",
+        "language": "msa",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F3_UNCLE\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F3_DAUGHTER_12}.*",
+        "original": "{F3_DAUGHTER_12}",
+        "language": "msa",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F3_DAUGHTER_12\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F3_SON_7}.*",
+        "original": "{F3_SON_7}",
+        "language": "msa",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F3_SON_7\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F3_DAUGTHER_4}.*",
+        "original": "{F3_DAUGTHER_4}",
+        "language": "msa",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F3_DAUGHTER_4\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{F3_DAUGHTER_4}.*",
+        "original": "{F3_DAUGHTER_4}",
+        "language": "msa",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"F3_DAUGHTER_4\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{FRIEND_FEMALE_1}.*",
+        "original": "{FRIEND_FEMALE_1}",
+        "language": "msa",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"FRIEND_FEMALE_1\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{FRIEND_FEMALE_2}.*",
+        "original": "{FRIEND_FEMALE_2}",
+        "language": "msa",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"FRIEND_FEMALE_2\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{BOYFRIEND}.*",
+        "original": "{BOYFRIEND}",
+        "language": "msa",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"BOYFRIEND\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{GIRLFRIEND}.*",
+        "original": "{GIRLFRIEND}",
+        "language": "msa",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"GIRLFRIEND\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{MAN_THREAT}.*",
+        "original": "{MAN_THREAT}",
+        "language": "msa",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"MAN_THREAT\"][contact.language])"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{MAN_IN_CAR}.*",
+        "original": "{MAN_IN_CAR}",
+        "language": "msa",
+        "replacement": "@(parse_json(fields.comic_names_dict_0 &fields.comic_names_dict_1 &fields.comic_names_dict_2 )[\"MAN_IN_CAR\"][contact.language])"
+      }
+    ],
+    "urls_eng": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "share",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{insert link}.*",
+        "change": "{insert link}",
+        "condition_var": "",
+        "category": "https://wa.me/60122927434?text=READY"
+      }
+    ],
+    "urls_transl": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "share",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{insert link}.*",
+        "original": "{insert link}",
+        "language": "msa",
+        "replacement": "https://wa.me/60122927434?text=SEDIA"
+      }
+    ],
+    "triggers_eng": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{HELP}.*",
+        "change": "{HELP}",
+        "condition_var": "",
+        "category": "HELP"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{MENU}.*",
+        "change": "{MENU}",
+        "condition_var": "",
+        "category": "MENU"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{PLAY}.*",
+        "change": "{PLAY}",
+        "condition_var": "",
+        "category": "PLAY"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{GROW}.*",
+        "change": "{GROW}",
+        "condition_var": "",
+        "category": "GROW"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{STOP}.*",
+        "change": "{STOP}",
+        "condition_var": "",
+        "category": "STOP"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{START}.*",
+        "change": "{START}",
+        "condition_var": "",
+        "category": "START"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{BOOK}.*",
+        "change": "{BOOK}",
+        "condition_var": "",
+        "category": "BOOK"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{REVIEW}.*",
+        "change": "{REVIEW}",
+        "condition_var": "",
+        "category": "REVIEW"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{PAUSE}.*",
+        "change": "{PAUSE}",
+        "condition_var": "",
+        "category": "PAUSE"
+      }
+    ],
+    "triggers_transl": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{HELP}.*",
+        "original": "{HELP}",
+        "language": "msa",
+        "replacement": "BANTU"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{MENU}.*",
+        "original": "{MENU}",
+        "language": "msa",
+        "replacement": "MENU"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{PLAY}.*",
+        "original": "{PLAY}",
+        "language": "msa",
+        "replacement": "MAIN"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{GROW}.*",
+        "original": "{GROW}",
+        "language": "msa",
+        "replacement": "BERKEMBANG"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{STOP}.*",
+        "original": "{STOP}",
+        "language": "msa",
+        "replacement": "TAMAT"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{START}.*",
+        "original": "{START}",
+        "language": "msa",
+        "replacement": "MULA"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{BOOK}.*",
+        "original": "{BOOK}",
+        "language": "msa",
+        "replacement": "BUKU"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{REVIEW}.*",
+        "original": "{REVIEW}",
+        "language": "msa",
+        "replacement": "SEMAK SEMULA"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{PAUSE}.*",
+        "original": "{PAUSE}",
+        "language": "msa",
+        "replacement": "BERHENTI"
+      }
+    ],
+    "external_references_eng": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{development resources 1}.*",
+        "change": "{development resources 1}",
+        "condition_var": "",
+        "category": "https://www.malaysia.gov.my/portal/content/27608"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{development resources 2}.*",
+        "change": "{development resources 2}",
+        "condition_var": "",
+        "category": "https://www.unicef.org/parenting/child-development/building-babies-brains-through-play-class"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{learning resources}.*",
+        "change": "{learning resources}",
+        "condition_var": "",
+        "category": "https://www.familylives.org.uk/advice/primary/learning-school/supporting-your-child-at-school/"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{community safety}.*",
+        "change": "{community safety}",
+        "condition_var": "",
+        "category": "http://www.myhealth.gov.my/en/category/kids/kids-child-safety/"
+      }
+    ],
+    "external_references_transl": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{development resources 1}.*",
+        "original": "{development resources 1}",
+        "language": "msa",
+        "replacement": "https://www.malaysia.gov.my/portal/content/27608"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{development resources 2}.*",
+        "original": "{development resources 2}",
+        "language": "msa",
+        "replacement": "https://mypositiveparenting.org/ms/2018/01/21/optimumkan-perkembangan-anak-anda-peranan-ibu-bapa/"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{learning resources}.*",
+        "original": "{learning resources}",
+        "language": "msa",
+        "replacement": "http://www.myhealth.gov.my/menggalakkan-kemahiran-literasi-awal-melalui-aktiviti-menarik/"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{community safety}.*",
+        "original": "{community safety}",
+        "language": "msa",
+        "replacement": "http://www.myhealth.gov.my/category/bayi-dan-kanak-kanak/bayi-keselamatan-kanak-kanak/"
+      }
+    ],
+    "referrals_eng": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{generic referrals}.*",
+        "change": "{generic referrals}",
+        "condition_var": "",
+        "category": "Malaysia Emergency Response System (MERS) (All in one) hotline: 999"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{mental_health referrals}.*",
+        "change": "{mental_health referrals}",
+        "condition_var": "",
+        "category": "Helpline for Mental Health Crisis by the Ministry of Health. HEAL Helpline: 15555\n\nBefrienders Kuala Lumpur. Helpline: 03 76272929. Website: http://www.befrienders.org.my"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{health referrals}.*",
+        "change": "{health referrals}",
+        "condition_var": "",
+        "category": "Malaysia Emergency Response System (MERS) (All in one) hotline: 999"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{violence referrals}.*",
+        "change": "{violence referrals}",
+        "condition_var": "",
+        "category": "Women’s Centre for Change (WCC) Counseling hotline: 011-3108 4001\n\nWomen's Aid Organisation (provides support for domestic violence victims). Hotline: 03 3000 8858\n\nAll Women's Action Society (services for gender-based violence, rape, domestic violence and sexual harassment). Telenita helpline: 0162374221/016-2284221\n\nChildline Malaysia (services for child abuse, domestic violence, childline). Kasih Helpline: 15999"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{natural_disasters referrals}.*",
+        "change": "{natural_disasters referrals}",
+        "condition_var": "",
+        "category": "Malaysia Emergency Response System (MERS) (All in one) hotline: 999\nFire and Rescue Department hotline: 994"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{drugs referrals}.*",
+        "change": "{drugs referrals}",
+        "condition_var": "",
+        "category": "National Anti-Drugs Agency \nHotline: 1-800-22-2235 \nWebsite: https://www.adk.gov.my/en/"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{family referrals}.*",
+        "change": "{family referrals}",
+        "condition_var": "",
+        "category": "Family and Marriage Counseling, LPPKN. Call FamilyCare@LPPKN helpline 1-800-82-0300 "
+      }
+    ],
+    "referrals_transl": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{generic referrals}.*",
+        "original": "{generic referrals}",
+        "language": "msa",
+        "replacement": "Perkhidmatan Kecemasan Malaysia (MERS). Polis/ Ambulan. Talian: 999"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{mental_health referrals}.*",
+        "original": "{mental_health referrals}",
+        "language": "msa",
+        "replacement": "Talian Bantuan Krisis Kesihatan Mental oleh Kementerian Kesihatan Malaysia. Talian HEAL: 15555 \n\n\nBefrienders Kuala Lumpur. Helpline: 03 76272929. Laman Web: http://www.befrienders.org.my"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{health referrals}.*",
+        "original": "{health referrals}",
+        "language": "msa",
+        "replacement": "Perkhidmatan Kecemasan Malaysia (MERS). Polis/ Ambulan. Talian: 999"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{violence referrals}.*",
+        "original": "{violence referrals}",
+        "language": "msa",
+        "replacement": "Kaunseling Pusat Perubahan Wanita (WCC). Talian hotline: 011-3108 4001\n\nPertubuhan Bantuan Wanita (memberi sokongan untuk mangsa keganasan rumah tangga). Talian hotline: 03 3000 8858\n\nAll Women's Action Society (perkhidmatan untuk keganasan berasaskan jantina, rogol, keganasan rumah tangga dan gangguan seksual). Talian bantuan Telenita: 0162374221/016-2284221\n\nChildline Malaysia (perkhidmatan untuk penderaan kanak-kanak, keganasan rumah tangga, childline). Talian Kasih: 15999"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{natural_disasters referrals}.*",
+        "original": "{natural_disasters referrals}",
+        "language": "msa",
+        "replacement": "Perkhidmatan Kecemasan Malaysia (MERS). Polis/ Ambulan. Talian: 999\n\nBomba dan Jabatan Penyelamat. Talian: 994"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{drugs referrals}.*",
+        "original": "{drugs referrals}",
+        "language": "msa",
+        "replacement": "Agensi Anti-Dadah Kebangsaan. Hotline: 1-800-22-2235 \nLaman Web: https://www.adk.gov.my/"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{family referrals}.*",
+        "original": "{family referrals}",
+        "language": "msa",
+        "replacement": "Kaunseling Keluarga dan Perkahwinan, LPPKN. Helpline FamilyCare@LPPKN 1-8000-82-0300"
+      }
+    ]
+  }
+}

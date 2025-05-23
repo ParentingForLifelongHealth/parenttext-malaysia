@@ -1,0 +1,356 @@
+[
+  {
+    "SourceText": "Well done for committing to helping @fields.child_nickname live a good life. It shows you really care! 💙",
+    "text": "Tahniah atas penglibatan anda yang bersungguh-sungguh terhadap kehidupan yang baik untuk @fields.child_nickname. Anda benar-benar mengambil berat tentang anak anda! 💙",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "Well done for committing to helping your child live a good life. It shows you really care! 💙",
+    "text": "Tahniah atas penglibatan anda yang bersungguh-sungguh terhadap kehidupan yang baik untuk anak anda. Anda benar-benar mengambil berat tentang anak anda! 💙",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "This skill is about praise. 🎉 How did the message above make you feel? We all feel better when others notice the good things we do. It’s even better when it is by someone we love.",
+    "text": "Kemahiran ini adalah tentang pujian. 🎉 Apakah perasaan anda ketika membaca mesej sebelum ini? Kita rasa senang hati apabila orang lain sedar akan perkara baik yang kita lakukan. Sekiranya pujian diberi oleh orang yang kita sayangi, ianya lebih bermakna.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Let’s check in on Jenny and her son, Alex, to see how giving praise can work at home. ",
+    "text": "Jom kita lihat bagaimana Jenny memberi pujian kepada anakya, Alex, di rumah mereka. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You found a striped sock and one with dots. Let’s find the socks that match those two. ",
+    "text": "Alex dah jumpa satu stokin jalur, satu stokin bintik. Mari kita cari pasangan stokin yang sepadan. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Another sock! This one is white. It isn’t easy finding a matching pair. It can be frustrating.",
+    "text": "Alex jumpa stokin putih pula ya. Memang susah nak cari yang sepadan. Ianya boleh mengecewakan.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You are being very patient and looking very hard, Alex. Good for trying. ",
+    "text": "Mama nampak Alex mencari dengan sabar dan tekun. Bagus kerana terus mencuba. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You found matching socks of the same pattern! Well done for looking, Alex!",
+    "text": "Yey! Akhirnya Alex jumpa pasangan yang sepadan. Bagus Alex!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅⬜️⬜️⬜️",
+    "text": "✅⬜️⬜️⬜️",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You’ve completed 25% of this skill! Press NEXT to continue.",
+    "text": "Anda telah menyelesaikan 25% dari kemahiran ini! Tekan TERUSKAN untuk maju.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Let’s do a True/False quiz!",
+    "text": "Jom cuba kuiz Benar/Palsu!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Incorrect. How you praise your child is important. Praise should be specific, immediate, and genuine. You can begin by praising your child for the smallest things, such as playing by themselves quietly for 2 minutes.",
+    "text": "Salah. Pujian kepada anak anda harus diberi secara ikhlas dan serta-merta untuk kelakuan yang khusus. Anda boleh mula memuji anak anda untuk perkara yang kecil, seperti bermain diam-diam dan bersendirian selama 2 minit.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You are right! How you praise your child is important. Praise should be specific, immediate, and genuine. You can begin by praising your child for the smallest things, such as playing by themselves quietly for 2 minutes.",
+    "text": "Betul! Cara anda memuji anak anda adalah sangat penting. Pujian kepada anak anda harus diberi secara ikhlas dan serta-merta untuk kelakuan yang khusus. Anda boleh mula memuji anak anda untuk perkara yang kecil, seperti bermain diam-diam dan bersendirian selama 2 minit.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Sorry, I dont' understand what you mean.",
+    "text": "Maaf, saya tidak faham apa yang anda maksudkan.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅✅⬜️⬜️",
+    "text": "✅✅⬜️⬜️",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You’ve completed 50% of this skill! Press NEXT to continue.",
+    "text": "Anda telah menyelesaikan 50% dari kemahiran ini! Tekan TERUSKAN untuk maju.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Press PLAY ▶️ for a video message on giving your child praise.",
+    "text": "Tekan MAIN ▶️ untuk menonton mesej video tentang memberi pujian kepada anak anda.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Press PLAY ▶️ for an audio message on giving your child praise.",
+    "text": "Tekan MAIN ▶️ untuk dengar mesej tanpa video tentang memberi pujian kepada anak anda.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "2️⃣ *SAY IT*",
+    "text": "2️⃣ *SEBUTKAN*",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🏆 Praise them when you see them do something you like.",
+    "text": "🏆 Puji anak anda ketika anda melihatnya melakukan sesuatu yang digalakkan.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅ Tell them specifically what they have done well.",
+    "text": "✅ Beritahu anak anda dengan jelas dan khusus mengapa kelakuan tersebut adalah baik.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🎉 Be enthusiastic and really mean it!",
+    "text": "🎉 Beritahu anak anda secara ikhlas dan bersemangat!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🔄 This means they are more likely to do it again.",
+    "text": "🔄 Anak anda akan lebih cenderung untuk mengamalkan tingkah laku yang baik.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅✅✅⬜️",
+    "text": "✅✅✅⬜️",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You’ve completed 75% of this skill! Press NEXT to continue.",
+    "text": "Anda telah menyelesaikan 75% dari kemahiran ini! Tekan TERUSKAN untuk maju.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Your Home Activity today is to praise your child. Can you try it today?",
+    "text": "Aktiviti di rumah hari ini adalah beri pujian kepada anak anda. Bolehkah anda cuba hari ini?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That's OK! Sometimes things take time. You can review this skill in the Main Menu any time. At the end of the day, think of all of the positive things that happened - this makes it easier to point them out. ☀️ With time, praise will come easily to you.",
+    "text": "Tidak mengapa! Kadang-kadang kita perlukan masa untuk belajar sesuatu yang baharu. Anda boleh kembali kepada kemahiran ini melalui Menu Utama pada bila-bila masa. Setiap petang atau malam, fikirkan semua perkara positif yang berlaku pada hari ini. Anda akan rasa lebih senang untuk mengenalpasti tingkah laku baik anak anda. ☀️ Apabila anda cuba sedikit demi sedikit, anda akan belajar memberi pujian dengan mudah.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Sorry, I don't understand what you mean.",
+    "text": "Maaf, saya tidak faham apa maksud anda.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Well done, you have now learnt the four steps to Praise! ⭐ You have completed @(fields.c_n_mod_compl +1) out of @fields.c_n_mod  skills in the goal, Improve my Relationship with My Child.",
+    "text": "Tahniah, anda telah mempelajari empat langkah untuk Memuji! ⭐ Anda telah melengkapkan @(fields.c_n_mod_compl +1) daripada @fields.c_n_mod kemahiran dalam matlamat ini, iaitu Perkukuhkan Hubungan Saya dengan Anak Saya.",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated. @results.n_skills_week and results.n_skills are numbers"
+  },
+  {
+    "SourceText": "Praising @fields.child_nickname when they behave in a good way will make them want to behave that way more often. It also creates a positive and loving relationship between you and @fields.child_nickname ⭐",
+    "text": "Apabila @fields.child_nickname dipuji atas kelakuannya yang baik, ianya akan membantu anak anda mengulangi tingkah laku tersebut dengan lebih kerap. Pujian boleh membentukkan hubungan yang positif dan penuh dengan kasih sayang antara anda dan @fields.child_nickname ⭐",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "Praising your child when they behave in a good way will make them want to behave that way more often. It also creates a positive and loving relationship between you and your child ⭐",
+    "text": "Apabila anak anda dipuji atas kelakuannya yang baik, ianya akan membantu anak anda mengulangi tingkah laku tersebut dengan lebih kerap. Pujian boleh membentukkan hubungan yang positif dan penuh dengan kasih sayang antara anda dan anak anda. ⭐",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "The way in which you give praise to @fields.child_nickname does not matter because any kind of praise is effective.",
+    "text": "Cara anda memberi pujian kepada @fields.child_nickname tidak penting kerana semua jenis pujian berkesan untuk mengubah tingkah laku anak anda.",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "The way in which you give praise to your child does not matter because any kind of praise is effective.",
+    "text": "Cara anda memberi pujian kepada anak anda tidak penting kerana semua jenis pujian berkesan untuk mengubah tingkah laku anak anda.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "When we praise our children, and point out the good things they do, it encourages them to repeat that behaviour. Giving praise also helps build confidence and a positive relationship with you. ",
+    "text": "Apabila kita memuji anak-anak kita dan mengenalpasti perkara baik yang mereka lakukan, mereka akan didorong untuk mengulangi tingkah laku tersebut. Memberi pujian juga boleh membantu anak anda untuk membina keyakinan diri dan mengukuhkan hubungan positif dengan anda. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Here are 4 simple tips for praising @fields.child_nickname:",
+    "text": "Berikut adalah 4 petua mudah untuk memuji @fields.child_nickname:",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "Here are 4 simple tips for praising your child:",
+    "text": "Berikut ialah 4 petua mudah untuk memuji anak anda:",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "1️⃣ *SEE IT*",
+    "text": "1️⃣ *PERHATIKAN*",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "👀 Look for anything good or helpful @fields.child_nickname does.",
+    "text": "👀 Perhati dan kenal pasti tingkah laku baik @fields.child_nickname.",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "👀 Look for anything good or helpful your child does.",
+    "text": "👀 Perhati dan kenal pasti tingkah laku baik anak anda.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "3️⃣ *REPEAT IT*",
+    "text": "3️⃣ *ULANGKAN*",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🌷 Look for something to praise @fields.child_nickname for every day.",
+    "text": "🌷 Cari sesuatu untuk memuji @fields.child_nickname setiap hari.",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "🔶 Even if it is something really small, keep doing it.",
+    "text": "🔶 Walaupun pujian tersebut hanya untuk sesuatu yang kecil, sentiasa lakukannya.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🌷 Look for something to praise your child for every day.",
+    "text": "🌷 Cari sesuatu untuk memuji anak anda setiap hari.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "4️⃣ *KEEP IT POSITIVE*",
+    "text": "4️⃣ *SENTIASA POSITIF*",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💡 Make sure you focus on something @fields.child_nickname has done well.",
+    "text": "💡 Pastikan anda memberi tumpuan kepada kelakuan baik @fields.child_nickname.",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "🌈 Keeping it positive reminds @fields.child_nickname that you notice them and care.",
+    "text": "🌈 Apabila anda sentiasa positif, ianya mengingatkan @fields.child_nickname bahawa anda memberi tumpuan dan mengambil berat tentangnya.",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "💡 Make sure you focus on something your child has done well.",
+    "text": "💡 Pastikan anda memberi tumpuan kepada kelakuan baik anak anda.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🌈 Keeping it positive reminds your child that you notice them and care.",
+    "text": "🌈 Apabila anda sentiasa positif, ianya mengingatkan anak anda bahawa anda memberi tumpuan dan mengambil berat tentangnya.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Amazing! 🎉 Look for three things that you can praise @fields.child_nickname for every day. You can praise other adults in your household, too. Notice how they respond.",
+    "text": "Hebat! 🎉 Cari tiga perkara untuk memuji @fields.child_nickname pada setiap hari. Anda juga boleh memuji orang dewasa dalam keluarga anda. Perhatikan perasaan dan balasan mereka.",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "Amazing! 🎉 Look for three things that you can praise your child for every day. You can praise other adults in your household, too. Notice how they respond.",
+    "text": "Hebat! 🎉 Cari tiga perkara untuk memuji anak anda pada setiap hari. Anda juga boleh memuji orang dewasa dalam keluarga anda. Perhatikan perasaan dan balasan mereka.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "NEXT",
+    "text": "TERUSKAN",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Yes",
+    "text": "Ya",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "No",
+    "text": "Tidak",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "True",
+    "text": "Betul",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "False",
+    "text": "Salah",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "true",
+    "text": "betul",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "false",
+    "text": "salah",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "yes y yeah yep",
+    "text": "ya yea yah ok ye y",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "no nope n",
+    "text": "tidak tak bukan t",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  }
+]

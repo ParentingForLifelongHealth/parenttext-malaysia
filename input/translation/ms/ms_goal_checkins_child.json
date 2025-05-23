@@ -1,0 +1,2558 @@
+[
+  {
+    "SourceText": "Learning how to manage our stress is the first step to providing the best support for our children. Let’s check in on you first:",
+    "text": "Langkah pertama untuk memberikan sokongan kepada anak kita adalah dengan mempelajari cara untuk menguruskan tekanan kita sendiri. Mari periksa keadaan anda terlebih dahulu:",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That's okay.",
+    "text": "Tidak mengapa.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Do you feel overwhelmed by the responsibility of being a parent? 😔",
+    "text": "Adakah anda rasa terbeban dengan tanggungjawab sebagai ibu bapa? 😔",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That is great to hear! 🎉",
+    "text": "Bagus! 🎉",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That is okay. We will learn more about taking time for ourselves today. ",
+    "text": "Tidak mengapa. Kita akan pelajari tentang luangkan masa untuk diri sendiri dengan lebih lanjut hari ini. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Sorry, I don't understand what you mean.",
+    "text": "Maaf, saya tidak faham apa maksud anda.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Here is a question to help you get started on your goal:",
+    "text": "Untuk membantu anda memulakan matlamat anda, jawab soalan berikut:",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "How many days in the last week did you spend at least 5 minutes of one-on-one time with your child? Please type the number of days, between 0-7.",
+    "text": "Sepanjang minggu lepas, berapakah jumlah hari di mana anda dapat meluangkan masa bersama seorang dengan seorang dengan anak anda untuk sekurang-kurangnya 5 minit? Sila taipkan bilangan hari (0 hingga 7 hari).",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That is okay. You will learn more about the importance of spending time with your child in this goal.",
+    "text": "Tidak mengapa. Dalam matlamat ini, anda akan mempelajari lebih lanjut tentang kepentingan meluangkan masa dengan anak anda.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That is great to hear! 🎉 Spending time with your child is a great way to build a good relationship with them!",
+    "text": "Baguslah jika begitu! 🎉 Meluangkan masa dengan anak anda merupakan cara yang terbaik untuk membina hubungan baik bersama mereka!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Here is a question to help you get started on your goal to support your child’s development:",
+    "text": "Berikut adalah soalan untuk membantu anda memulakan matlamat yang menyokong perkembangan anak anda:",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "How confident are you in your ability to support your child's development?",
+    "text": "Sejauh manakah keyakinan anda dengan kemampuan anda untuk menyokong perkembangan anak anda?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That is okay. You will learn more about the importance of child development in this goal. Supporting your child’s development will help them live a safe and healthy life.",
+    "text": "Tidak mengapa. Dalam matlamat ini, anda akan mempelajari lebih lanjut tentang kepentingan perkembangan kanak-kanak. Menyokong perkembangan anak anda dapat membantu mereka menjalani kehidupan yang selamat dan sihat.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That is great to hear! 😃 Supporting your child’s development will help them live a safe and healthy life.",
+    "text": "Baguslah jika begitu! 😃 Menyokong perkembangan anak anda dapat membantu mereka menjalani kehidupan yang selamat dan sihat.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Here is a question to help you get started on your goal to prepare your child for success in school:",
+    "text": "Berikut merupakan soalan untuk memulakan matlamat anda dalam membantu anak anda lebih bersedia untuk kejayaan mereka di sekolah:",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "How often do you involve your child in an activity to help them learn?  🎨",
+    "text": "Seberapa kerap anda membantu anak anda belajar dengan melibatkan mereka dalam aktiviti?  🎨",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s okay. 💙 You will learn more about the importance of helping your child learn in this goal.",
+    "text": "Tidak mengapa.💙 Dalam matlamat ini, anda akan mempelajari lebih lanjut tentang kepentingan membantu anak anda belajar.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s great to hear! 🎉 Preparing your child for success in school will help them do well!",
+    "text": "Baguslah jika begitu! 🎉 Anak anda akan melakukannya dengan lebih baik jika mereka lebih bersedia untuk berjaya di sekolah!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Here is a question to help you get started on your goal to create structure for your child:",
+    "text": "Berikut merupakan soalan untuk memulakan matlamat anda demi mencipta persekitaran yang seimbang untuk anak anda:",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Are you able to make sure your child follows household rules?",
+    "text": "Adakah anda dapat memastikan bahawa anak anda mengikut peraturan di rumah?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That is okay. You will learn more about setting and keeping household rules during this goal. This will give them a sense of safety and security needed to thrive.",
+    "text": "Tidak mengapa. Anda akan mempelajari lebih lanjut tentang menetapkan dan mengekalkan peraturan di rumah sepanjang anda mengharungi matlamat ini. Ini akan memberikan mereka keselamatan dan jaminan yang diperlukan untuk berkembang dan berjaya.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That is great to hear! 💙 Helping your child follow household rules gives them a sense of safety and security needed to thrive.",
+    "text": "Baguslah jika begitu! 💙 Membantu anak anda mengikut peraturan di rumah memberikan mereka keselamatan dan jaminan yang diperlukan untuk berkembang dan berjaya.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Here is a question to help you get started on your goal to manage your child’s behaviour:",
+    "text": "Berikut adalah soalan untuk memulakan matlamat anda dalam menguruskan tingkah laku anak anda:",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "On a scale from 0 to 10, where 0 = no problem and 10 = very challenging situation, please type a number that describes the level of challenge for this behaviour. ",
+    "text": "Sila taip nombor yang menerangkan tahap kesukaran dalam menghadapi tingkah laku anak anda ini. Pilih nombor daripada skala 0 hingga 10, dengan 0 bermaksud tiada masalah dan 10 bermaksud situasi yang sangat mencabar. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "It sounds like your child tends to behave well, which is great to hear! 💙",
+    "text": "Nampaknya anak anda cenderung untuk berkelakuan baik, kami sangat gembira mendengarnya! 💙",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That is okay. You will learn more about managing your child’s behaviour in this goal.",
+    "text": "Tidak mengapa. Dalam matlamat ini, anda akan mempelajari lebih lanjut tentang menguruskan tingkah laku anak anda.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Here is a question to help you get started on your goal to keep your child safe & healthy:",
+    "text": "Berikut merupakan soalan untuk memulakan matlamat anda supaya anak anda kekal selamat dan sihat:",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "How confident do you feel about being able to keep your child safe and healthy both online and offline?",
+    "text": "Sejauh manakah keyakinan anda tentang kemampuan anda untuk mengekalkan keselamatan dan kesihatan anak anda baik dalam talian mahupun luar talian?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That is okay. It is not easy to know how to keep your child safe and healthy, especially in this changing world. You will learn more about how to do it in this goal.",
+    "text": "Tidak mengapa. Ia sememangnya mencabar untuk mengetahui cara memastikan keselamatan dan kesejahteraan anak anda dalam dunia yang kian mencabar ini. Dalam matlamat ini, anda akan mendapat pengetahuan lanjut tentang cara melakukannya.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Great job! Knowing how to keep your child safe and healthy is an important responsibility as a parent. In this changing world, it is not easy to do! 🌱",
+    "text": "Mantap! Berpengetahuan dalam mengekalkan keselamatan dan kesihatan anak anda merupakan tanggungjawab yang penting bagi ibu bapa. Dalam dunia yang serba dinamik, ia sememangnya mencabar! 🌱",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Before we get started on your goal to have a healthy relationship with your spouse, please answer this question:",
+    "text": "Sila jawab soalan ini sebelum kita mulakan matlamat untuk mempunyai hubungan yang sihat dengan pasangan anda:",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Do you and your spouse share caregiving and household tasks equally? ⏰",
+    "text": "Adakah anda dan pasangan anda membahagikan tugas keibubapaan dan kerja rumah secara adil dan saksama? ⏰",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That is okay. You will learn more about the importance of sharing caregiving and household tasks in this goal.",
+    "text": "Tidak mengapa. Dalam matlamat ini, anda akan mempelajari lebih lanjut tentang kepentingan membahagikan tugas keibubapaan dan kerja rumah.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s great to hear! Sharing tasks equally helps everyone feel valued.",
+    "text": "Baguslah jika begitu! Berkongsi tugasan secara saksama membuatkan semua orang yang terlibat rasa dihargai.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Here is a question to help you get started on your goal to learn about family budgeting and ways to save money:",
+    "text": "Berikut merupakan soalan untuk membantu anda memulakan matlamat anda dalam mempelajari tentang belanjawan keluarga serta cara-cara untuk menjimatkan wang:",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "How confident are you that your family can plan carefully in advance about how to use money available during the month?",
+    "text": "Sejauh manakah keyakinan anda terhadap kemampuan keluarga anda dalam merancang dan menguruskan wang dengan berkesan sepanjang bulan?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That is okay. You will learn more about creating a family budget in this goal. Let’s get started.",
+    "text": "Tidak mengapa. Anda akan mempelajari lebih lanjut tentang merancang belanjawan keluarga dalam matlamat ini. Mari kita mulakan.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That’s amazing! 🎉 Keep doing this - your family will be better for it.",
+    "text": "Hebat! 🎉 Teruskan usaha anda - keluarga anda akan mendapat manfaatnya.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "What did you find difficult about spending time with your child? 🔑",
+    "text": "Apakah cabaran yang anda hadapi ketika meluangkan masa bersama anak anda? 🔑",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "It can be hard to find time during your day, with work, chores, and everything else.",
+    "text": "Mencari masa yang sesuai dalam kehidupan anda mungkin mencabar, terutamanya dengan kerja, kerja rumah dan tanggungjawab anda yang lain.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✨Think of a time each day that you could spare 5 minutes. You can even make household chores into a game to do together.",
+    "text": "✨Fikirkan masa di mana anda boleh luangkan selama 5 minit setiap hari. Anda juga boleh mengubah kerja harian di rumah menjadi aktiviti yang menyeronokkan untuk dilakukan bersama anak anda.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "😔 It can hurt when your child does not want to spend one-on-one time with you.",
+    "text": "😔 Ia sememangnya menyakitkan hati apabila anak anda tidak mahu meluangkan masa bersama seorang dengan seorang bersama anda.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💡 Think to yourself: When are they more open to you? In the morning? Right before bedtime?",
+    "text": "💡 Renungkan: Pada waktu bilakah mereka lebih bersikap terbuka dengan anda? Pada waktu pagi? Sebelum waktu tidur?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💙 Try again so that your child can see that you care and want to spend this time with them.",
+    "text": "💙 Cuba sekali lagi supaya anak anda boleh melihat bahawa anda peduli dan ingin meluangkan masa bersama mereka.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "📺 Children often want to spend time watching T.V. or playing with a gadget.",
+    "text": "📺 Sering kali, kanak-kanak ingin meluangkan masa dengan menonton T.V. atau bermain gajet.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "❓ You could watch or play on the gadget with them.",
+    "text": "❓ Anda boleh menonton atau bermain gajet bersama mereka.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💚Caring about their interests is a great start!",
+    "text": "💚Menunjukkan minat kepada hobi mereka adalah permulaan yang baik!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🌷 Once you begin spending time together you can suggest another activity.",
+    "text": "🌷 Anda boleh mencadangkan aktiviti yang lain jika anda sudah mula meluangkan masa bersama-sama.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Type {PLAY} for a fun activity suggestion.",
+    "text": "Untuk cadangan aktiviti yang menyeronokkan, sila taip {PLAY}.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "☀️ If your child wants to do things that are too difficult for you to do, you could watch them.",
+    "text": "☀️ Anda boleh menemani anak anda jika mereka ingin melakukan perkara yang sukar untuk anda lakukan bersama-sama.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🏁 You could describe what they are doing like a sports announcer.",
+    "text": "🏁 Anda boleh membuat ulasan aktiviti yang mereka lakukan seperti seorang pengulas sukan.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💛 Praise them while they do it!",
+    "text": "💛 Puji mereka selagi boleh!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "⚽ Competitive games can be hard for children (and adults!) if they don’t like losing.",
+    "text": "⚽ Jika mereka tidak suka akan kekalahan, permainan yang berdaya saing mungkin agak sukar bagi kanak-kanak (dan orang dewasa juga!).",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🏆 When they have calmed down, talk with your children about what winning well and losing well might look like.",
+    "text": "🏆 Bercakap dengan anak anda tentang bagaimana perasaan menang bermaruah dan kalah bermaruah apabila mereka sudah bertenang.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "📝 Suggest other activities that you can do to work together instead of against each other.",
+    "text": "📝 Daripada melakukan aktiviti di mana anda dan anak anda perlu bersaing antara satu sama lain, cadangkan aktiviti lain yang anda boleh lakukan bersama-sama.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Type {PLAY} for a fun activity suggestion. 💡",
+    "text": "Untuk cadangan aktiviti yang menyeronokkan, sila taip {PLAY}. 💡",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🔴 It can be difficult to spend one-on-one time with each child when you have more than one child.",
+    "text": "🔴 Jika anda mempunyai lebih daripada satu anak, ia mungkin sedikit sukar untuk meluangkan masa bersama seorang dengan seorang bagi setiap anak.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🌱 If possible, you can ask an adult or older sibling to look after the other children while you spend one-on-one time with your child.",
+    "text": "🌱 Ketika anda meluangkan masa bersama seorang dengan seorang bersama anak anda, minta orang dewasa lain atau anak sulung untuk menjaga anak-anak yang lain jika boleh.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "⏰ Think of when it would be easier to spend one-on-one time with each child. ",
+    "text": "⏰ Fikirkan waktu yang lebih mudah untuk meluangkan masa bersama seorang dengan seorang untuk setiap anak. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💛 You can also spend one-on-one time with all of your children at once!",
+    "text": "💛 Anda juga boleh meluangkan masa bersama seorang dengan seorang dengan semua anak anda sekaligus!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Type {PLAY} for a fun activity suggestion for a group of children. 💡",
+    "text": "Untuk cadangan aktiviti yang menyeronokkan bagi sekumpulan kanak-kanak, taip {PLAY}. 💡",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💛 We are sorry to hear that you have been finding it hard to spend one-on-one time with your child.",
+    "text": "💛 Kami turut bersimpati bahawa anda menghadapi cabaran untuk meluangkan masa seorang dengan seorang bersama anak anda.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "What did you find difficult when supporting your child’s development?",
+    "text": "Apakah kesukaran yang anda hadapi semasa anda menyokong perkembangan anak anda?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "It is okay to feel that way. But there are many small ways to spend time with your child!",
+    "text": "Tidak mengapa jika anda berperasaan seperti itu. Tetapi terdapat banyak cara mudah untuk meluangkan masa bersama anak anda!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "⏰ You can interact with your child while doing something else. For example, you can ask your child to describe the colours and objects they see around them while you are walking together or in transit on a bus.",
+    "text": "⏰ Anda boleh berinteraksi dengan anak anda sambil melakukan perkara lain. Sebagai contoh, ketika sedang berjalan bersama-sama atau menaiki bas, anda boleh minta anak anda menunjukkan warna dan objek yang ada di sekeliling mereka.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "😃 Your child will appreciate the attention you are giving, even for a short while.",
+    "text": "😃 Walaupun hanya sebentar, anak anda akan menghargai setiap perhatian yang anda berikan.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Here is more information about supporting child development:",
+    "text": "Berikut adalah maklumat lanjut tentang menyokong perkembangan kanak-kanak:",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "{development resources 2}",
+    "text": "{development resources 2}",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "😣 You may be hurt because your child does not want to spend time with you.",
+    "text": "😣 Anda mungkin berasa terluka kerana anak anda tidak mahu meluangkan masa bersama anda.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "⏰ Sometimes, your child just needs time to engage with you. It helps to remain calm, patient, and kind while you try to connect with your child.",
+    "text": "⏰ Ada kalanya, anak anda hanya perlukan masa untuk berinteraksi dengan anda. Dengan kekal tenang, sabar, dan baik dapat membantu sambil anda mencuba untuk berhubung dengan anak anda.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🌱 As children grow, they may want independence from you. That’s normal! You can support them to find friends based on their interests.",
+    "text": "🌱 Kanak-kanak ingin kebebasan daripada anda seiring dengan perkembangan mereka. Itu adalah perkara biasa! Anda boleh menyokong mereka untuk berkawan dengan rakan yang mempunyai minat serupa.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Here is more information about supporting child development",
+    "text": "Berikut adalah maklumat lanjut tentang menyokong perkembangan kanak-kanak",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🧸 It must be hard to see your child getting injured or feeling sad often. ",
+    "text": "🧸 Pasti sukar bagi anda apabila melihat anak anda tercedera atau sering merasa sedih. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🌷Children learn and grow from making mistakes. It is an important part of child development. They will be safe as long as you are aware of their activities and you can prevent anything dangerous.",
+    "text": "🌷Dengan melakukan kesilapan, kanak-kanak dapat belajar dan berkembang. Ia merupakan bahagian penting dalam perkembangan kanak-kanak. Mereka akan kekal selamat selagi anda peka terhadap aktiviti mereka dan mengambil langkah untuk mencegah sebarang bahaya.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "⭐ Build your child’s confidence about their abilities, values, and appearance so that they are comfortable trying new things.",
+    "text": "⭐ Supaya mereka selesa untuk mencuba perkara baharu, bina keyakinan anak anda melalui kemampuan, nilai dan ketrampilan mereka.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🎨 Encourage them to safely try out fun activities with other kids or adults. Praise them when they do it well!",
+    "text": "🎨 Galakkan mereka untuk mencuba aktiviti yang menyeronokkan secara selamat bersama kanak-kanak atau orang dewasa yang lain. Pujilah mereka apabila mereka melakukan yang terbaik!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💚 Let your child know that you trust them to be safe and follow the rules that you have set.",
+    "text": "💚 Biarkan anak anda tahu bahawa anda percayakan mereka untuk menjaga keselamatan diri sendiri dan mengikut peraturan yang anda telah tetapkan.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "⚽ Competitive games can be hard for children (and adults!) if they don’t like losing or sharing.",
+    "text": "⚽ Jika mereka tidak suka akan kekalahan atau berkongsi, permainan yang berdaya saing mungkin agak sukar bagi kanak-kanak (malah orang dewasa juga!).",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🏆 When they have calmed down, talk with your child about what winning well and losing well might look like.",
+    "text": "🏆 Bercakap dengan anak anda tentang bagaimana perasaan menang bermaruah dan kalah bermaruah apabila mereka sudah bertenang.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💙 It must be difficult when your child is expressing negative feelings, but this is common because your child is also learning to manage their emotions.",
+    "text": "💙 Pasti sukar bagi anda apabila anak anda meluahkan perasaan yang negatif, tetapi ini adalah perkara biasa kerana anak anda juga sedang belajar untuk menguruskan emosi mereka.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "👂 Listen to your child’s emotions and acknowledge them.",
+    "text": "👂 Dengarkan emosi anak anda dan iktiraf emosi mereka.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💡 Ask your child how to feel better and give your child advice on what you think would work well.",
+    "text": "💡 Tanya anak anda cara untuk berasa lebih baik dan berikan nasihat yang sesuai dengan situasi mereka.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🌱 While it is tempting to solve your child’s problems immediately with what you think is best, it will not help them grow.",
+    "text": "🌱 Walaupun anda berniat untuk menyelesaikan masalah anak anda dengan penyelesaian terbaik sepantas yang mungkin, ini tidak akan menyokong perkembangan mereka.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💚 We are sorry to hear that it has been hard for you to understand your child’s development.",
+    "text": "💚 Kami turut bersimpati apabila mengetahui bahawa ianya sukar bagi anda untuk memahami perkembangan anak anda.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "What did you find hard about doing activities with @fields.child_nickname to help them learn?",
+    "text": "Apakah kesukaran yang anda hadapi apabila melakukan aktiviti bersama @fields.child_nickname semasa membantu mereka belajar?",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "What did you find hard about doing activities with your child to help them learn?",
+    "text": "Apakah kesukaran yang anda hadapi apabila melakukan aktiviti bersama anak anda untuk membantu mereka belajar?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💡 That’s normal! Many parents don’t have books in the house. ",
+    "text": "💡 Itu adalah perkara biasa! Ramai ibu bapa yang tidak mempunyai buku di rumah. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "👀 You can also use anything that has pictures to interact with your child - magazines, newspapers, and even signs.",
+    "text": "👀 Anda juga boleh menggunakan apa-apa bahan bergambar seperti majalah, surat khabar atau papan tanda untuk berinteraksi dengan anak anda.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🎨 Try to make learning activities fun! Your child will be more likely to want to learn when the activity is fun with less pressure. ",
+    "text": "🎨 Cuba jadikan aktiviti pembelajaran seronok! Anak anda akan lebih cenderung mahu belajar apabila aktiviti tersebut menyeronokkan dan kurang tekanan. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "⚽ Follow your child’s interests, even if you’re just talking together. This will help them learn. ",
+    "text": "⚽ Beri tumpuan terhadap minat anak anda walaupun sedang berbual bersama. Ini dapat membantu mereka belajar. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "📱 For playful, educational ideas, type {PLAY} at any time!",
+    "text": "📱 Untuk idea bermain yang seronok dan mendidik, taip {PLAY} pada bila-bila masa!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "😣 It can be hard to find time during your day, with work, chores, and everything else. ",
+    "text": "😣 Mencari masa yang sesuai dalam kehidupan anda mungkin mencabar, terutamanya dengan kerja, kerja rumah dan tanggungjawab anda yang lain. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "⏰ Can you think of a time each day that you can make 5 minutes - or a little more - to help @fields.child_nickname with their learning? ",
+    "text": "⏰ Bolehkah anda fikirkan satu masa di mana anda boleh luangkan selama 5 minit atau lebih setiap hari - untuk membantu pembelajaran @fields.child_nickname? ",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "⚽ Perhaps start them off with an activity and then check in with them every few minutes. ",
+    "text": "⚽ Berikan mereka satu aktiviti dan lihat perkembangan mereka setiap beberapa minit. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🍚 You can also make household work into learning moments - like cooking or sorting clothes. You can do this!",
+    "text": "🍚 Anda juga boleh mengubah kerja di rumah sebagai saat-saat pembelajaran - seperti memasak atau mengasingkan pakaian. Anda pasti boleh!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Here are some more tips for supporting your child's learning",
+    "text": "Berikut merupakan beberapa lagi petua untuk menyokong pembelajaran anak anda",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "{learning resources}",
+    "text": "{learning resources}",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "⏰ Can you think of a time each day that you can make 5 minutes - or a little more - to help your child with their learning? ",
+    "text": "⏰ Bolehkah anda fikirkan satu masa di mana anda boleh luangkan selama 5 minit atau lebih setiap hari - untuk membantu pembelajaran anak anda? ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💙 I’m sorry you’re feeling overwhelmed. ",
+    "text": "💙 Kami turut bersimpati jika anda rasa terbeban. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💡 Try doing short, simple, and fun things that can fit in with your routine. ",
+    "text": "💡 Cuba lakukan perkara yang mudah, senang dan menyeronokkan yang sesuai dengan jadual harian anda. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🌈 For example, point at things like letters, numbers, colours, and objects and tell @fields.child_nickname what they are. Start slowly and simply. ",
+    "text": "🌈 Mulakan secara perlahan dan mudah. Sebagai contoh, tunjuk ke arah sesuatu seperti huruf, nombor, warna serta objek dan beritahu kepada @fields.child_nickname apa sebenarnya yang anda tunjukkan. ",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "🍚 If you’re busy, just involve @fields.child_nickname in what you are doing.",
+    "text": "🍚 Cuba libatkan @fields.child_nickname dalam apa sahaja yang anda lakukan jika anda sedang sibuk.",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "🌈 For example, point at things like letters, numbers, colours, and objects and tell your child what they are. Start slowly and simply. ",
+    "text": "🌈 Mulakan secara perlahan dan mudah. Sebagai contoh, tunjuk ke arah sesuatu seperti huruf, nombor, warna serta objek dan beritahu kepada anak anda apa sebenarnya yang anda tunjukkan. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🍚 If you’re busy, just involve your child in what you are doing.",
+    "text": "🍚 Cuba libatkan anak anda dalam apa sahaja yang anda lakukan jika anda sedang sibuk.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💚 I am sorry to hear that it has been hard to do learning activities with @fields.child_nickname.",
+    "text": "💚 Kami turut bersimpati apabila mengetahui ianya sukar untuk melakukan aktiviti pembelajaran bersama @fields.child_nickname.",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "💚 I am sorry to hear that it has been hard to do learning activities with your child.",
+    "text": "💚 Kami turut bersimpati apabila mengetahui ianya sukar untuk melakukan aktiviti pembelajaran bersama anak anda.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "What did you find hard about involving your child when creating household rules and routines?",
+    "text": "Apakah kesukaran yang anda hadapi semasa cuba melibatkan anak anda dalam membuat jadual harian dan peraturan di rumah?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "📖 When creating rules, it is important to think about the age of each child, so you can come up with routines that are fair for their age.",
+    "text": "📖 Adalah penting untuk mengambil kira umur setiap anak ketika mencipta peraturan, supaya anda boleh mencipta jadual harian yang sesuai dengan umur mereka.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "⏰ This is most important for bedtime, the time to come home, and household chores.",
+    "text": "⏰ Ini adalah faktor penting semasa peraturan masa tidur, waktu pulang ke sekolah dan kerja harian di rumah dibuat.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "⭐ Our children learn best from us.",
+    "text": "⭐ Anak-anak belajar dengan meniru perbuatan kita.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅ The more we follow the rules, the more they will follow the rules too.",
+    "text": "✅ Semakin kita mengikut arahan, semakin mudah juga untuk mereka melakukannya.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💛 You can adapt the rule to make sure that it is something everyone can follow.",
+    "text": "💛 Anda boleh sesuaikan peraturan supaya semua orang dapat mematuhi peraturan yang sama.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🌷 When we create rules together with our children, we build trust and an open relationship with them.",
+    "text": "🌷 Kita dapat membina hubungan berdasarkan kepercayaan dan bersikap terbuka bersama anak-anak semasa kita mencipta peraturan bersama mereka.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🔑 The rules we set will be more realistic and your child will be more willing and able to follow the rule.",
+    "text": "🔑 Peraturan yang ditetapkan akan jadi lebih realistik dan anak anda akan lebih cenderung untuk mengikut peraturan yang ditetapkan.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💚 We are sorry to hear that it has been hard to set and keep household rules. You can return to this skill in the Main Menu whenever you need to. 📝",
+    "text": "💚 Kami turut bersimpati apabila mendengar bahawa ia sukar bagi anda untuk menetapkan dan mengekalkan peraturan di rumah. Anda boleh kembali ke kemahiran ini di Menu Utama pada bila-bila masa sahaja. 📝",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "What did you find hard about managing your child’s behaviour?",
+    "text": "Apakah kesukaran yang anda hadapi semasa menguruskan tingkah laku anak anda?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🌱 Next time, try to catch the misbehaviour early on, before it sets in or gets worse.",
+    "text": "🌱 Cuba untuk selesaikan tingkah laku negatif sedari awal, sebelum ia menjadi bertambah buruk.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "👂 Talk to them about this behaviour when both of you feel calmer.",
+    "text": "👂 Apabila anda berdua menjadi lebih tenang, berbincang dengannya tentang tingkah laku ini.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🌱 It is normal to sometimes get angry at our children when they are misbehaving, especially when they are driving us crazy.",
+    "text": "🌱 Ia perkara biasa untuk berasa marah terhadap anak kita jika mereka berkelakuan negatif, terutamanya apabila mereka menguji kesabaran kita.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "⏸ Next time, take a deep breath and take some space.",
+    "text": "⏸ Lain kali, tarik nafas dengan panjang dan berikan sedikit ruang untuk diri anda.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "☀️ Later, find something small and clear that your child is doing and you wish they could do more of. Then, praise them when they do it.",
+    "text": "☀️ Cari perkara yang kecil dan nyata yang anak anda lakukan dan yang anda ingin mereka terus lakukannya di masa depan. Beri pujian kepada mereka untuk perkara tersebut.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💚 This must be very stressful for you. Please remind yourself that you are doing your best.",
+    "text": "💚 Ingatkan diri sendiri bahawa anda telah melakukan yang terbaik walaupun ini sangat memberi tekanan kepada anda.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🌷 You may need to spend more one-on-one time with your child to have a stronger relationship with them.",
+    "text": "🌷 Untuk mempunyai hubungan yang lebih erat dengan anak anda, anda perlu meluangkan masa bersama seorang dengan seorang bersama mereka.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "⭐ Give more positive attention to them when they are behaving well - even the smallest good behaviour - and praise them for this behaviour.",
+    "text": "⭐ Apabila mereka berkelakuan baik - walaupun sekecil-kecil perkara, berikan perhatian yang lebih positif terhadap mereka - dan puji mereka atas kelakuan baik ini.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🌙 Be patient. Learning to manage our behaviour takes time!",
+    "text": "🌙 Teruskan bersabar. Belajar untuk menguruskan tingkah laku kita memang memakan masa!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🌷 It is normal to sometimes get angry at our children when they are misbehaving, especially when they are driving us crazy. The important thing is how we manage that anger.",
+    "text": "🌷 Ia perkara biasa untuk berasa marah terhadap anak kita jika mereka berkelakuan negatif, terutamanya apabila mereka menguji kesabaran kita. Apa yang penting adalah cara kita menguruskan kemarahan tersebut.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "⏸ First, take a pause. You can type {PAUSE} at any time to review the Take a Pause lesson. ",
+    "text": "⏸ Pertama sekali, berhenti seketika. Anda boleh menaip {PAUSE} pada bila-bila masa untuk menyemak semula pelajaran Berhenti Seketika. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💚 Be kind to yourself. You are both learning and it’s okay not to get it right all the time.",
+    "text": "💚 Bersikap baik terhadap diri sendiri. Anda serta anak anda sedang dalam proses pembelajaran dan tidak mengapa jika anda tersilap sekali-sekala.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🌱 When you feel calmer, you could apologise to your child for shouting and remind them that you love them. ",
+    "text": "🌱 Anda boleh meminta maaf kepada anak anda kerana menjerit apabila anda menjadi lebih tenang dan ingatkan mereka bahawa anda menyayangi mereka. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🎈 Repeat the core message of what you were trying to say in a calmer way.",
+    "text": "🎈 Ulangi mesej penting yang anda ingin sampaikan dengan cara yang lebih tenang.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💚 That’s okay, this is all about learning!",
+    "text": "💚 Tidak mengapa, ini semua lumrah dalam pembelajaran!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💡 When you give your child a choice, you teach them decision-making skills.",
+    "text": "💡 Anda mengajar anak anda kemahiran membuat keputusan apabila anda memberikan mereka pilihan.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✨ It does not always work, but when it does, it helps avoid giving them a consequence later!",
+    "text": "✨ Kadang-kala ia mungkin tidak berkesan, tetapi apabila ia berkesan, ia membantu anda untuk mengelakkan daripada memberi denda atau hukuman!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🌷 Sometimes, your child will react in a negative way when receiving a consequence.",
+    "text": "🌷 Apabila menerima denda atau hukuman, adakalanya anak anda akan memberi reaksi dengan cara yang negatif.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✨ Walk away until they calm down.",
+    "text": "✨ Beredar dari situ sehingga anak anda kembali tenang.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💡 As long as the consequence is fair, it is important to follow through with it, even if they are angry.",
+    "text": "💡 Adalah penting untuk tetap mengenakan denda atau hukuman asalkan ia wajar, walaupun anak anda berasa marah.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Here are 3️⃣ three tips to remember if your child’s behaviour is persisting:",
+    "text": "Berikut merupakan 3️⃣ tiga petua untuk anda gunakan jika tingkah laku anak anda masih tidak berubah:",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "1️⃣ Your child will act out negatively to get attention if they are not getting positive attention. Try to praise your child’s positive behaviour when you see it.",
+    "text": "1️⃣ Jika anak anda tidak mendapat perhatian yang positif, mereka mungkin akan bertindak secara negatif untuk mendapatkan perhatian. Cuba memuji tingkah laku mereka yang positif semasa anda nampak mereka melakukannya.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "2️⃣ Remain consistent when ignoring behaviours. Inconsistency may confuse children and reinforce negative attention seeking behaviours. ",
+    "text": "2️⃣ Ketika mengabaikan tingkah laku negatif, anda perlu kekal konsisten. Jika anda tidak konsisten, anak anda mungkin keliru dan menggalakkan lagi mereka untuk mencari perhatian melalui tingkah laku yang negatif. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "3️⃣Consider whether the behaviour is age appropriate.Your child may be too young for difficult tasks, like remaining quiet while you are talking to a friend. ",
+    "text": "3️⃣Fikirkan sama ada tingkah laku tersebut sesuai atau tidak dengan umur mereka. Anak anda mungkin masih kecil untuk tugasan yang sukar, seperti duduk diam ketika anda berbual bersama rakan. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Remember that building a positive relationship with your child and giving your child positive attention when they are behaving well is the best way to reduce negative behaviours! If you’ve completed the Goal “Improve my Relationship with My Child” you can type REVIEW to review tips for praise and talking about your feelings together. ⭐",
+    "text": "Ingat, cara terbaik untuk mengurangkan tingkah laku negatif mereka adalah dengan membina hubungan positif dengan anak anda dan berikan perhatian yang positif apabila mereka berkelakuan baik! Anda boleh menaip SEMAK SEMULA untuk menyemak petua-petua untuk memuji dan meluahkan perasaan anda bersama-sama jika anda telah melengkapkan Matlamat \"Menambah Baik Hubungan saya dengan Anak Saya\". ⭐",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "We are sorry to hear that it has been hard to manage your child’s behaviour. You can review this skill in the Main Menu any time! 📝",
+    "text": "Kami bersimpati apabila mendengar ianya sukar untuk menguruskan tingkah laku anak anda. Anda boleh semak semula kemahiran ini pada bila-bila masa di Menu Utama! 📝",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "What did you find hard about keeping your child safe online and offline?",
+    "text": "Apakah kesukaran yang anda hadapi dalam usaha anda untuk memastikan anak anda kekal selamat dalam talian serta luar talian?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "📺 It must be exhausting to always tell your child to turn off or put away the gadgets.",
+    "text": "📺 Pasti melelahkan apabila anda perlu sentiasa memberitahu anak anda supaya mematikan atau menjauhkan peranti.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "📝 You can set rules with your child. Tell them that they cannot be on gadgets when you are busy. Your busy time is your child’s quiet play time with toys or reading time with books.",
+    "text": "📝 Anda boleh menetapkan peraturan bersama anak anda. Maklumkan kepada mereka bahawa mereka tidak boleh menggunakan peranti jika anda sedang sibuk. Tetapi mereka boleh bermain dengan mainan mereka dengan senyap atau membaca buku.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🌷 Tell your child that sharing what they watch on T.V. or what they do on gadgets is a rule. ",
+    "text": "🌷 Beritahu anak anda bahawa salah satu peraturan yang ditetapkan ialah mereka harus berkongsi apa yang mereka tonton di T.V. atau apa yang mereka lakukan semasa menggunakan peranti. ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "👂 Be patient and kind while listening to them. Manage your anger if you find that they did something wrong online. Take a deep breath.",
+    "text": "👂 Uruskan kemarahan anda jika anda mengetahui mereka melakukan kesalahan semasa berada dalam talian. Bersabar dan bersikap baik ketika mendengar luahan mereka. Tarik nafas dengan panjang.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💛 Praise your child when they follow the rules!",
+    "text": "💛 Puji anak anda apabila mereka mengikut peraturan tersebut!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🍅 It is common for children to refuse vegetables and fruits, especially when tastier but less healthy food options are available all around us.",
+    "text": "🍅 Menolak untuk makan sayur-sayuran dan buah-buahan adalah perkara biasa bagi kanak-kanak, terutamanya apabila pilihan makanan yang lebih sedap tetapi kurang sihat sangat mudah didapati di sekeliling kita.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🌱 You could encourage your child to eat slightly sweeter fruits and vegetables for a start, such as mangoschilds and sweet potatoes. You can gradually introduce other vegetables and fruits.",
+    "text": "🌱 Sebagai permulaan, anda boleh menggalakkan anak anda untuk mengambil beberapa jenis buah-buahan dan sayur-sayuran yang lebih manis seperti buah mangga dan keledek. Kemudian, anda boleh memperkenalkan sayur-sayuran dan buah-buahan lain secara beransur-ansur.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🎈 Praise you child even when they take one mouthful of vegetables or fruits!",
+    "text": "🎈 Walaupun anak anda hanya makan sesuap sayur-sayuran atau buah-buahan, pujilah mereka!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "👂 That’s alright, even adults don’t agree on this sometimes. Listening to our children, even when we disagree, helps us understand their thinking.",
+    "text": "👂 Tidak mengapa, bahkan orang dewasa juga kadang-kadang mempunyai percanggahan pendapat. Mendengar anak-anak kita, walaupun kita tidak bersetuju, membantu kita memahami pemikiran mereka.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "⏰ Find time to talk about safe unsafe areas again.",
+    "text": "⏰ Luangkan masa untuk bercakap tentang kawasan yang selamat dan tidak selamat sekali lagi.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💚 This time, really listen and show you understand their view before sharing your thoughts.",
+    "text": "💚 Kali ini, dengar mereka dengan betul dan tunjukkan bahawa anda memahami pandangan mereka sebelum berkongsi pendapat anda.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "📝 Tell your child that you appreciate their opinions and you are proud of them for being honest about how they feel.",
+    "text": "📝 Beritahu anak anda bahawa anda menghargai pendapat mereka dan anda bangga kerana mereka bersikap jujur tentang apa yang mereka rasakan.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "😔 It is shocking to learn that people who we trust may cause discomfort to our children.",
+    "text": "😔 Ia memang mengejutkan untuk mengetahui bahawa orang yang kita percaya mungkin membuatkan anak kita tidak selesa.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "👂 Listen to your child if they want to talk about why it seems dangerous or uncomfortable. Trust what they say - they will not say such things for no reason!",
+    "text": "👂 Dengar anak anda jika mereka ingin beritahu kepada anda alasan kenapa sesuatu itu nampak berbahaya atau tidak selesa. Percaya apa yang mereka katakan - mereka tidak akan berkata begitu tanpa sebab!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🔔Talk with someone and get support. Type {HELP} if you need more assistance.",
+    "text": "🔔Bercakap dengan seseorang dan dapatkan sokongan. Taip {HELP} jika anda perlukan bantuan lanjut.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💙 Remember to take a pause when you are stressed.",
+    "text": "💙 Ingat untuk berhenti seketika apabila anda tertekan.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🔵 Involve another family member or friend in your mapping activity. Asking for help will help you keep your child safe!",
+    "text": "🔵 Libatkan ahli keluarga yang lain atau rakan anda dalam aktiviti pemetaan. Meminta bantuan dapat membantu anda untuk memastikan keselamatan anak anda!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🚗 Visit some of the services available, such as neighbourhood watch groups or clinics, and ask what they do.",
+    "text": "🚗 Lawati beberapa perkhidmatan sedia ada seperti ahli jawatan kuasa kejiranan atau klinik, dan tanyakan apa yang mereka lakukan.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💛 The more we know, the better we can keep our families safe!",
+    "text": "💛 Lebih banyak yang kita ketahui, lebih baik keselamatan keluarga kita dapat dijaga!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Here are some resources for you on community safety: ",
+    "text": "Berikut merupakan beberapa sumber tentang keselamatan dalam masyarakat atau komuniti untuk anda: ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "{community safety}",
+    "text": "{community safety}",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💙 It is slightly uncomfortable to talk to our children about male and female body parts.",
+    "text": "💙 Mungkin agak tidak selesa untuk bercakap tentang bahagian tubuh badan lelaki dan perempuan kepada anak kita.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💡But it helps to keep our children safe. Your child will know that they can come to you about any questions related to the body.",
+    "text": "💡Tetapi, ia membantu memastikan keselamatan anak kita. Anak anda akan mengetahui bahawa mereka boleh bertanya kepada anda tentang soalan berkaitan dengan tubuh badan.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💚 While it may be uncomfortable to talk about some body parts, especially private parts, your child will know how to talk about it if anything happens.",
+    "text": "💚 Anak anda akan mengetahui cara untuk bercakap tentang bahagian tubuh badan jika berlaku sesuatu walaupun mereka agak kurang selesa untuk bercakap mengenainya, terutamanya tentang bahagian sulit.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🔑 Answer any questions from your child honestly. You can do this to keep our children safe!🌷",
+    "text": "🔑 Jawab sebarang soalan daripada anak anda dengan jujur! Anda boleh melakukannya demi keselamatan anak anda!🌷",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "We are sorry to hear that you have found it hard to know where your child is and what they are doing. You can review this skill in the Main Menu any time! 📝",
+    "text": "Kami bersimpati apabila mendengar ianya sukar untuk mengetahui keberadaan anak anda dan apa yang mereka sedang lakukan. Anda boleh semak semula kemahiran ini pada bila-bila masa di Menu Utama! 📝",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "What did you find difficult about sharing tasks equally?",
+    "text": "Apakah kesukaran yang anda hadapi apabila berkongsi tugasan secara adil dan saksama?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🌱 Ask them! Telling your spouse you want to help but don’t know how, shows them you care and want to be involved.",
+    "text": "🌱 Bertanya kepada mereka! Memberitahu pasangan anda bahawa anda ingin menghulurkan bantuan tetapi tidak tahu caranya, menunjukkan bahawa anda peduli dan ingin melibatkan diri.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "⏰ Try creating a routine. Planning when to do household tasks or ways to share caregiving can be a helpful reminder.",
+    "text": "⏰ Cuba cipta jadual harian. Rancang waktu untuk melakukan tugasan di rumah atau cara untuk berkongsi penjagaan anak-anak boleh menjadi peringatan yang berguna.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🔑 Once you start sharing tasks more often - it will will get easier to remember.",
+    "text": "🔑 Apabila anda mula berkongsi tugasan dengan lebih kerap - lebih mudah untuk anda mengingatinya.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🔑 It can be hard to ask for help. Sometimes we expect our spouses to know we need help even if we don’t ask them.",
+    "text": "🔑 Kadangkala, kita memang mengharapkan agar pasangan mengetahui bahawa kita memerlukan bantuan tanpa perlu meminta.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🌱 Once you start telling, they are more likely to help again in the future.",
+    "text": "🌱 Apabila anda mula meminta pertolongan, mereka akan lebih kerap membantu anda.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🌱 Finding time to help, and ask for help, can be hard.",
+    "text": "🌱 Mencari masa untuk membantu, dan meminta bantuan, mungkin agak sukar.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "⏰ Can you think of a time when you’re less busy? For example, maybe it is easier to do housework later in the evening when some of the children are asleep.",
+    "text": "⏰ Bolehkah anda memikirkan satu masa di mana anda kurang sibuk? Sebagai contoh, membantu untuk melakukan kerja rumah pada waktu malam setelah anak-anak tidur mungkin lebih mudah.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "⭐ Be kind to yourself - trying something new is often hard at first.",
+    "text": "⭐ Bersikap baik kepada diri anda - agak sukar untuk anda mencuba sesuatu yang baharu pada mulanya.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🌱 Give yourself time to adjust.",
+    "text": "🌱 Berikan diri anda masa untuk membiasakan diri.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💡 Remember that helping your spouse with caregiving and household tasks benefits the whole family!",
+    "text": "💡 Ingatlah, seluruh keluarga anda akan mendapat manfaat apabila anda turut membantu pasangan anda menjaga anak dan melakukan kerja-kerja di rumah!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Sorry to hear that your spouse did not react positively.",
+    "text": "Kami turut bersimpati mendengar reaksi negatif pasangan anda.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🌱 Be proud of yourself for trying and be gentle with yourself.",
+    "text": "🌱 Anda berhak untuk berasa bangga kerana mencuba dan hargailah diri anda sendiri.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "What did you find difficult about planning your spending for the week?",
+    "text": "Apakah kesukaran yang anda hadapi apabila merancang perbelanjaan mingguan anda?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💰 You do not have to reveal the exact amount you earn - give an estimate.",
+    "text": "💰 Anda tidak perlu memberitahu jumlah sebenar pendapatan anda - berikan anggaran sahaja.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💡 You could say, “In this household, we have this amount of money every month,” rather than, “I make this amount of money.”",
+    "text": "💡 Anda boleh katakan, “Di dalam rumah ini, jumlah wang setiap bulan adalah sebanyak,” berbanding, “gaji saya adalah sebanyak.”",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "👋 People’s wants and needs can be different.",
+    "text": "👋 Setiap manusia ada keperluan dan kehendak yang berbeza.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🌷 Talking about them together can help you and your family to understand each other, respect your differences, and see where you can find agreement.",
+    "text": "🌷 Anda boleh mencari kata sepakat dengan berbincang bersama keluarga anda dan memahami antara satu sama lain serta menghormati perbezaan.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "❓ Why don’t we go through the content again? You can review this skill in the Main Menu any time! Type {MENU} and select “Review Completed Skills”",
+    "text": "❓ Mahu semak semula kandungan ini? Anda boleh semak semula kemahiran ini dari Menu Utama pada bila-bila masa. Taip {MENU} dan pilih \"Semak Semula Kemahiran Yang Telah Diselesaikan\"",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "😃 Your family members can join and help you!",
+    "text": "😃 Ahli keluarga anda boleh sertai dan membantu anda!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "📝 Make a budget alone first, then see if you can include family members.",
+    "text": "📝 Buat belanjawan secara berseorangan dahulu, kemudian lihat jika anda boleh libatkan keluarga anda.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🌷Remind them that budgeting can help the family save money and why this is important.",
+    "text": "🌷Ingatkan keluarga anda tentang kepentingan membuat belanjawan dan bagaimana ia boleh membantu menjimatkan wang.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "💙 It can be hard to find time.",
+    "text": "💙 Sememangnya sukar untuk mencari masa.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "⏰ This week, spend just 30 minutes on this activity. You can break each step up into shorter activities and spread it across the week.",
+    "text": "⏰ Luangkan hanya 30 minit pada minggu ini untuk aktiviti ini. Bahagikan setiap langkah untuk sepanjang minggu kepada aktiviti yang lebih kecil.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "We are sorry to hear that it has been hard to budget with your family. You can review this skill in the Main Menu any time! 📝",
+    "text": "Kami bersimpati apabila mendengar belanjawan keluarga anda tidak berjaya. Anda boleh semak semula kemahiran ini pada bila-bila masa di Menu Utama! 📝",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Now that you’ve completed ParentText, let’s check in:",
+    "text": "Anda telah menyelesaikan ParentText, jom semak:",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You were already managing the stress of parenting well before ParentText. It’s great that you’re able to keep up the excellent effort!",
+    "text": "Anda telah mengurus tekanan keibubapaan sebelum anda mengikuti ParentText. Anda hebat kerana masih meneruskan usaha cemerlang anda!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "It’s great that you’re still doing well. Parenting can be difficult. Please remember to take a pause and ask for help when you need it. 💛",
+    "text": "Keibubapaan mungkin agak susah kadang-kala, tetapi anda masih melakukannya dengan baik. Jangan lupa untuk berhenti seketika dan meminta bantuan jika anda memerlukannya. 💛",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Congratulations! 🎉You’ve made progress in this goal since you’ve started ParentText. Your effort is working!",
+    "text": "Tahniah! 🎉Sejak anda menggunakan ParentText, anda menunjukkan kemajuan yang positif. Usaha anda nampaknya berhasil!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That is okay. Parenting can be difficult. Please remember to take a pause and ask for help when you need it. 💛",
+    "text": "Keibubapaan mungkin agak susah kadang-kala, tetapi tidak mengapa. Jangan lupa untuk berhenti seketika dan meminta bantuan jika anda memerlukannya. 💛",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Congratulations on making some progress in this goal. Still, it seems like parenting is overwhelming. That is okay. Parenting can be difficult. Please remember to take a pause and ask for help when you need it. 💛",
+    "text": "Tahniah kerana berjaya membuat sedikit kemajuan dalam matlamat ini. Namun, keibubapaan ini mungkin buat anda rasa terbeban. Keibubapaan mungkin tidak mudah, tetapi tidak mengapa. Jangan lupa untuk berhenti seketika dan meminta bantuan jika anda memerlukannya. 💛",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Thank you for providing a progress update.",
+    "text": "Terima kasih kerana memberikan maklumat tentang kemajuan anda.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Well done for completing the modules on improving your relationship with your child. Let’s see how things have changed since you started:",
+    "text": "Tahniah kerana telah melengkapkan modul untuk memperbaiki hubungan anda dengan anak anda. Mari lihat apa yang telah berubah sejak anda bermula:",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "I am sorry to hear that you were unable to spend more time with your child. 💛",
+    "text": "Saya bersimpati mendengar anda tidak berupaya untuk luangkan lebih banyak masa dengan anak anda. 💛",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "I am sorry to hear that you were unable to spend one-on-one time with your child. 💛",
+    "text": "Saya bersimpati mendengar anda tidak berupaya untuk luangkan lebih banyak masa seorang-dengan seorang bersama dengan anak anda. 💛",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Congratulations on making some progress in this goal. It seems like spending time with your child may still be a challenge.",
+    "text": "Tahniah kerana telah memajukan diri anda untuk matlamat ini. Nampaknya ia masih mencabar untuk anda meluangkan masa bersama anak anda.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You were already putting in the effort to spend one-on-one time with your child before ParentText. It’s great that you’re able to keep up the excellent effort!",
+    "text": "Anda telah berjaya untuk meluangkan masa seorang-dengan-seorang bersama anak anda sebelum anda kenal ParentText. Anda hebat kerana masih meneruskan usaha cemerlang anda!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Time with your child is so important. Though you are still doing great, you have reported that spending one-on-one time together has become more challenging since you first began ParentText.",
+    "text": "Walaupun anda masih berjaya untuk meluangkan masa bersama anak anda, anda telah melaporkan bahawa meluangkan masa seorang-dengan-seorang sudah menjadi semakin mencabar sejak anda mula menggunakan ParentText.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "What do you want to do next?",
+    "text": "Apa yang anda ingin lakukan seterusnya?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Thank you for providing a progress update on the goal to improve your relationship with your child. You can find this information any time in the Main Menu. 📝 You will resume progress on your current goal tomorrow.",
+    "text": "Terima kasih kerana memberikan kemas kini kemajuan untuk matlamat anda bagi memperbaiki hubungan anda dengan anak anda. Anda boleh lihat maklumat ini di Menu Utama. 📝 Kemajuan matlamat semasa anda akan diteruskan esok.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "How is one-on-one time going?",
+    "text": "Bagaimana masa bersama seorang dengan seorang berlangsung?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Excellent!",
+    "text": "Bagus!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Sorry to learn this.",
+    "text": "Saya sedih mendengarnya.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Well done for completing your goal to support your child’s development. Let’s see how things may have changed since you started this goal:",
+    "text": "Tahniah kerana melengkapkan matlamat anda untuk menyokong perkembangan anak anda. Mari lihat apa yang telah berubah sejak anda memulakan matlamat ini:",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "It can be difficult to support your child’s development, and that’s okay. 💛",
+    "text": "Tidak mengapa, menyokong perkembangan anak anda memang agak sukar. 💛",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Congratulations on making some progress in this goal. It seems like supporting your child’s development may still be a challenge.",
+    "text": "Tahniah kerana telah memajukan diri anda untuk matlamat ini. Nampaknya ia masih mencabar untuk anda menyokong perkembangan anak anda.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You were already excelling at supporting your child’s development before ParentText. It’s great that you’re able to keep up the excellent effort!",
+    "text": "Anda telah berjaya menyokong perkembangan anak anda dengan baik sebelum anda kenal ParentText. Anda hebat kerana masih meneruskan usaha cemerlang anda!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Supporting your child’s development is important. Though you are still doing great, you have reported that you have become less confident since you first began ParentText.",
+    "text": "Walaupun anda masih berjaya dalam menyokong perkembangan anak anda, anda telah melaporkan bahawa keyakinan anda telah berkurangan sejak anda mula menggunakan ParentText.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Thank you for providing your Progress Update. You can access this information any time in the Main Menu. 📝 You will resume progress on your current goal tomorrow.",
+    "text": "Terima kasih kerana memberikan Kemas Kini Kemajuan anda. Anda boleh lihat maklumat ini pada bila-bila masa di Menu Utama. 📝 Kemajuan matlamat semasa anda akan diteruskan esok.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Are you finding it easy to support your child's development every day?",
+    "text": "Adakah mudah bagi anda untuk menyokong perkembangan anak anda setiap hari?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That's great!",
+    "text": "Bagus!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Well done for completing your goal to prepare your child for success in school. 📖 Let’s reflect on how things have changed since you started this goal:",
+    "text": "Tahniah kerana melengkapkan matlamat anda untuk kejayaan anak anda di sekolah. 📖 Mari renungkan apa yang telah berubah sejak anda memulakan matlamat ini:",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "It can be hard to make time to help your child learn. But it is never too late to start preparing your child for success in school ⏰",
+    "text": "Meluangkan masa bagi membantu anak anda belajar memang agak sukar. Tapi masih belum terlewat untuk anda memulakan langkah ini untuk kejayaan mereka di sekolah ⏰",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "It can be hard to make time to help your child learn. But it is never too late to start preparing your child for success in school!! ⏰",
+    "text": "Meluangkan masa bagi membantu anak anda belajar memang agak sukar. Tapi masih belum terlewat untuk anda memulakan langkah ini untuk kejayaan mereka di sekolah!! ⏰",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Helping your child prepare for success in school is important. Though you are still doing well, you have reported that this has become more challenging since you first began ParentText. 💛",
+    "text": "Walaupun anda masih berjaya mempersiapkan anak anda untuk berjaya di sekolah, anda telah melaporkan bahawa ia sudah menjadi semakin mencabar sejak anda mula menggunakan ParentText. 💛",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Congratulations! 🎉 You’ve made progress in this goal since you started ParentText. All your effort is paying off!",
+    "text": "Tahniah! 🎉 Sejak anda menggunakan ParentText, anda menunjukkan kemajuan yang positif. Usaha anda nampaknya berhasil!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "When you involve your child, how does it go?",
+    "text": "Bagaimana keadaannya jika anda melibatkan anak anda?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Congratulations on making some progress in this goal! It seems like supporting @fields.child_nickname with schoolwork may still be a challenge. 💚",
+    "text": "Tahniah kerana telah memajukan diri anda untuk matlamat ini. Nampaknya ia masih mencabar untuk anda menyokong @fields.child_nickname menyiapkan kerja sekolahnya. 💚",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "Congratulations on making some progress in this goal! It seems like supporting your child with schoolwork may still be a challenge. 💚",
+    "text": "Tahniah kerana telah memajukan diri anda untuk matlamat ini. Nampaknya ia masih mencabar untuk anda menyokong anak anda menyiapkan kerja sekolahnya. 💚",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You were already excelling at preparing @fields.child_nickname for success in school before ParentText. 🎈It’s great that you’re keeping up the excellent effort!",
+    "text": "Anda telah berjaya mempersiapkan @fields.child_nickname untuk berjaya di sekolah sebelum anda kenal ParentText.🎈 Anda hebat kerana masih meneruskan usaha cemerlang anda!",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "You were already excelling at preparing your child for success in school before ParentText. 🎈It’s great that you’re keeping up the excellent effort!",
+    "text": "Anda telah berjaya mempersiapkan anak anda untuk berjaya di sekolah sebelum anda kenal ParentText. Anda hebat kerana masih meneruskan usaha cemerlang anda!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Well done for completing your goal to create structure for your child. Let’s see how things may have changed since you started this goal:",
+    "text": "Tahniah kerana melengkapkan matlamat anda untuk membina struktur anak anda. Mari lihat apa yang telah berubah sejak anda memulakan matlamat ini:",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "It can be challenging to set and keep household rules.",
+    "text": "Menetapkan dan mematuhi peraturan di rumah adalah agak mencabar.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "It can be hard to set and keep household rules.",
+    "text": "Menetapkan dan mematuhi peraturan di rumah adalah agak sukar.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Congratulations on making some progress in this goal. It seems like it is still difficult to make sure your child is following household rules.",
+    "text": "Tahniah kerana telah memajukan diri anda untuk matlamat ini. Nampaknya anak anda masih susah untuk mematuhi peraturan di rumah.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You were already excelling at helping your child obey household rules before ParentText. It’s great that you’re able to keep up the excellent effort!",
+    "text": "Anda telah berjaya mendidik anak anda untuk patuh kepada peraturan di rumah sebelum anda kenal ParentText. Anda hebat kerana masih meneruskan usaha cemerlang anda!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Helping your child obey household rules is important. Though you are still doing great, you have reported that this has become more challenging since you first began ParentText.",
+    "text": "Walaupun anda agak berjaya dalam memastikan anak anda mematuhi peraturan di rumah, anda telah melaporkan bahawa ia sudah menjadi semakin mencabar sejak anda mula menggunakan ParentText.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Congratulations! 🎉 You’ve made progress in this goal since you’ve started ParentText. Your effort is working!",
+    "text": "Tahniah! 🎉 Sejak anda menggunakan ParentText, anda menunjukkan kemajuan yang positif. Usaha anda nampaknya berhasil!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Thank you for providing your Progress Update. You can access this information at any time in the Main Menu. 📝 You will resume progress on your current goal tomorrow.",
+    "text": "Terima kasih kerana memberikan Kemas Kini Kemajuan anda. Anda boleh lihat maklumat ini pada bila-bila masa di Menu Utama. 📝 Kemajuan matlamat semasa anda akan diteruskan esok.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "How did the conversation about household rules go with @fields.child_nickname?",
+    "text": "Bagaimanakah perbualan tentang peraturan di rumah berlangsung dengan @fields.child_nickname?",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "How did the conversation about household rules go with your child?",
+    "text": "Bagaimanakah perbualan tentang peraturan di rumah berlangsung dengan anak anda?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Well done for completing your goal to manage your child’s behaviour. Let’s see how things have changed since starting this goal:",
+    "text": "Tahniah kerana melengkapkan matlamat anda untuk menguruskan tingkah laku anak anda. Mari lihat apa yang telah berubah sejak anda memulakan matlamat ini:",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "It’s great that your child continues to behave well. Keep up the excellent effort!",
+    "text": "Seronok rasanya apabila anda melihat anak anda menjaga tingkah laku mereka. Teruskan usaha anda!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "It sounds like your child tends to behave well, which is great to hear! Still, you have reported that this has become more challenging since you first began ParentText.",
+    "text": "Nampaknya anak anda berkelakuan baik, seronok bukan! Tapi, anda telah melaporkan ia menjadi semakin mencabar sejak anda memulakan ParentText.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "It’s normal to find it hard to help our child manage their behaviour. Keep caring and supporting them while they are learning. 💙",
+    "text": "Membantu anak kita untuk menguruskan tingkah laku mereka memang sukar, dan ini adalah perkara biasa. Sayangilah mereka dan terus berikan sokongan kerana mereka masih belajar. 💙",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Congratulations on making some progress in this goal. 🎉 It’s normal to find managing your child’s behaviour difficult. Keep caring and supporting them while they are learning. 💙",
+    "text": "Tahniah kerana telah memajukan diri anda untuk matlamat ini. 🎉 Sukar menguruskan tingkah laku anak anda adalah perkara biasa. Teruskan sokongan dan kasih sayang anda kerana mereka masih belajar. 💙",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "How did managing the challenging behaviour go?",
+    "text": "Bagaimanakah pengurusan tingkah laku yang mencabar itu dilaksanakan?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Well done for completing your goal to keep your child safe and healthy. Let’s see how things have changed since you started:",
+    "text": "Tahniah kerana melengkapkan matlamat anda untuk pastikan keselamatan dan kesihatan anak anda. Mari lihat apa yang telah berubah sejak anda memulakan matlamat ini:",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "It can be hard to know how to keep your child healthy and safe, especially when we are so busy ourselves. 💙",
+    "text": "Semasa kita sibuk, sememangnya sukar untuk mengetahui bagaimana caranya bagi memastikan keselamatan dan kesihatan anak kita.💙",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "It can be hard to know how to keep your child safe online and offline, especially when we are so busy ourselves. 💙",
+    "text": "Semasa kita sibuk, sememangnya sukar untuk mengetahui bagaimana caranya bagi memastikan keselamatan anak kita semasa berada dalam atau luar talian.💙",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Congratulations on making some progress in this goal. 🎉 It seems like knowing how to keep your child safe and healthy online and offline is still a challenge.",
+    "text": "Tahniah kerana telah memajukan diri anda untuk matlamat ini. 🎉 Nampaknya ia masih mencabar untuk anda mengetahui cara bagi memastikan keselamatan dan kesihatan anak anda semasa berada dalam dan luar talian.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You were already excelling at keeping your child safe before ParentText. It’s great that you’re able to keep up the excellent effort!",
+    "text": "Anda telah berjaya memastikan keselamatan anak anda dengan baik sebelum anda kenal ParentText. Anda hebat kerana masih meneruskan usaha cemerlang anda!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Knowing how to keep your child safe and healthy is important. Though you are still doing great, you have reported that this has become more challenging since you first began ParentText.",
+    "text": "Walaupun anda masih berjaya dalam mengetahui cara untuk memastikan keselamatan dan kesihatan anak anda, anda telah melaporkan bahawa ia sudah menjadi semakin mencabar sejak anda mula menggunakan ParentText.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "How has talking about safety been with your child? ",
+    "text": "Bagaimanakah perbualan mengenai keselamatan bersama anak anda? ",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You have completed your goal to have a healthy relationship with your spouse. It’s time to check in on your progress. We want to know:",
+    "text": "Anda telah melengkapkan matlamat anda untuk berhubungan secara sihat bersama pasangan anda. Sudah tiba masanya untuk anda semak kemajuan anda. Kami ingin mengetahui:",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That is okay! It is normal to have challenges when trying to change the way responsibilities are shared in the household.",
+    "text": "Tidak mengapa! Cabaran untuk kita mengubah bagaimana sesuatu tanggungjawab itu dikongsi di dalam sebuah rumah adalah perkara biasa.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Congratulations on making some progress in this goal. 🎉It seems like sharing responsibilities is still a challenge.",
+    "text": "Tahniah kerana telah memajukan diri anda untuk matlamat ini. 🎉Nampaknya ia masih mencabar untuk anda berkongsi tanggungjawab.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You were already excelling at sharing parenting responsibilities before ParentText. It’s great that you’re able to keep up the excellent effort!",
+    "text": "Anda telah berjaya berkongsi tanggungjawab keibubapaan sebelum anda bersama ParentText. Anda hebat kerana masih meneruskan usaha cemerlang anda!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Sharing responsibilities is important. Though you are still doing great, you have reported that this has become more challenging since you first began ParentText.",
+    "text": "Walaupun anda masih berjaya dalam berkongsi tanggungjawab, anda telah melaporkan bahawa ia sudah menjadi semakin mencabar sejak anda mula menggunakan ParentText.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "How did sharing household tasks with your spouse go?",
+    "text": "Bagaimanakah pengalaman berkongsi tugasan rumah dengan pasangan anda?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Well done for completing your goal to learn about family budgeting and ways to save money. Let’s see how you have changed since starting this goal:",
+    "text": "Tahniah kerana melengkapkan matlamat anda untuk belajar tentang belanjawan keluarga dan cara menyimpan wang. Mari lihat apa yang telah berubah sejak anda memulakan matlamat ini:",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "That is okay! 💙 This takes practice and is hard to do.",
+    "text": "Tidak mengapa! 💙 Ini sukar dilakukan dan memerlukan latihan.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Congratulations on making some progress in this goal. 🎉It seems like planning your spending is still a challenge.",
+    "text": "Tahniah kerana telah memajukan diri anda untuk matlamat ini. 🎉Nampaknya ia masih mencabar untuk anda merancang perbelanjaan anda.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You were already excelling at planning your spending before ParentText. It’s great that you’re able to keep up the excellent effort!",
+    "text": "Anda telah berjaya merancang perbelanjaan anda dengan baik sebelum anda bersama ParentText. Anda hebat kerana masih meneruskan usaha cemerlang anda!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Planning how you will spend your money is important. Though you are still doing great, you have reported that this has become more challenging since you first began ParentText.",
+    "text": "Walaupun anda masih berjaya dalam perancangan perbelanjaan anda, anda telah melaporkan bahawa ia sudah menjadi semakin mencabar sejak anda mula menggunakan ParentText.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Thank you for providing your Progress Update. You can access this information any time in the Main Menu. You will resume progress on your current goal tomorrow. 😃",
+    "text": "Terima kasih kerana memberikan Kemas Kini Kemajuan anda. Anda boleh lihat maklumat ini pada bila-bila masa di Menu Utama. Kemajuan matlamat semasa anda akan diteruskan pada hari esok. 😃",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "How did the budget planning go?",
+    "text": "Bagaimana dengan perancangan kewangan anda?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Previously you said that your child refusing to obey instructions was the most challenging behaviour for you.",
+    "text": "Sebelum ini anda telah mengatakan tingkah laku anak anda yang paling mencabar adalah apabila anak anda tidak patuh pada arahan.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Previously you said that getting angry often was the most challenging behaviour for your child.",
+    "text": "Sebelum ini anda telah mengatakan tingkah laku anak anda yang paling mencabar adalah apabila anak anda suka marah-marah.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Previously you said that your child rudeness, disrespectful behaviour was the most challenging behaviour for you.",
+    "text": "Sebelum ini anda telah mengatakan tingkah laku anak anda yang paling mencabar anda adalah apabila anak anda biadab dan bersikap kurang ajar.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Previously you said that irritable, frequent mood changes were the most challenging behaviours for your child.",
+    "text": "Sebelum ini anda telah mengatakan tingkah laku anak anda yang paling mencabar adalah apabila anak anda cepat marah dan selalu berubah angin.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Previously you said that not following the rules was the most challenging behaviour for your child.",
+    "text": "Sebelum ini anda telah mengatakan tingkah laku anak anda yang paling mencabar adalah apabila anak anda tidak mengikut peraturan.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Previously you said that stubbornness was the most challenging behaviour for your child.",
+    "text": "Sebelum ini anda telah mengatakan tingkah laku anak anda yang paling mencabar adalah apabila anak anda keras kepala dan degil.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Previously you said that breaking things was the most challenging behaviour for your child.",
+    "text": "Sebelum ini anda telah mengatakan tingkah laku anak anda yang paling mencabar adalah anak anda suka memecahkan barang.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Previously you said that getting into fights was the most challenging behaviour for your child.",
+    "text": "Sebelum ini anda telah mengatakan tingkah laku anak anda yang paling mencabar adalah anak anda suka bergaduh.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Previously you said that teasing or bothering others was the most challenging behaviour for your child.",
+    "text": "Sebelum ini anda telah mengatakan tingkah laku anak anda yang paling mencabar adalah anak anda suka mengusik dan mengacau orang lain.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "All children behave badly sometimes. Here are a list of typical behaviours that can be challenging for parents:",
+    "text": "Semua kanak-kanak adakalanya berkelakuan nakal. Berikut adalah senarai tingkah laku biasa yang boleh mencabar kesabaran ibu bapa:",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "1. Refuse to obey instructions",
+    "text": "1. Enggan mengikut arahan",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "2. Gets angry a lot",
+    "text": "2. Kerap marah",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "3. Rudeness, disrespectful behaviour",
+    "text": "3. Tingkah laku biadab, dan tidak menghormati",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "4. Irritable, frequent mood changes",
+    "text": "4. Lekas marah, kerap bertukar angin (mood)",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "5. Does not follow rules",
+    "text": "5. Tidak mengikut peraturan",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "6. Stubbornness",
+    "text": "6. Degil",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "7. Breaking things",
+    "text": "7. Memecahkan barang",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "8. Getting into fights",
+    "text": "8. Suka bergaduh",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "9. Teasing or bothering others",
+    "text": "9. Mengejek atau mengacau orang lain",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Please type the number that describes the most challenging behaviour for you to manage with @fields.child_nickname. You can also type \"0\" if you do not want to answer.",
+    "text": "Sila taip angka yang menerangkan tingkah laku paling mencabar yang perlu ditangani bagi @fields.child_nickname. Anda juga boleh menaip \"0\" jika anda tidak mahu menjawab.",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "Please type the number that describes the most challenging behaviour for you to manage with your child. You can also type \"0\" if you do not want to answer.",
+    "text": "Sila taip angka yang menerangkan tingkah laku paling mencabar yang perlu ditangani bagi anak anda. Anda juga boleh menaip \"0\" jika anda tidak mahu menjawab.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Never",
+    "text": "Tidak Pernah",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Rarely",
+    "text": "Jarang-jarang",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Sometimes",
+    "text": "Kadang-kadang",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Often",
+    "text": "Selalu",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Almost Always",
+    "text": "Hampir Setiap Masa",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Not Confident",
+    "text": "Tidak Yakin",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Somewhat Confident",
+    "text": "Agak Yakin",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Confident",
+    "text": "Yakin",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Very Confident",
+    "text": "Sangat Yakin",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Hardly Ever",
+    "text": "Jarang",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Most of the Time",
+    "text": "Kerap",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Every Day",
+    "text": "Setiap Hari",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "I did not have enough time.",
+    "text": "Saya tidak mempunyai masa yang mencukupi.",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "My child did not want to spend time with me.",
+    "text": "Anak saya tidak mahu meluangkan masa bersama saya.",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "All my child wanted to do was watch T.V. or play with a gadget.",
+    "text": "Anak saya hanya mahu menonton T.V. atau bermain dengan peranti.",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "My child wanted to do activities that I could not do.",
+    "text": "Anak saya mahu melakukan aktiviti yang saya tidak berupaya lakukan.",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "My child chose a competitive activity. I won and then they got angry.",
+    "text": "Anak saya memilih untuk melakukan aktiviti yang bercirikan pertandingan. Saya menang dan mereka jadi marah.",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "All my children wanted one-on-one time at the same time.",
+    "text": "Semua anak saya mahukan masa bersama seorang-dengan-seorang pada masa yang sama.",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Prefer not to say.",
+    "text": "Memilih untuk tidak menjawab.",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "I don’t have time to interact with my child.",
+    "text": "Saya tidak mempunyai masa untuk berinteraksi dengan anak saya.",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "My child is not interested in spending time with me.",
+    "text": "Anak saya tidak berminat untuk meluangkan masa bersama saya.",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "My child keeps getting hurt from exploring or making new friends.",
+    "text": "Anak saya kerap tercedera akibat melasak atau suka berkenalan dengan rakan baharu.",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "My child likes competitive activities but gets angry when they lose or need to share the win.",
+    "text": "Anak saya suka persaingan tetapi akan marah apabila kalah atau seri.",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "My child expresses negative emotions all the time.",
+    "text": "Anak saya sentiasa menunjukkan emosi yang negatif.",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "I didn’t have any books to read with my child.",
+    "text": "Saya tidak mempunyai buku untuk dibaca bersama anak saya.",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "My child does not want to learn.",
+    "text": "Anak saya tidak mahu belajar.",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "I did not have the time to involve myself in my child's learning or education.",
+    "text": "Saya tidak mempunyai masa untuk melibatkan diri saya dalam pembelajaran atau pendidikan anak saya.",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "I am feeling overwhelmed.",
+    "text": "Saya berasa terbeban.",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "My child could not agree on one specific rule or routine.",
+    "text": "Anak saya langsung tidak bersetuju dengan peraturan atau jadual khas.",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "My child felt it was unfair that they have to follow the rule while I don’t have to follow it.",
+    "text": "Anak-anak saya berasa tidak adil kerana mereka terpaksa ikut peraturan tersebut sedangkan saya tidak perlu.",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "I felt uncomfortable because I think an adult should create the rule, not my child.",
+    "text": "Peraturan perlu ditetapkan oleh orang dewasa, bukannya oleh anak saya, jadi saya rasa tidak selesa.",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "I can’t redirect my child to a positive behaviour when they are misbehaving.",
+    "text": "Apabila anak saya berkelakuan negatif, saya tidak boleh mengalih mereka kepada tingkah laku positif.",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "I get too angry at my child and find it difficult to be positive with them when they are no longer misbehaving.",
+    "text": "Walaupun anak saya sudah tidak berkelakuan negatif, saya sukar untuk bersikap positif terhadap mereka kerana saya sudah terlalu marah.",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "My child misbehaves all the time.",
+    "text": "Anak saya berkelakuan negatif sepanjang masa.",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "I got very angry with my child and shouted at them.",
+    "text": "Saya terlalu marah dengan anak saya dan menengking mereka.",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "I forgot to give my child a chance to do what I asked before giving the consequence.",
+    "text": "Saya terlupa untuk memberi anak saya peluang untuk patuh kepada arahan saya terlebih dahulu sebelum saya memberikan denda.",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "My child got very angry with me after I gave the consequence.",
+    "text": "Anak saya amat marah dengan saya setelah saya memberikan mereka denda.",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Ignoring my child’s whining or tantrums is not working. They are still happening a lot.",
+    "text": "Apabila saya mengabaikan rengekan atau amukan anak saya, ia tidak berjaya malah ia makin kerap berlaku.",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "My child is always on a gadget, even when I am working or doing house chores.",
+    "text": "Semasa saya bekerja atau melakukan kerja rumah, anak saya selalunya akan bermain dengan peranti.",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "My child is refusing to eat vegetables and fruits, especially when they are out of the house.",
+    "text": "Anak saya menolak untuk makan sayur dan buah, terutama sekali apabila mereka berada di luar rumah.",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "My child and I could not agree on which areas were unsafe.",
+    "text": "Anak saya dan saya tidak sepakat tentang kawasan mana yang selamat dan tidak selamat.",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "My child told me that school or the house of someone I trust is an unsafe place. 🚩 I was shocked and did not know what to do!",
+    "text": "Anak saya beritahu saya bahawa sekolah atau rumah seseorang yang saya percayai merupakan tidak selamat bagi mereka. 🚩Saya terkejut dan tidak tahu apa yang perlu dilakukan!",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "It was hard to find safety resources because I don’t know my community so well.",
+    "text": "Saya tidak mengenali komuniti saya dengan baik, jadi sukar untuk saya mencari sumber-sumber.",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "I am shy to talk to my young child about bodies and safe touch.",
+    "text": "Saya berasa malu untuk bercakap tentang tubuh badan dan sentuhan selamat dengan anak saya.",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "I didn’t know how to support my spouse.",
+    "text": "Saya tidak tahu cara untuk menyokong pasangan saya.",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "I forgot to share the tasks equally or get involved.",
+    "text": "Saya lupa untuk berkongsi atau melibatkan diri dengan kerja-kerja secara bersama.",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "I forgot to ask for help.",
+    "text": "Saya terlupa untuk meminta bantuan.",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "I didn’t have the time to ask or give help.",
+    "text": "Saya tidak ada masa untuk meminta atau menghulurkan bantuan.",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "I felt uncomfortable doing tasks I don’t normally do.",
+    "text": "Saya rasa tidak selesa melakukan tugas yang saya tidak biasa lakukan.",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "I asked my spouse for help but they refused.",
+    "text": "Saya ada minta bantuan daripada pasangan saya, tetapi mereka menolak.",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "I did not want to tell my family how much I earn.",
+    "text": "Saya enggan beritahu keluarga saya jumlah pendapatan saya.",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "When budgeting, we could not agree on what should fall under needs and what should fall under wants.",
+    "text": "Kami tidak dapat bersetuju apakah yang termasuk dalam keperluan dan apakah yang termasuk dalam kehendak ketika merancang belanjawan.",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "I did not understand what to do.",
+    "text": "Saya tidak faham apa yang saya perlu lakukan.",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "My family did not want to budget with me.",
+    "text": "Keluarga saya tidak mahu merancang belanjawan bersama-sama saya.",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "I did not have the time to talk about budgeting with my family.",
+    "text": "Saya tidak mempunyai masa untuk bercakap tentang belanjawan dengan keluarga saya.",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Get more help",
+    "text": "Dapatkan bantuan lanjut",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Continue my Progress Tomorrow",
+    "text": "Sambung Kemajuan saya Esok",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Great",
+    "text": "Bagus",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "So-so",
+    "text": "Biasa-biasa",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Bad",
+    "text": "Teruk",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Yes",
+    "text": "Ya",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "No",
+    "text": "Tidak",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Easy",
+    "text": "Mudah",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Difficult",
+    "text": "Sukar",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "never",
+    "text": "tidak pernah",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "rarely",
+    "text": "jarang-jarang",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "sometimes",
+    "text": "kadang-kadang",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "often",
+    "text": "selalu",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "almost always",
+    "text": "hampir setiap masa",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "0",
+    "text": "0",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "1",
+    "text": "1",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "2",
+    "text": "2",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "3",
+    "text": "3",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "4",
+    "text": "4",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "5",
+    "text": "5",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "6",
+    "text": "6",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "7",
+    "text": "7",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "not confident",
+    "text": "tidak yakin",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "somewhat confident",
+    "text": "agak yakin",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "confident",
+    "text": "yakin",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "very confident",
+    "text": "sangat yakin",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "hardly ever",
+    "text": "jarang",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "most of the time",
+    "text": "kerap",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "every day",
+    "text": "setiap hari",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "8",
+    "text": "8",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "9",
+    "text": "9",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "10",
+    "text": "10",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "i did not have enough time.",
+    "text": "saya tidak mempunyai masa yang mencukupi.",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "my child did not want to spend time with me.",
+    "text": "anak saya tidak mahu meluangkan masa bersama saya.",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "all my child wanted to do was watch t.v. or play with a gadget.",
+    "text": "anak saya hanya mahu menonton t.v. atau bermain dengan peranti.",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "my child wanted to do activities that i could not do.",
+    "text": "anak saya mahu melakukan aktiviti yang saya tidak berupaya lakukan.",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "my child chose a competitive activity. i won and then they got angry.",
+    "text": "anak saya memilih untuk melakukan aktiviti yang bercirikan pertandingan. saya menang lalu mereka marah.",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "all my children wanted one-on-one time at the same time.",
+    "text": "semua anak saya mahukan masa bersama seorang-dengan-seorang pada masa yang sama.",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "prefer not to say.",
+    "text": "memilih untuk tidak menjawab.",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "i don’t have time to interact with my child.",
+    "text": "saya tidak mempunyai masa untuk berinteraksi dengan anak saya.",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "my child is not interested in spending time with me.",
+    "text": "anak saya tidak berminat untuk meluangkan masa bersama saya.",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "my child keeps getting hurt from exploring or making new friends.",
+    "text": "anak saya kerap tercedera akibat melasak atau suka berkenalan dengan rakan baharu.",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "my child likes competitive activities but gets angry when they lose or need to share the win.",
+    "text": "anak saya suka persaingan tetapi akan marah apabila kalah atau seri.",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "my child expresses negative emotions all the time.",
+    "text": "anak saya sentiasa menunjukkan emosi yang negatif.",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "i didn’t have any books to read with my child.",
+    "text": "saya tidak mempunyai buku untuk dibaca bersama anak saya.",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "my child does not want to learn.",
+    "text": "anak saya tidak mahu belajar.",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "i did not have the time to involve myself in my child's learning or education.",
+    "text": "saya tidak ada masa untuk libatkan diri saya dalam pembelajaran atau pendidikan anak saya.",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "i am feeling overwhelmed.",
+    "text": "saya berasa terbeban.",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "my child could not agree on one specific rule or routine.",
+    "text": "anak saya langsung tidak bersetuju dengan peraturan atau jadual khas.",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "my child felt it was unfair that they have to follow the rule while i don’t have to follow it.",
+    "text": "anak-anak saya berasa tidak adil kerana mereka terpaksa ikut peraturan tersebut sedangkan saya tidak perlu.",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "i felt uncomfortable because i think an adult should create the rule, not my child.",
+    "text": "peraturan perlu dibuat oleh orang dewasa, bukannya oleh anak saya, jadi saya rasa tidak selesa.",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "i can’t redirect my child to a positive behaviour when they are misbehaving.",
+    "text": "apabila anak saya berkelakuan negatif, saya tidak boleh mengalih mereka kepada tingkah laku positif.",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "i get too angry at my child and find it difficult to be positive with them when they are no longer misbehaving.",
+    "text": "walaupun anak saya sudah tidak berkelakuan negatif, saya sukar untuk bersikap positif terhadap mereka kerana saya sudah terlalu marah.",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "my child misbehaves all the time.",
+    "text": "anak saya berkelakuan negatif sepanjang masa.",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "i got very angry with my child and shouted at them.",
+    "text": "saya terlalu marah dengan anak saya dan menengking mereka.",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "i forgot to give my child a chance to do what i asked before giving the consequence.",
+    "text": "saya terlupa untuk memberi anak saya peluang untuk patuh kepada arahan saya terlebih dahulu sebelum saya memberikan denda.",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "my child got very angry with me after i gave the consequence.",
+    "text": "anak saya amat marah dengan saya setelah saya memberikan mereka denda.",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "ignoring my child’s whining or tantrums is not working. they are still happening a lot.",
+    "text": "apabila saya mengabaikan rengekan atau amukan anak saya, ia tidak berjaya malah ia makin kerap berlaku.",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "my child is always on a gadget, even when i am working or doing house chores.",
+    "text": "semasa saya bekerja atau melakukan kerja rumah, anak saya selalunya akan bermain dengan peranti.",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "my child is refusing to eat vegetables and fruits, especially when they are out of the house.",
+    "text": "anak saya menolak untuk makan sayur dan buah, terutama sekali apabila mereka berada di luar rumah.",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "my child and i could not agree on which areas were unsafe.",
+    "text": "anak saya dan saya tidak sepakat tentang kawasan mana yang selamat dan tidak selamat.",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "my child told me that school or the house of someone i trust is an unsafe place. 🚩 i was shocked and did not know what to do!",
+    "text": "anak saya beritahu saya bahawa sekolah atau rumah seseorang yang saya percayai merupakan tidak selamat bagi mereka. 🚩saya terkejut dan tidak tahu apa yang perlu dilakukan!",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "it was hard to find safety resources because i don’t know my community so well.",
+    "text": "saya tidak mengenali komuniti saya dengan baik, jadi sukar untuk saya mencari sumber-sumber.",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "i am shy to talk to my young child about bodies and safe touch.",
+    "text": "saya berasa malu untuk bercakap tentang tubuh badan dan sentuhan selamat dengan anak saya.",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "i didn’t know how to support my spouse.",
+    "text": "saya tidak tahu cara untuk menyokong pasangan saya.",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "i forgot to share the tasks equally or get involved.",
+    "text": "saya lupa untuk berkongsi atau melibatkan diri dengan kerja-kerja secara bersama.",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "i forgot to ask for help.",
+    "text": "saya terlupa untuk meminta bantuan.",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "i didn’t have the time to ask or give help.",
+    "text": "saya tidak ada masa untuk meminta atau menghulurkan bantuan.",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "i felt uncomfortable doing tasks i don’t normally do.",
+    "text": "saya rasa tidak selesa melakukan tugas yang saya tidak biasa lakukan.",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "i asked my spouse for help but they refused.",
+    "text": "saya ada minta bantuan daripada pasangan saya, tetapi mereka menolak.",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "i did not want to tell my family how much i earn.",
+    "text": "saya enggan beritahu keluarga saya jumlah pendapatan saya.",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "when budgeting, we could not agree on what should fall under needs and what should fall under wants.",
+    "text": "ketika menyediakan belanjawan, kami tidak mendapat kata sepakat tentang yang mana satu adalah keperluan dan yang mana adalah kehendak.",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "i did not understand what to do.",
+    "text": "saya tidak faham apa yang saya perlu lakukan.",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "my family did not want to budget with me.",
+    "text": "keluarga saya tidak mahu merancang belanjawan bersama-sama saya.",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "i did not have the time to talk about budgeting with my family.",
+    "text": "saya tidak mempunyai masa untuk bercakap tentang belanjawan dengan keluarga saya.",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "get more help",
+    "text": "dapatkan bantuan lanjut",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "continue my progress tomorrow",
+    "text": "sambung kemajuan saya esok",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "great",
+    "text": "bagus",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "so-so",
+    "text": "biasa-biasa",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "bad",
+    "text": "teruk",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "yes",
+    "text": "ya",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "no",
+    "text": "tidak",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "easy",
+    "text": "mudah",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "difficult",
+    "text": "sukar",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  }
+]
