@@ -4,8 +4,8 @@
         "pipeline_version": "1.0.0"
     },
     "parents": {
-        "base": {
-            "location": "https://github.com/IDEMSInternational/rapidpro-survey-templates/archive/refs/tags/v1.0.1.zip"
+        "survey": {
+            "location": "https://github.com/IDEMSInternational/rapidpro-survey-templates/archive/refs/tags/v1.1.0.zip"
         }
     },
     "flows_outputbasename": "parenttext_all",
@@ -33,7 +33,7 @@
     },
     "sources": {
         "flow_definitions": {
-            "parent_sources": ["base.flow_definitions"],
+            "parent_sources": ["survey.flow_definitions"],
             "format": "sheets",
             "subformat": "google_sheets",
             "files_list": [
