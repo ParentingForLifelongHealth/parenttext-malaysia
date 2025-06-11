@@ -6,6 +6,7 @@
     "flows_outputbasename": "parenttext_all",
     "output_split_number": 1,
     "sheet_names": {
+        "MY_Triggers": "1xvGo_ETOnYpCvp-R9vPq9PWcqyY0eV4QkYi2I1E83jk",
         "MY_sheets": "13XUkS7VbGJSg1xiOb2tVOIFcoiochpxqaQeBTk2Ibns",
         "T_content": "1hcH8pFdiHZN0UvZgyv3Zht9ARBTx-VXhNBI2o8L7fHU",
         "N_onboarding_data": "1_m_Plv3EgM6bSyokcI4qgY5sCE8s6zf4Bz1qli2zDSk",
@@ -33,7 +34,6 @@
             "subformat": "google_sheets",
             "files_list": [
                     "N_onboarding_data",
-                    "T_onboarding",
                     "T_survey",
                     "C_ltp_activities",
                     "C_modules",
@@ -46,6 +46,7 @@
                     "T_delivery",
                     "N_menu_data",
                     "T_menu",
+                    "MY_Triggers",
                     "MY_sheets"
                 ]
         },
