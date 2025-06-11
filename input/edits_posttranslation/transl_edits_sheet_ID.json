@@ -101,30 +101,6 @@
         "category:yes": "Naungan Kasih Text",
         "condition:yes": "yes",
         "condition_type:yes": "has_only_phrase"
-      },
-      {
-        "type_of_edit": "NOreplace_quick_replies",
-        "flow_id": "menu - main",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*",
-        "change": "ParentText",
-        "condition_var": "@fields.scale_up",
-        "category": "NKText",
-        "category:yes": "Naungan Kasih Text",
-        "condition:yes": "yes",
-        "condition_type:yes": "has_only_phrase"
-      },
-      {
-        "type_of_edit": "NOreplace_wait_for_response_cases",
-        "flow_id": "menu - main",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*",
-        "change": "[{\"category_name\": \"How To Use Parenttext\", \"type\": \"has_only_phrase\", \"arguments\": [\"How to Use ParentText\"]}]",
-        "condition_var": "@fields.scale_up",
-        "category": "[{\"category_name\": \"How To Use NKText\", \"type\": \"has_only_phrase\", \"arguments\": [\"How to Use NKText\"]}]",
-        "category:yes": "[{\"category_name\": \"How To Use Naungan Kasih Text\", \"type\": \"has_only_phrase\", \"arguments\": [\"How to Use Naungan Kasih Text\"]}]",
-        "condition:yes": "yes",
-        "condition_type:yes": "has_only_phrase"
       }
     ],
     "parenttext_name_transl": [
@@ -145,15 +121,6 @@
         "original": "ParentText",
         "language": "msa",
         "replacement": "Naungan Kasih Text"
-      },
-      {
-        "type_of_edit": "NOreplace_quick_replies",
-        "flow_id": "menu - main",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*",
-        "original": "ParentText",
-        "language": "msa",
-        "replacement": "NKText"
       }
     ],
     "comic_names_eng_additional": [

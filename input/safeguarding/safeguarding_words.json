@@ -202,7 +202,7 @@
             "English": {
                 "keywords": [
                     "emergency",
-                    "911"
+                    "911.0"
                 ],
                 "mispellings": [
                     "emergincy",
@@ -215,7 +215,7 @@
                 "msa": {
                     "keywords": [
                         "kecemasan",
-                        "999"
+                        "999.0"
                     ],
                     "mispellings": [
                         "cemasan",
@@ -3034,7 +3034,8 @@
                     "KELUARGA",
                     "ready",
                     "sedia",
-                    "THSN"
+                    "THSN",
+                    "training"
                 ]
             },
             "Translation": {
@@ -3049,7 +3050,8 @@
                         "KELUARGA",
                         "ready",
                         "sedia",
-                        "THSN"
+                        "THSN",
+                        "training"
                     ]
                 }
             }

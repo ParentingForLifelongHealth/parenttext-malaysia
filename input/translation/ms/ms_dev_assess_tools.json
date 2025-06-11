@@ -1,7 +1,7 @@
 [
   {
-    "SourceText": "Every child grows and learns in their own way. This tool helps you learn about activities that support your child’s positive growth.",
-    "text": "Setiap anak membesar dan belajar dengan cara mereka yang tersendiri. Alat ini membantu anda untuk mempelajari tentang aktiviti yang menyokong pertumbuhan positif anak anda.",
+    "SourceText": ";",
+    "text": ";",
     "type": "text",
     "note": ""
   },
@@ -30,7 +30,7 @@
     "note": ""
   },
   {
-    "SourceText": "Sorry, I dont' understand what you mean.",
+    "SourceText": "Sorry, I don't understand what you mean.",
     "text": "Maaf, saya tidak faham apa yang anda maksudkan.",
     "type": "text",
     "note": ""
@@ -116,18 +116,6 @@
   {
     "SourceText": "It seems like you're worried about how your child is feeling, and they might need assistance from a professional.",
     "text": "Anak anda mungkin memerlukan bantuan daripada seorang pakar jika anda berasa bimbang tentang kesejahteraan emosi mereka.",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "You have finished the child's development assessment. Remember, this is not a professional test, but a screening tool. If you have any concerns, please talk to a professional.",
-    "text": "Anda telah menyelesaikan penilaian pembangunan kanak-kanak. Ingat bahawa ini adalah alat saringan, bukannya ujian profesional. Jika anda mempunyai sebarang kebimbangan, sila dapatkan nasihat pakar.",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "You have finished the child's development assessment. Remember, this is not a professional test, but a screening tool. It looks like your child is developing well. That's great!",
-    "text": "Anda telah menyelesaikan penilaian pembangunan kanak-kanak. Ingat bahawa ini adalah alat saringan, bukannya ujian profesional. Nampaknya anak anda berkembang dengan baik. Perkembangan yang bagus!",
     "type": "text",
     "note": ""
   },

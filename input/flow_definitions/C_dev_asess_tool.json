@@ -39,14 +39,64 @@
         "status": "",
         "tags.1": "",
         "tags.2": ""
+      },
+      {
+        "type": "data_sheet",
+        "sheet_name": "dev_assessment_dob_question_messages",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "SingleMessageModel",
+        "template_arguments": "",
+        "status": "",
+        "tags.1": "",
+        "tags.2": ""
+      }
+    ],
+    "dev_assessment_dob_question_messages": [
+      {
+        "ID": "question",
+        "msg": "When was Your Child born? Enter their date of birth in the following format: DD/MM/YYYY. For example, if your child was born on May 19, 2015, enter 19/05/2015."
+      },
+      {
+        "ID": "error_invalid",
+        "msg": "Sorry, this date is invalid. Please write your child's date of birth in this way: DD/MM/YYYY. For example, if your child was born on May 19, 2015, write 19/05/2015."
+      },
+      {
+        "ID": "error_future",
+        "msg": "The date you entered is in the future. Please write your child's date of birth in this way: DD/MM/YYYY. For example, if your child was born on May 19, 2015, write 19/05/2015."
+      },
+      {
+        "ID": "error_too_young",
+        "msg": "According to the date you provided, Your Child would be under 23 months old. This tool is only for children aged over 23 months. Please enter a valid date."
+      },
+      {
+        "ID": "error_too_old",
+        "msg": "According to the date you gave, Your Child would be @(round_down(datetime_diff(results.date,now(),\"Y\"))) years old. This tool is only for children aged 2-7. Please enter a valid date."
+      },
+      {
+        "ID": "confirm_dob",
+        "msg": "Your child was born on @(format_date(results.date, \"DD-MM-YYYY\")), is that correct?"
+      },
+      {
+        "ID": "confirm_dob_yes",
+        "msg": "Yes"
+      },
+      {
+        "ID": "confirm_dob_no",
+        "msg": "No"
+      },
+      {
+        "ID": "enter_again_dob",
+        "msg": "Let's try again. Please write your child's date of birth in this way: DD/MM/YYYY. For example, if your child was born on May 19, 2015, write 19/05/2015."
       }
     ],
     "wg_unicef_survey_data": [
       {
         "ID": "child",
-        "intro": "Every child grows and learns in their own way. This tool helps you learn about activities that support your child’s positive growth.",
-        "end_message_concerning": "You have finished the child's development assessment. Remember, this is not a professional test, but a screening tool. If you have any concerns, please talk to a professional.\n;\nHere are some resources that might help\n{development resources 1}",
-        "end_message_not_concerning": "You have finished the child's development assessment. Remember, this is not a professional test, but a screening tool. It looks like your child is developing well. That's great! ; \n\nRemember, if you ever need support type {HELP}.",
+        "intro": "Thanks for taking the time to complete your child’s development assessment. 🌱This short activity is to help you better understand how Your Child is growing and learning.\n;\nEvery child develops in their own way. This tool is not a professional test, and is just here to help you learn about activities that support your child’s positive growth. 💚\n;\nLet’s get started! Just answer the questions as best as you can. There are no right or wrong answers. 😊",
+        "end_message_concerning": "You’re finished! Thank you for taking the time! Remember, while this is not a professional test and is not a diagnosis tool, you may notice a few developmental milestones where extra support could be helpful. If you want to speak with a professional, here are some resources that might help\n{development resources 1}",
+        "end_message_not_concerning": "You’re finished! Thank you for taking the time! Remember, this is not a professional test, but a tool to help you better understand how Your Child is growing and learning. It looks like your child is developing well. That's great! ; \n\nRemember, if you ever need support type {HELP}.",
         "questions_ids.1": "1_child",
         "questions_ids.2": "2_child",
         "questions_ids.3": "3_child",

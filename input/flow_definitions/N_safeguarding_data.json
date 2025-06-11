@@ -230,6 +230,11 @@
         "ID": "goodbye",
         "msg": "Thank you for participating. If you want to return to the programme, type HELLO. \n\nWe hope to see you again soon! ",
         "metadata.description": "HELLO is just to suggest something to type, but anything typed in the chat will trigger the same behaviour"
+      },
+      {
+        "ID": "stay",
+        "msg": "We are so glad you want to stick around! We will resume your progress tomorrow. ",
+        "metadata.description": ""
       }
     ],
     "safeguarding_start_programme_data": [
@@ -440,12 +445,12 @@
     "id_generator_data": [
       {
         "ID": "success_msg",
-        "msg": "Your user ID is @fields.research_id",
+        "msg": "Your parent ID is @fields.research_id. Please share this ID with your facilitator.",
         "metadata.description": ""
       },
       {
         "ID": "failure_msg",
-        "msg": "Something went wrong when creating your user ID, please get in touch with your facilitator.",
+        "msg": "Something went wrong when creating your parent ID, please get in touch with your facilitator.",
         "metadata.description": ""
       }
     ],

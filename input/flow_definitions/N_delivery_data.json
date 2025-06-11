@@ -134,6 +134,22 @@
       },
       {
         "type": "data_sheet",
+        "sheet_name": "closing_data",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "SingleMessageModel",
+        "template_arguments": "",
+        "operation": "",
+        "status": "",
+        "group": "",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": "",
+        "tags.4": ""
+      },
+      {
+        "type": "data_sheet",
         "sheet_name": "activity_type_data",
         "data_sheet": "",
         "data_row_id": "",
@@ -147,6 +163,38 @@
         "tags.2": "",
         "tags.3": "",
         "tags.4": ""
+      },
+      {
+        "type": "data_sheet",
+        "sheet_name": "certificate_name_data",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "SurveyQuestionRowModel",
+        "template_arguments": "",
+        "operation": "",
+        "status": "",
+        "group": "",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": "",
+        "tags.4": ""
+      },
+      {
+        "type": "survey",
+        "sheet_name": "",
+        "data_sheet": "certificate_name_data",
+        "data_row_id": "",
+        "new_name": "cert",
+        "data_model": "",
+        "template_arguments": "survey_defaults",
+        "operation": "",
+        "status": "",
+        "group": "",
+        "tags.1": "delivery",
+        "tags.2": "",
+        "tags.3": "",
+        "tags.4": ""
       }
     ],
     "congrats_data": [
@@ -157,13 +205,55 @@
       },
       {
         "ID": "final_completion",
-        "msg": "🎉You did it! Congratulations!🎉 You have completed the programme and earned yourself the Positive Parenting Trophy 🏆. Well done!\nRemember, you can always return to ParentText and get extra support or review these goals. Just type {MENU}.",
-        "extra_msg": "Completing ParentText is an important achievement. Well done! New goals might be available soon. As they become available, you'll receive a notification through this channel. "
+        "msg": "🎉Yahoo!🎉 Great work, @fields.first_user_name. Here's your certificate to keep and share. ",
+        "extra_msg": "Remember, you can always return to @fields.prog_name and get extra support or review these goals. Just type {MENU}."
       },
       {
         "ID": "take_a_pause_completion",
         "msg": "Congratulations! You have earned yourself a badge. You are now ready to begin the course. ⭐",
         "extra_msg": ""
+      }
+    ],
+    "certificate_name_data": [
+      {
+        "ID": "congrats",
+        "type": "intro",
+        "messages.1.text": "🎉You did it!🎉 You have completed @fields.prog_name and earned yourself a certificate. Congratulations!",
+        "messages.1.image": "",
+        "validation.conditions.1.condition.variable": "",
+        "validation.conditions.1.condition.value": "",
+        "validation.conditions.1.condition.type": "",
+        "validation.conditions.1.condition.name": "",
+        "validation.conditions.1.message": "",
+        "confirmation.condition.variable": "",
+        "confirmation.condition.value": "",
+        "confirmation.condition.type": "",
+        "confirmation.question": "",
+        "confirmation.confirm_option": "",
+        "confirmation.back_option": "",
+        "postprocessing.flow": "",
+        "postprocessing.assignments.1.variable": "",
+        "postprocessing.assignments.1.value": ""
+      },
+      {
+        "ID": "name",
+        "type": "input_skip_qs",
+        "messages.1.text": "How should I print your name on the certificate?",
+        "messages.1.image": "",
+        "validation.conditions.1.condition.variable": "@(if(text_length(results.input)<=50,\"v\",\"i\"))",
+        "validation.conditions.1.condition.value": "v",
+        "validation.conditions.1.condition.type": "has_only_phrase",
+        "validation.conditions.1.condition.name": "valid",
+        "validation.conditions.1.message": "This name is too long. Please enter a shorter name.",
+        "confirmation.condition.variable": "",
+        "confirmation.condition.value": "",
+        "confirmation.condition.type": "",
+        "confirmation.question": "The name you would like to have on you certificate is @answer. Is that correct?",
+        "confirmation.confirm_option": "Yes",
+        "confirmation.back_option": "No",
+        "postprocessing.flow": "",
+        "postprocessing.assignments.1.variable": "certificate name",
+        "postprocessing.assignments.1.value": "@answer"
       }
     ],
     "delivery_messages": [
@@ -565,12 +655,13 @@
         "accept.teen": "Give me an idea for 1-on-1 time with my child",
         "accept.baby": "Give me an idea for 1-on-1 time with my child",
         "refuse": "I’m done for today",
-        "refuse_msg": "Great, see you tomorrow!",
+        "refuse_msg": "",
+        "refuse_flow": "closing_messages",
         "next_offer_msg": "What would you like to do?",
         "next_accept": "View another activity idea",
         "next_refuse": "Continue my progress tomorrow",
-        "next_refuse_msg": "Great, see you tomorrow!",
-        "next_refuse_flow": "",
+        "next_refuse_msg": "",
+        "next_refuse_flow": "closing_messages",
         "next_other_opt": "Go to Main Menu",
         "next_other_msg": "",
         "next_other_flow": "menu - main"
@@ -583,12 +674,13 @@
         "accept.teen": "Give me an idea for 1-on-1 time with my child",
         "accept.baby": "Give me an idea for 1-on-1 time with my child",
         "refuse": "I’m done for today",
-        "refuse_msg": "Great, see you tomorrow!",
+        "refuse_msg": "",
+        "refuse_flow": "closing_messages",
         "next_offer_msg": "What would you like to do?",
         "next_accept": "View another activity idea",
         "next_refuse": "Continue my progress tomorrow",
-        "next_refuse_msg": "Great, see you tomorrow!",
-        "next_refuse_flow": "",
+        "next_refuse_msg": "",
+        "next_refuse_flow": "closing_messages",
         "next_other_opt": "",
         "next_other_msg": "",
         "next_other_flow": ""
@@ -602,6 +694,7 @@
         "accept.baby": "",
         "refuse": "",
         "refuse_msg": "",
+        "refuse_flow": "",
         "next_offer_msg": "What would you like to do?",
         "next_accept": "View another activity idea",
         "next_refuse": "Exit menu",
@@ -754,39 +847,51 @@
     ],
     "closing_data": [
       {
+        "ID": "1",
         "msg": "I'm really proud of your effort today. Let’s build on it tomorrow!"
       },
       {
+        "ID": "2",
         "msg": "We’re learning so much together. See you tomorrow!"
       },
       {
+        "ID": "3",
         "msg": "We're making great progress together. See you tomorrow!"
       },
       {
+        "ID": "4",
         "msg": "Thank you for showing up and doing the work - that matters so much. See you again tomorrow!"
       },
       {
-        "msg": "Thanks for putting in the effort today. See you again tomorrow!"
+        "ID": "5",
+        "msg": "Thanks for putting in the effort. Your Child will really see the benefits of your hard work. See you tomorrow!"
       },
       {
+        "ID": "6",
         "msg": "You did a great job today. I'll be right here again tomorrow to learn together!"
       },
       {
+        "ID": "7",
         "msg": "Thanks for being here today - your effort matters. Let's keep going tomorrow!"
       },
       {
+        "ID": "8",
         "msg": "Great! You're doing so well. I'll be here with you again tomorrow."
       },
       {
+        "ID": "9",
         "msg": "Thanks for all your effort today - I’m proud of you. See you again tomorrow!"
       },
       {
+        "ID": "10",
         "msg": "You're making real progress. Let’s build on it together tomorrow!"
       },
       {
+        "ID": "11",
         "msg": "Thank you for taking time for this today. I'll see you tomorrow!"
       },
       {
+        "ID": "12",
         "msg": "Great! You're showing up for your family, and I'm proud of you. Let's keep going tomorrow!"
       }
     ]

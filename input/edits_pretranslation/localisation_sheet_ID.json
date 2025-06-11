@@ -15,14 +15,14 @@
         "flow_type": "flow_editing",
         "flow_name": "",
         "sheet_name": "unicef_questions",
-        "status": "released",
+        "status": "draft",
         "order": "0"
       },
       {
         "flow_type": "flow_editing",
         "flow_name": "",
         "sheet_name": "scale_up_customisation",
-        "status": "released",
+        "status": "draft",
         "order": "0"
       }
     ],
