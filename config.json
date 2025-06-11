@@ -3,6 +3,11 @@
         "version": "1.0.0",
         "pipeline_version": "1.0.0"
     },
+    "parents": {
+        "base": {
+            "location": "https://github.com/IDEMSInternational/rapidpro-survey-templates/archive/refs/tags/v1.0.1.zip"
+        }
+    },
     "flows_outputbasename": "parenttext_all",
     "output_split_number": 1,
     "sheet_names": {
@@ -10,7 +15,6 @@
         "MY_sheets": "13XUkS7VbGJSg1xiOb2tVOIFcoiochpxqaQeBTk2Ibns",
         "T_content": "1hcH8pFdiHZN0UvZgyv3Zht9ARBTx-VXhNBI2o8L7fHU",
         "N_onboarding_data": "1_m_Plv3EgM6bSyokcI4qgY5sCE8s6zf4Bz1qli2zDSk",
-        "T_onboarding": "1Sl0Jl_N4cGQi2INmE_EnX_aYUMUrUB6cKbuWVPzirtY",
         "C_ltp_activities": "1AdcFsatjGdbDYRqgw359JEhSZn6nkRbZHVZr-5yQe6I",
         "C_modules": "1435mczruh5CZoI7u0fWNuKGnJw062Si9j7er_NOwqT0",
         "C_goal_checkin": "115XSdB5AJ9A9Nwr7Cs1PER5htOjctWcVTnqxipFiRUY",
@@ -29,12 +33,11 @@
     },
     "sources": {
         "flow_definitions": {
-            "parent_sources": [],
+            "parent_sources": ["base.flow_definitions"],
             "format": "sheets",
             "subformat": "google_sheets",
             "files_list": [
                     "N_onboarding_data",
-                    "T_survey",
                     "C_ltp_activities",
                     "C_modules",
                     "C_goal_checkin",
