@@ -306,6 +306,36 @@
     "note": ""
   },
   {
+    "SourceText": "When was @fields.child_nickname born? Enter their date of birth in the following format: DD/MM/YYYY. For example, if your child was born on May 19, 2015, enter 19/05/2015.",
+    "text": "Bilakah tarikh lahir @fields.child_nickname? Masukkan tarikh lahir mereka mengikut format ini: HH/BB/TTTT. Sebagai contoh: masukkan 19/05/2015 jika anak anda lahir pada 19 Mei 2015.",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "When was your child born? Enter their date of birth in the following format: DD/MM/YYYY. For example, if your child was born on May 19, 2015, enter 19/05/2015.",
+    "text": "Bilakah tarikh lahir anak anda? Masukkan tarikh lahir mereka mengikut format ini: HH/BB/TTTT. Sebagai contoh: masukkan 19/05/2015 jika anak anda lahir pada 19 Mei 2015.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Sorry, this date is invalid. Please write your child's date of birth in this way: DD/MM/YYYY. For example, if your child was born on May 19, 2015, write 19/05/2015.",
+    "text": "Maaf, tarikh ini tidak sah. Masukkan tarikh lahir anak anda seperti ini: HH/BB/TTTT. Sebagai contoh, masukkan 19/05/2015 jika anak anda lahir pada 19 Mei 2015.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "The date you entered is in the future. Please write your child's date of birth in this way: DD/MM/YYYY. For example, if your child was born on May 19, 2015, write 19/05/2015.",
+    "text": "Maaf, tarikh yang anda masukkan masih belum tiba. Masukkan tarikh lahir anak anda seperti ini: HH/BB/TTTT. Sebagai contoh, masukkan 19/05/2015 jika anak anda lahir pada 19 Mei 2015.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Let's try again. Please write your child's date of birth in this way: DD/MM/YYYY. For example, if your child was born on May 19, 2015, write 19/05/2015.",
+    "text": "Sila cuba sekali lagi. Masukkan tarikh lahir anak anda seperti ini: HH/BB/TTTT. Sebagai contoh, masukkan 19/05/2015 jika anak anda lahir pada 19 Mei 2015.",
+    "type": "text",
+    "note": ""
+  },
+  {
     "SourceText": "No Difficulty",
     "text": "Tidak Sukar",
     "type": "quick_replies",
@@ -414,6 +444,18 @@
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
   {
+    "SourceText": "Yes",
+    "text": "Ya",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "No",
+    "text": "Tidak",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
     "SourceText": "no difficulty",
     "text": "tidak sukar",
     "type": "arguments",
@@ -518,6 +560,18 @@
   {
     "SourceText": "very much",
     "text": "sangat",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "yes",
+    "text": "ya",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "no",
+    "text": "tidak",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   }

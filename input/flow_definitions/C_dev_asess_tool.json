@@ -76,7 +76,7 @@
       },
       {
         "ID": "confirm_dob",
-        "msg": "Your child was born on @(format_date(results.date, \"DD-MM-YYYY\")), is that correct?"
+        "msg": "Your child was born on @(replace(format_date(results.date, \"DD-MM-YYYY\"), \"-\", \"/\")), is that correct?"
       },
       {
         "ID": "confirm_dob_yes",

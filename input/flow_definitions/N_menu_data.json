@@ -341,9 +341,9 @@
       },
       {
         "ID": "share",
-        "msg": "To invite someone to join, share this link!\n{insert link}",
+        "msg": "To invite someone to join, share this link!\n{share_link}",
         "next_button_option": "",
-        "metadata.description": "message for sharing link to join ParentText with other caregiver. Do not change the placeholder {insert link}"
+        "metadata.description": ""
       }
     ],
     "menu_data": [

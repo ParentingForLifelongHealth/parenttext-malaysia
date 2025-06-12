@@ -48,6 +48,18 @@
     "note": ""
   },
   {
+    "SourceText": "It also builds trust and respect, and helps your child learn new things. ✨",
+    "text": "Ia juga boleh bantu membina kepercayaan, saling hormat-menghormati, dan menyokong kanak-kanak untuk belajar perkara baharu.✨",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Today, you will learn how one-on-one time works. Let’s begin with a question for our learning.",
+    "text": "Hari ini, anda akan belajar bagaimana masa bersama seorang dengan seorang berfungsi. Jom mulakan dengan satu soalan untuk memulakan pembelajaran kita.",
+    "type": "text",
+    "note": ""
+  },
+  {
     "SourceText": "True or False: When I spend special time with my child, I need to have a plan. I need to know what we will do together.",
     "text": "Betul atau Salah: Saya perlu mempunyai rancangan apabila saya meluangkan masa istimewa dengan anak saya. Saya perlu mengetahui apa yang kami akan lakukan bersama-sama.",
     "type": "text",
@@ -96,8 +108,20 @@
     "note": ""
   },
   {
+    "SourceText": "Throughout this programme, you will also learn through some stories.",
+    "text": "Sepanjang program ini, anda juga akan belajar melalui beberapa cerita.",
+    "type": "text",
+    "note": ""
+  },
+  {
     "SourceText": ";",
     "text": ";",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Here is our first one: {F1_DAUGHTER_6} and her mother, {F1_MOTHER}, are playing dress up during one-on-one time. Let’s see how they have fun together:",
+    "text": "{F1_DAUGHTER_6} dan ibunya, {F1_MOTHER}, sedang bermain berdandan sewaktu masa bersama seorang dengan seorang. Mari lihat bagaimana mereka berseronok bersama-sama:",
     "type": "text",
     "note": ""
   },
@@ -168,6 +192,12 @@
     "note": ""
   },
   {
+    "SourceText": "That's OK! If you don't have time today, you can set some time aside tomorrow.",
+    "text": "Tak apa! Kalau tak sempat hari ini, luangkan sedikit masa esok ya.",
+    "type": "text",
+    "note": ""
+  },
+  {
     "SourceText": "✅✅✅✅ 100%",
     "text": "✅✅✅✅ 100%",
     "type": "text",
@@ -228,6 +258,12 @@
     "note": ""
   },
   {
+    "SourceText": "I will also provide you with tips that you can use anytime and anywhere!",
+    "text": "Saya juga akan kongsikan beberapa tip yang boleh digunakan bila-bila masa dan di mana saja!",
+    "type": "text",
+    "note": ""
+  },
+  {
     "SourceText": "3️⃣ Here are three tips to remember when spending one-on-one time with @fields.child_nickname: DAY, PLAY, and STAY.",
     "text": "3️⃣ Berikut merupakan tiga petua untuk diambil tahu apabila meluangkan masa bersama seorang dengan seorang bersama @fields.child_nickname: HARI, MAIN, dan KEKAL.",
     "type": "text",
@@ -278,6 +314,24 @@
   {
     "SourceText": "⏰ Ask to spend time with your child.",
     "text": "⏰ Mengajak anak anda untuk meluangkan masa bersama-sama.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "At the end of each skill, I will have a home activity for you that you can try in your own time.",
+    "text": "Hujung setiap kemahiran nanti, saya akan bagi satu aktiviti rumah yang anda boleh cuba bila anda ada masa.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "⭐ Your first home activity is to try to spend at least 5 minutes of quality one-on-one time with @fields.child_nickname every day. It will make a huge difference! Do you have time to do it today? ⏰",
+    "text": "⭐ Aktiviti di Rumah! Cuba luangkan sekurang-kurangnya 5 minit masa berkualiti bersama seorang dengan seorang bersama @fields.child_nickname setiap hari. Ia memang boleh beri kesan yang besar! Anda ada masa untuk lakukannya hari ini? ⏰",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "⭐ Your first home activity is to try to spend at least 5 minutes of quality one-on-one time with your child every day. It will make a huge difference! Do you have time to do it today? ⏰",
+    "text": "⭐ Aktiviti di Rumah! Cuba luangkan sekurang-kurangnya 5 minit masa berkualiti bersama seorang dengan seorang bersama anak anda setiap hari. Ia memang boleh beri kesan yang besar! Anda ada masa untuk lakukannya hari ini? ⏰",
     "type": "text",
     "note": ""
   },
