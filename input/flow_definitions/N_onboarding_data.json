@@ -1995,7 +1995,7 @@
       {
         "ID": "media",
         "type": "multiple_choice",
-        "messages.1.text": "@fields.prog_name is easiest to use when you receive content as videos, images and text. However, your data bundle and bandwidth may not support videos. To save on data, you can opt to receive the same content with a smaller audio file or as text. How would you like to receive @fields.prog_name?",
+        "messages.1.text": "@fields.prog_name is easiest to use when you receive content as videos, images and text. Videos are fun and engaging, but we understand if you have limited mobile data. To save on data, you can choose to receive the same content with a smaller audio file or text. How would you like to receive @fields.prog_name?",
         "messages.1.image": "",
         "skipoption.text": "",
         "skipoption.choice": "",
