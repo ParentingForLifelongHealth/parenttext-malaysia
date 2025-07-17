@@ -11,7 +11,7 @@
         "data_row_id": "",
         "new_name": "",
         "data_model": "GoalCheckInModel",
-        "template_arguments": "",
+        "operation": "",
         "status": "",
         "tags.1": "",
         "tags.2": ""
@@ -23,7 +23,7 @@
         "data_row_id": "",
         "new_name": "",
         "data_model": "SurveyBehaveModel",
-        "template_arguments": "",
+        "operation": "",
         "status": "",
         "tags.1": "",
         "tags.2": ""
@@ -35,7 +35,7 @@
         "data_row_id": "",
         "new_name": "",
         "data_model": "GoalCheckInModel",
-        "template_arguments": "",
+        "operation": "",
         "status": "",
         "tags.1": "",
         "tags.2": ""
@@ -47,7 +47,7 @@
         "data_row_id": "",
         "new_name": "",
         "data_model": "SurveyBehaveModel",
-        "template_arguments": "",
+        "operation": "",
         "status": "",
         "tags.1": "",
         "tags.2": ""
@@ -59,7 +59,7 @@
         "data_row_id": "",
         "new_name": "",
         "data_model": "GoalCheckInModel",
-        "template_arguments": "",
+        "operation": "",
         "status": "",
         "tags.1": "",
         "tags.2": ""
@@ -71,7 +71,7 @@
         "data_row_id": "",
         "new_name": "goal_checkin_data",
         "data_model": "",
-        "template_arguments": "concat",
+        "operation": "concat",
         "status": "",
         "tags.1": "",
         "tags.2": ""

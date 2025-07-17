@@ -28,7 +28,8 @@
         "ab_testing_sheet_ID": "1i_oqiJYkeoMsYdeFOcKlvvjnNCEdQnZlsm17fgNvK0s",
         "localisation_sheet_ID" : "1RhsMtslpwyTmMLsZJZaaNqweKX7ONpmwR4-rQVpo_qw", 
         "eng_edits_sheet_ID" : "1Ab8H_s26EuOiS4nZ6HGADjD4CZw55586LL66fl8tEWI",
-        "transl_edits_sheet_ID" : "1tbwzqlie87UMOe7yhdeeUxkTa4NtqRyivgX9NtxAFe8"
+        "transl_edits_sheet_ID" : "1tbwzqlie87UMOe7yhdeeUxkTa4NtqRyivgX9NtxAFe8",
+        "T_survey": "1dewoAzGyWAIljHK5KnL3TNP8g5pz0Vt6Lux2O6rycYU"
     },
     "sources": {
         "flow_definitions": {
@@ -48,6 +49,7 @@
                     "T_delivery",
                     "N_menu_data",
                     "T_menu",
+                    "T_survey",
                     "MY_Triggers",
                     "MY_sheets"
                 ]
@@ -108,6 +110,31 @@
             "files_list": [
                 "13XUkS7VbGJSg1xiOb2tVOIFcoiochpxqaQeBTk2Ibns"
             ]
+        },
+         "media_assets": {
+            "format": "media_assets",
+            "mappings": {
+                "Language": {
+                    "Malay": "msa"
+                },
+                "Caregiver Gender": {
+                    "F": "female",
+                    "M": "male"
+                }
+            },
+            "path_template": [
+                "{{ format | title }}",
+                "{{ (annotations['Caregiver Gender'] or '') | title }}",
+                "{{ (language or '') | title }}",
+                "{{ name }}"
+            ],
+            "storage": {
+                "system": "canto",
+                "location": "OAKTC",
+                "annotations": {
+                    "site_base_url": "https://parentingforlifelonghealth.canto.com"
+                }
+            }
         }
     },
     "steps": [
@@ -118,7 +145,7 @@
             "sources": [
                 "flow_definitions"
             ],
-            "tags": [3,"child"]
+            "tags": [1,"onboarding",3,"child"]
         },
         {
             "id": "update_expiration_times",

@@ -11,6 +11,7 @@
         "data_row_id": "",
         "new_name": "",
         "data_model": "LtpActivityModel",
+        "operation": "",
         "template_arguments": "",
         "status": ""
       },
@@ -21,6 +22,7 @@
         "data_row_id": "",
         "new_name": "",
         "data_model": "LtpActivityModel",
+        "operation": "",
         "template_arguments": "",
         "status": ""
       },
@@ -31,6 +33,7 @@
         "data_row_id": "",
         "new_name": "ltp_activity_data",
         "data_model": "LtpActivityModel",
+        "operation": "concat",
         "template_arguments": "",
         "status": ""
       }

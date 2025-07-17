@@ -6,3 +6,9 @@ from typing import List
 
 
 
+class ComicBlockModel(ParserModel):
+    intro: list[str] = []
+    file_name: str = ""
+    n_attachments: str = ""
+    next_button: str = ""
+    text: list[str] = []

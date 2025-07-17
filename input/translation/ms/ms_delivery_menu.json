@@ -60,8 +60,8 @@
     "note": ""
   },
   {
-    "SourceText": "You have seen all the goals ",
-    "text": "Anda telah melihat kesemua matlamat yang ada ",
+    "SourceText": "You have seen all the goals",
+    "text": "Anda telah melihat kesemua matlamat yang ada",
     "type": "text",
     "note": ""
   },
@@ -174,8 +174,8 @@
     "note": ""
   },
   {
-    "SourceText": "You're almost finished with this goal! You only have 1 lesson remaining, ",
-    "text": "Anda hampir selesai dengan matlamat ini! Anda hanya mempunyai 1 pelajaran yang tinggal, ",
+    "SourceText": "You're almost finished with this goal! You only have 1 lesson remaining,",
+    "text": "Anda hampir selesai dengan matlamat ini! Tinggal 1 pelajaran sahaja lagi,",
     "type": "text",
     "note": ""
   },
@@ -306,12 +306,6 @@
     "note": ""
   },
   {
-    "SourceText": "Great, see you tomorrow!",
-    "text": "Baik, jumpa anda esok!",
-    "type": "text",
-    "note": ""
-  },
-  {
     "SourceText": "What kind of activity do you want to try with your child?",
     "text": "Apakah aktiviti yang anda ingin cuba bersama anak anda?",
     "type": "text",
@@ -324,28 +318,22 @@
     "note": ""
   },
   {
+    "SourceText": "Great, see you tomorrow!",
+    "text": "Baik, jumpa anda esok!",
+    "type": "text",
+    "note": ""
+  },
+  {
     "SourceText": "ParentText has @fields.n_goals_prog goals. We will begin with the first goal, @results.name. Once you complete this goal, you can choose which goal you want to work on next. Let's get started.",
     "text": "ParentText mempunyai matlamat @fields.n_goals_prog. Kita akan bermula dengan matlamat pertama iaitu @results.name. Anda boleh memilih matlamat yang anda inginkan selepas anda menyelesaikan matlamat ini. Mari kita mulakan.",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
-    "SourceText": "🎉You did it! Congratulations!🎉 You have completed the programme and earned yourself the Positive Parenting Trophy 🏆. Well done!",
-    "text": "🎉Tahniah! Anda berjaya!🎉 Anda telah menyelesaikan program ini dan memperoleh Trofi Keibubapaan Positif 🏆. Syabas!",
+    "SourceText": "🎉Yahoo!🎉 Great work, @fields.first_user_name. Here's your certificate to keep and share.",
+    "text": "🎉Yahoo!🎉 Tahniah, @fields.first_user_name. Ini sijil anda untuk disimpan dan dikongsi.",
     "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "Remember, you can always return to ParentText and get extra support or review these goals. Just type {MENU}.",
-    "text": "Ingat, anda boleh sentiasa kembali ke ParentText untuk mendapatkan sokongan tambahan atau untuk menyemak semula matlamat ini. Hanya taip {MENU}.",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "Completing ParentText is an important achievement. Well done! New goals might be available soon. As they become available, you'll receive a notification through this channel. ",
-    "text": "Syabas! Menyelesaikan ParentText adalah pencapaian yang penting. Matlamat baharu akan tersedia tidak lama lagi. Anda akan menerima pemberitahuan melalui saluran ini sebaik sahaja ia tersedia. ",
-    "type": "text",
-    "note": ""
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
     "SourceText": "🎉CONGRATULATIONS!🎉 You have earned a badge and completed the goal @results.name. Well done!",
@@ -480,8 +468,8 @@
     "note": ""
   },
   {
-    "SourceText": "These messages don’t seem to be working. When you are ready to keep going, press 1. ",
-    "text": "Mesej ini sepertinya tidak berfungsi. Apabila anda sudah bersedia untuk teruskan, tekan 1. ",
+    "SourceText": "These messages don’t seem to be working. When you are ready to keep going, press 1.",
+    "text": "Nampaknya mesej ini tidak berfungsi. Apabila anda sudah bersedia, tekan 1 untuk teruskan.",
     "type": "text",
     "note": ""
   },
@@ -490,12 +478,6 @@
     "text": "Hari ini kita berehat seketika daripada cubaan mencapai matlamat, @results.name, tetapi kita akan menyemak kemajuan anda. Untuk meneruskan, tekan 1 pada kekunci anda.",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
-  },
-  {
-    "SourceText": "Thanks for participating in ParentText. If you ever want to review your lessons, just type {MENU} and select option 8.",
-    "text": "Terima kasih kerana sudi menyertai ParentText. Sekiranya anda ingin menyemak semula kemahiran yang anda sudah pelajari, taip {MENU} dan pilih pilihan 8.",
-    "type": "text",
-    "note": ""
   },
   {
     "SourceText": "You have not completed any goal yet.",
@@ -564,8 +546,8 @@
     "note": ""
   },
   {
-    "SourceText": "Thank you for updating your relationship status. You've unlocked a new learning goal: @results.name. ",
-    "text": "Terima kasih kerana mengemas kini status hubungan anda. Anda telah membuka matlamat pelajaran baharu: @results.name. ",
+    "SourceText": "Thank you for updating your relationship status. You've unlocked a new learning goal: @results.name.",
+    "text": "Terima kasih kerana mengemas kini status hubungan anda. Anda telah membuka matlamat pelajaran baharu: @results.name.",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
@@ -576,14 +558,14 @@
     "note": ""
   },
   {
-    "SourceText": "{insert link}",
-    "text": "{insert link}",
+    "SourceText": "{share_link}",
+    "text": "{share_link}",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "You have reached the end of this skill! 🎉 ",
-    "text": "Anda telah sampai ke penghujung kemahiran ini! 🎉 ",
+    "SourceText": "You have reached the end of this skill! 🎉",
+    "text": "Anda telah sampai ke penghujung kemahiran ini! 🎉",
     "type": "text",
     "note": ""
   },
@@ -1164,32 +1146,14 @@
     "note": ""
   },
   {
-    "SourceText": "Your current media setting is Text, Images, and Videos.",
-    "text": "Tetapan media semasa anda ialah Teks, Imej dan Video.",
+    "SourceText": "Current Status: Your name is @fields.first_user_name.",
+    "text": "Status Semasa: Nama anda ialah @fields.first_user_name.",
     "type": "text",
-    "note": ""
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
-    "SourceText": "Your current media setting is Text, Images, and Audio.",
-    "text": "Tetapan media semasa anda ialah Teks, Imej dan Video.",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "Your current media setting is Text and Images Only.",
-    "text": "Tetapan media semasa anda ialah Teks dan Imej Sahaja.",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "Your current media setting is",
-    "text": "Tetapan media semasa anda ialah",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "You didn't provide this info.",
-    "text": "Maklumat ini tidak anda berikan.",
+    "SourceText": "You didn't tell us your name.",
+    "text": "Anda tidak memberitahu kami nama anda.",
     "type": "text",
     "note": ""
   },
@@ -1200,122 +1164,98 @@
     "note": ""
   },
   {
-    "SourceText": "You didn't tell us if you are a woman or a man. ",
-    "text": "Anda tidak memberitahu kami sama ada anda ialah seorang lelaki atau wanita. ",
+    "SourceText": "You didn't tell us your gender.",
+    "text": "Anda tidak memberitahu kami jantina anda.",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "You told us that you are a Woman.",
-    "text": "Anda memberitahu kami bahawa anda ialah seorang Wanita.",
+    "SourceText": "Current Status: You are a Woman.",
+    "text": "Status Semasa: Anda seorang wanita.",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "You told us that you are a Man.",
-    "text": "Anda memberitahu kami bahawa anda ialah seorang Lelaki.",
+    "SourceText": "Current Status: You are a Man.",
+    "text": "Status Semasa: Anda seorang lelaki.",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "You told us that you are a",
-    "text": "Anda memberitahu kami bahawa anda adalah",
+    "SourceText": "Current Status: You are a",
+    "text": "Status Semasa: Anda seorang",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "Would you like to update your gender?",
-    "text": "Adakah anda ingin mengemas kini jantina anda?",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "You didn't tell us what's your relationship status.",
+    "SourceText": "You didn't tell us your relationship status.",
     "text": "Anda tidak memberitahu kami status hubungan anda.",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "You told us that you are Single (not in a relationship).",
-    "text": "Anda memberitahu kami bahawa anda Belum Berkahwin (bukan dalam hubungan).",
+    "SourceText": "Current Status: You are Single (not in a relationship).",
+    "text": "Status Semasa: Anda Bujang (bukan dalam hubungan).",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "You told us that you are Married.",
-    "text": "Anda memberitahu kami bahawa anda sudah Berkahwin.",
+    "SourceText": "Current Status: You are Married.",
+    "text": "Status Semasa: Anda Berkahwin.",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "You told us that you are Partnered but not married.",
-    "text": "Anda memberitahu kami bahawa anda Mempunyai Pasangan tetapi tidak berkahwin.",
+    "SourceText": "Current Status: You are Partnered but not married.",
+    "text": "Status Semasa: Anda mempunyai Pasangan tetapi tidak berkahwin.",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "You told us that you are Divorced or separated.",
-    "text": "Anda memberitahu kami bahawa anda sudah Bercerai atau berpisah.",
+    "SourceText": "Current Status: You are Divorced or separated.",
+    "text": "Status Semasa: Anda telah Bercerai atau berpisah.",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "You told us that you are Widowed.",
-    "text": "Anda memberitahu kami bahawa anda ialah Janda/Duda.",
+    "SourceText": "Current Status: You are Widowed.",
+    "text": "Status Semasa: Anda seorang Janda.",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "You told us that you are",
-    "text": "Anda memberitahu kami bahawa anda ialah",
+    "SourceText": "Current Status: You are",
+    "text": "Status Semasa: Anda seorang",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "Would you like to change your relationship status?",
-    "text": "Adakah anda ingin menukar status hubungan anda?",
+    "SourceText": "You didn't provide this info.",
+    "text": "Maklumat ini tidak anda berikan.",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "You told us that @fields.child_nickname is @fields.child_age year old and was born on @(date(fields.child_dob)).",
-    "text": "Anda memberitahu kami bahawa @fields.child_nickname berusia @fields.child_age tahun dan dilahirkan pada @(date(fields.child_dob)).",
+    "SourceText": "Current Status: @fields.child_nickname is @fields.child_age year old.",
+    "text": "Status Semasa: @fields.child_nickname berumur @fields.child_age tahun.",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
-    "SourceText": "You told us that your child is @fields.child_age year old and was born on @(date(fields.child_dob)).",
-    "text": "Anda memberitahu kami bahawa anak anda berusia @fields.child_age tahun dan dilahirkan pada @(date(fields.child_dob)).",
+    "SourceText": "Current Status: your child is @fields.child_age year old.",
+    "text": "Status Semasa: anak anda berumur @fields.child_age tahun.",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
-    "SourceText": "Would you like to update the date of birth of @fields.child_nickname?",
-    "text": "Adakah anda ingin mengemas kini tarikh lahir @fields.child_nickname?",
-    "type": "text",
-    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
-  },
-  {
-    "SourceText": "Would you like to update the date of birth of your child?",
-    "text": "Adakah anda ingin mengemas kini tarikh lahir anak anda?",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "Your child's nickname is @fields.child_nickname.",
-    "text": "Nama panggilan anak anda ialah @fields.child_nickname.",
+    "SourceText": "Current Status: Your child's name is @fields.child_nickname.",
+    "text": "Status Semasa: Nama anak anda ialah @fields.child_nickname.",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
     "SourceText": "You didn't provide a nickname for your child.",
     "text": "Anda tidak memberikan nama panggilan anak anda.",
-    "type": "text",
-    "note": ""
-  },
-  {
-    "SourceText": "Would you like to update it?",
-    "text": "Adakah anda mahu mengemas kini butiran ini?",
     "type": "text",
     "note": ""
   },
@@ -1344,40 +1284,46 @@
     "note": ""
   },
   {
-    "SourceText": "You told us that @fields.child_nickname is a Girl.",
-    "text": "Anda memberitahu kami bahawa @fields.child_nickname ialah Perempuan.",
+    "SourceText": "Current Status: @fields.child_nickname is a Girl.",
+    "text": "Status Semasa: @fields.child_nickname ialah seorang Perempuan.",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
-    "SourceText": "You told us that your child is a Girl.",
-    "text": "Anda memberitahu kami bahawa anak anda ialah Perempuan.",
+    "SourceText": "Current Status: your child is a Girl.",
+    "text": "Status Semasa: Anak anda ialah seorang Perempuan.",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "You told us that @fields.child_nickname is a Boy.",
-    "text": "Anda memberitahu kami bahawa @fields.child_nickname ialah Lelaki.",
+    "SourceText": "Current Status: @fields.child_nickname is a Boy.",
+    "text": "Status Semasa: @fields.child_nickname ialah seorang Lelaki.",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
-    "SourceText": "You told us that your child is a Boy.",
-    "text": "Anda memberitahu kami bahawa anak anda ialah Lelaki.",
+    "SourceText": "Current Status: your child is a Boy.",
+    "text": "Status Semasa: Anak anda ialah seorang Lelaki.",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "You told us that @fields.child_nickname is a",
-    "text": "Anda memberitahu kami bahawa @fields.child_nickname ialah",
+    "SourceText": "Current Status: @fields.child_nickname is a",
+    "text": "Status Semasa: @fields.child_nickname ialah seorang",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
-    "SourceText": "You told us that your child is a",
-    "text": "Anda memberitahu kami bahawa anak anda ialah",
+    "SourceText": "Current Status: your child is a",
+    "text": "Status Semasa: Anak anda ialah seorang",
     "type": "text",
     "note": ""
+  },
+  {
+    "SourceText": "Your partner in parenting is @fields.avatar_name.",
+    "text": "Teman anda dalam keibubapaan ialah @fields.avatar_name.",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
     "SourceText": "You are currently receiving messages in English.",
@@ -1410,10 +1356,130 @@
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
-    "SourceText": "You completed the ParentText demo. Type RESET and then {FACSTART} to re-start from the beginning.",
-    "text": "Anda telah melengkapkan demonstrasi ParentText. Untuk mula semula dari awal, taip RESET dan kemudian {FACSTART}.",
+    "SourceText": "You completed the ParentText demo. Type {RESET} and then {FACSTART} to re-start from the beginning.",
+    "text": "Anda telah melengkapkan demo NKText. Taip {RESET} dan kemudian {FACSTART} untuk mulakan semula dari awal.",
     "type": "text",
     "note": ""
+  },
+  {
+    "SourceText": "Thanks for participating in @fields.prog_name! Parenting is better with family and friends, and you can send {share_link} to share @fields.prog_name with them. Remember you can always review courses by typing {MENU}.",
+    "text": "Terima kasih kerana menyertai @fields.prog_name! Keibubapaan lebih baik dengan sokongan keluarga dan rakan-rakan. Anda boleh kongsikan @fields.prog_name dengan mereka melalui pautan ini: {share_link}. Ingat, anda sentiasa boleh menyemak semula kursus dengan menaip {MENU}.",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "Please select your language:",
+    "text": "Sila pilih bahasa anda:",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "I'm really proud of your effort today. Let’s build on it tomorrow!",
+    "text": "Saya benar-benar bangga dengan usaha anda hari ini. Jom kita teruskan lagi esok!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "We’re learning so much together. See you tomorrow!",
+    "text": "Kita belajar banyak perkara bersama. Jumpa lagi esok!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "We're making great progress together. See you tomorrow!",
+    "text": "Kita sedang membuat kemajuan yang hebat bersama. Jumpa lagi esok!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Thank you for showing up and doing the work - that matters so much. See you again tomorrow!",
+    "text": "Terima kasih kerana setia bersama kami dan berusaha – itu sangat bermakna. Jumpa lagi esok!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You did a great job today. I'll be right here again tomorrow to learn together!",
+    "text": "Anda telah lakukan dengan sangat baik hari ini. Saya akan berada di sini lagi esok untuk terus belajar bersama!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Thanks for being here today - your effort matters. Let's keep going tomorrow!",
+    "text": "Terima kasih kerana bersama kami hari ini - usaha anda sangat bermakna. Jom kita sambung esok!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Great! You're doing so well. I'll be here with you again tomorrow.",
+    "text": "Hebat! Anda sedang melakukannya dengan sangat baik. Saya akan bersama anda lagi esok.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Thanks for all your effort today - I’m proud of you. See you again tomorrow!",
+    "text": "Terima kasih atas segala usaha anda hari ini - saya bangga dengan anda. Jumpa lagi esok!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You're making real progress. Let’s build on it together tomorrow!",
+    "text": "Anda sedang membuat kemajuan yang sangat besar. Jom kita teruskan esok!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Thank you for taking time for this today. I'll see you tomorrow!",
+    "text": "Terima kasih kerana meluangkan masa untuk ini hari ini. Jumpa lagi esok!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Great! You're showing up for your family, and I'm proud of you. Let's keep going tomorrow!",
+    "text": "Hebat! Anda hadir demi keluarga anda, dan saya bangga dengan anda. Jom kita teruskan lagi esok!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Thanks for putting in the effort. @fields.child_nickname will really see the benefits of your hard work. See you tomorrow!",
+    "text": "Terima kasih kerana berusaha tanpa henti. @fields.child_nickname pasti akan merasai manfaat daripada usaha gigih anda. Jumpa lagi esok!",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "Thanks for putting in the effort. Your child will really see the benefits of your hard work. See you tomorrow!",
+    "text": "Terima kasih kerana berusaha. Anak anda pasti akan merasai manfaat daripada usaha gigih anda. Jumpa lagi esok!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "It looks like this is not a good time. Please type 1 if you'd like to continue.",
+    "text": "Nampaknya ini bukan masa yang sesuai. Sila taip 1 jika anda ingin teruskan.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🎉You did it!🎉 You have completed @fields.prog_name and earned yourself a certificate. Congratulations!",
+    "text": "🎉Tahniah!🎉 Anda telah menamatkan @fields.prog_name dan berjaya memperoleh sijil. Syabas!",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "How should I print your name on the certificate?",
+    "text": "Bagaimanakah saya harus cetak nama anda pada sijil?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "This name is too long. Please enter a shorter name.",
+    "text": "Nama anda terlalu panjang. Sila masukkan nama yang lebih pendek.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "The name you would like to have on you certificate is @fields.sq_cert_name. Is that correct?",
+    "text": "Nama yang anda ingin letakkan pada sijil ialah @fields.sq_cert_name. Adakah betul?",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
     "SourceText": "NEXT",
@@ -1716,8 +1782,8 @@
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
   {
-    "SourceText": "Your Child's Date of Birth",
-    "text": "Tarikh lahir Your Child",
+    "SourceText": "Your Child's Age",
+    "text": "Umur Anak Anda",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
@@ -1730,6 +1796,18 @@
   {
     "SourceText": "Your Child's Gender",
     "text": "Jantina Your Child",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "English",
+    "text": "Bahasa Inggeris",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Bahasa Melayu",
+    "text": "Bahasa Melayu",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
@@ -2052,8 +2130,8 @@
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
   {
-    "SourceText": "your child's date of birth",
-    "text": "tarikh lahir anak anda",
+    "SourceText": "your child's age",
+    "text": "umur anak anda",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
@@ -2078,6 +2156,18 @@
   {
     "SourceText": "no n nope",
     "text": "tidak tak t",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "english",
+    "text": "bahasa Inggeris",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "bahasa melayu",
+    "text": "bahasa Melayu",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   }

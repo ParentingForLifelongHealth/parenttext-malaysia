@@ -3075,6 +3075,24 @@
             }
         }
     ],
+    "facilitator": [
+        {
+            "English": {
+                "keywords": [
+                    "faci"
+                ],
+                "mispellings": []
+            },
+            "Translation": {
+                "msa": {
+                    "keywords": [
+                        "faci"
+                    ],
+                    "mispellings": []
+                }
+            }
+        }
+    ],
     "pause": [
         {
             "English": {

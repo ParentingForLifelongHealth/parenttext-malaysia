@@ -203,6 +203,15 @@
         "expiration_msg": "",
         "var.name": "",
         "var.value": ""
+      },
+      {
+        "ID": "facilitator",
+        "disabled_not_completed_registration": "This feature will be available once you have completed registration. It won’t take long. Please continue your progress!",
+        "disabled_not_selected_first_goal": "This feature will be available once you have completed registration. It won’t take long. Please continue your progress!",
+        "conclusion_msg": "",
+        "expiration_msg": "",
+        "var.name": "",
+        "var.value": ""
       }
     ],
     "safeguarding_leave_programme_data": [
