@@ -108,6 +108,29 @@
             "files_list": [
                 "13XUkS7VbGJSg1xiOb2tVOIFcoiochpxqaQeBTk2Ibns"
             ]
+        },
+        "media_assets": {
+            "format": "media_assets",
+            "mappings": {
+                "Language": {
+                    "Behasa Malayu": "msa",
+                    "English": "eng"
+                },
+                "Caregiver Gender": {
+                    "F": "female",
+                    "M": "male"
+                }
+            },
+            "path_template": [
+            "{% if format == 'image' %}{% if folder == 'Comics' %}comic/{{ name }}{% else %}image/universal/{{ name }}{% endif %}{% else %}voiceover/resourceType/{{ format }}/gender/{{ (annotations['Caregiver Gender'] or 'unknown') }}/language/{{ (language or 'unknown') }}/{{ name }}{% endif %}"
+            ],
+            "storage": {
+                "system": "canto",
+                "location": "OAKTC",
+                "annotations": {
+                    "site_base_url": "https://parentingforlifelonghealth.canto.com"
+                }
+            }
         }
     },
     "steps": [
