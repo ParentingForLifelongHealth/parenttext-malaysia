@@ -3075,6 +3075,26 @@
             }
         }
     ],
+    "facilitator": [
+        {
+            "English": {
+                "keywords": [
+                    "kumpulan",
+                    "group"
+                ],
+                "mispellings": []
+            },
+            "Translation": {
+                "msa": {
+                    "keywords": [
+                        "kumpulan",
+                        "group"
+                    ],
+                    "mispellings": []
+                }
+            }
+        }
+    ],
     "pause": [
         {
             "English": {

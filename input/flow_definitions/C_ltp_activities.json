@@ -11,6 +11,7 @@
         "data_row_id": "",
         "new_name": "",
         "data_model": "LtpActivityModel",
+        "operation": "",
         "template_arguments": "",
         "status": ""
       },
@@ -21,6 +22,7 @@
         "data_row_id": "",
         "new_name": "",
         "data_model": "LtpActivityModel",
+        "operation": "",
         "template_arguments": "",
         "status": ""
       },
@@ -31,6 +33,7 @@
         "data_row_id": "",
         "new_name": "ltp_activity_data",
         "data_model": "LtpActivityModel",
+        "operation": "concat",
         "template_arguments": "",
         "status": ""
       }
@@ -187,7 +190,7 @@
       {
         "ID": "get_active_child",
         "name": "Get Active",
-        "text": "Exercise is a great way to spend time together and it is so good for your health. 🌱 Find a sport or exercise that both you and your child want to do and try it out together! \n\n⏰ Even walking for 10 minutes a day is good for you. \n\n⚽ Together you can walk, run, play soccer, swim, dance, or do any other sport..\n\n🏆 Together, think of ways to make it even more fun. Can you jog to a certain point? Take turns being the coach? Can there be a small, free reward, like getting to decide the next activity?\n\n🌈 Exercise becomes easier and more enjoyable the more you do it. \n\n🔄 If you or your child do not like the first exercise you pick, try a new exercise.",
+        "text": "Exercise is a great way to spend time together and it is so good for your health. 🌱 Find a sport or exercise that both you and your child want to do and try it out together! \n\n⏰ Even walking for 10 minutes a day is good for you. \n\n⚽ Together you can walk, run, play soccer, swim, dance, or do any other sport.\n\n🏆 Together, think of ways to make it even more fun. Can you jog to a certain point? Take turns being the coach? Can there be a small, free reward, like getting to decide the next activity?\n\n🌈 Exercise becomes easier and more enjoyable the more you do it. \n\n🔄 If you or your child do not like the first exercise you pick, try a new exercise.",
         "act_type": "Active",
         "act_age": "4 | 5 | 6 | 7 | 8 | 9"
       },

@@ -1,5 +1,47 @@
 [
   {
+    "SourceText": "Congratulations on completing your first lesson in @fields.prog_name. This video explains how this programme works and what to expect next.",
+    "text": "Tahniah atas pencapaian anda! Anda telah menyelesaikan kemahiran pertama di @fields.prog_name. Video ini akan menjelaskan bagaimana program ini akan dijalankan dan langkah-langkah seterusnya.",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "Variables have been reset",
+    "text": "Pemboleh ubah telah ditetapkan semula",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅ Your Group ID has been registered successfully.",
+    "text": "ID Kumpulan anda telah berjaya didaftar.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "*😕 Something didn’t work quite right. Please let your facilitator know.*",
+    "text": "*😕 Ada sesuatu tidak berfungsi dengan betul. Sila beritahu fasilitator anda.*",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You can keep going with your registration—your facilitator will help you add the Group ID later.",
+    "text": "Anda boleh teruskan dengan pendaftaran—fasilitator anda akan membantu untuk menambah ID Kumpulan kemudian.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "🤔 The Group ID you entered doesn't exist. Please enter the 4-character Group ID shared by your facilitator or type N to skip.",
+    "text": "🤔 ID Kumpulan yang diberi tidak sah. Sila berikan ID Kumpulan 4-aksara yang dikongsi oleh fasilitator anda atau taip T untuk melangkau.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "It looks like this is not a good time.",
+    "text": "Nampaknya, sekarang bukan masa yang sesuai.",
+    "type": "text",
+    "note": ""
+  },
+  {
     "SourceText": "Please select your language:",
     "text": "Sila pilih bahasa anda:",
     "type": "text",
@@ -18,8 +60,38 @@
     "note": ""
   },
   {
+    "SourceText": "✨ Welcome to @fields.prog_name!",
+    "text": "✨ Selamat datang ke @fields.prog_name!",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "✅ In @fields.prog_name, you'll receive daily lessons with stories and strategies to make parenting work. ",
+    "text": "✅ Dalam @fields.prog_name, anda akan menerima pelajaran harian yang mengandungi cerita dan strategi untuk menjadi ibu bapa yang lebih berkesan.",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "✅ You can learn more about this programme and the team behind it at {URL}",
+    "text": "✅ Anda boleh mengetahui lebih lanjut tentang program ini dan organisasi yang terlibat di {URL}",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "✅ Your personal information is safe and private. To read our privacy policy, visit {consent}. If you are over 16 and consent to our privacy policy, select YES.  Type \"EXIT\" if you do not want to participate.",
+    "text": "✅ Maklumat peribadi anda adalah selamat dan dirahsiakan. Untuk membaca dasar privasi kami, sila layari {consent}. Jika anda berumur 16 tahun ke atas dan bersetuju dengan dasar privasi kami, pilih YA. Taip \"KELUAR\" jika anda tidak mahu mengambil bahagian.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Are you sure you do not want to get these messages? If you do not want to receive any more messages, please press NO. If you made a mistake, please press BACK and choose another option.",
+    "text": "Adakah anda pasti yang anda tidak mahu menerima mesej-mesej ini? Sila taip TIDAK sekiranya anda tidak lagi mahu menerima mesej. Sekiranya anda melakukan kesilapan, sila taip KEMBALI dan buat pilihan lain.",
+    "type": "text",
+    "note": ""
+  },
+  {
     "SourceText": "If you ever decide to participate in the programme, type HELLO. ",
-    "text": "Taip HELO jika anda kembali untuk menyertai program ini. ",
+    "text": "Taip HELLO, jika anda ingin kembali sertai program ini ",
     "type": "text",
     "note": ""
   },
@@ -28,6 +100,54 @@
     "text": "Semoga berjumpa lagi! Selamat sejahtera!",
     "type": "text",
     "note": ""
+  },
+  {
+    "SourceText": "Great! To complete this programme, you'll need a partner in parenting. There are 2 parenting experts to choose from:",
+    "text": "Bagus! Untuk melengkapkan program ini, anda memerlukan seorang rakan dalam keibubapaan. Terdapat 2 pakar keibubapaan yang boleh anda pilih:",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Teja is 44 years old. She is a mother of three and works as a paediatrician. Her friends and family always come to her for parenting advice. She believes that all parents can learn how to raise children who feel safe, loved, and confident when they are given the right support.",
+    "text": "Teja berumur 44 tahun. Beliau ialah seorang ibu kepada tiga orang anak dan bekerja sebagai Pakar Pediatrik (kanak-kanak). Keluarga dan rakan-rakannya sering datang kepadanya untuk mendapatkan nasihat keibubapaan. Teja percaya bahawa semua ibu bapa boleh belajar cara membesarkan anak-anak yang sentiasa rasa selamat, disayangi, dan yakin diri apabila mereka diberikan sokongan yang betul.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Tuah is 36 years old. He is a father of four and works as a school counsellor. During weekends, he enjoys playing futsal and brings his daughters and sons along. Before this, he often felt stressed when his children behaved difficultly, but now he uses simple parenting skills to stay calm and guide them with love. He shares these tips with other parents too.",
+    "text": "Tuah berumur 36 tahun. Beliau merupakan bapa kepada empat orang anak dan bekerja sebagai kaunselor Sskolah. Pada hujung minggu, dia gemar bermain futsal dan membawa anak-anak perempuannya dan lelakinya bersama. Dahulu, dia sering berasa tertekan apabila anak-anaknya berkelakuan nakal, tetapi kini dia menggunakan kemahiran keibubapaan yang ringkas untuk kekal tenang dan membimbing mereka dengan kasih sayang. Dia juga berkongsi tip-tip ini dengan ibu bapa lain.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Who would you like to be your guide?",
+    "text": "Siapa yang anda ingin pilih sebagai pembimbing anda?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Hi! I'm @fields.avatar_name! Welcome to @fields.prog_name. I am excited to be your companion in this programme. You already know about me. Now, I would love to learn more about you. It will help me create a personalised programme just for you. Let's get started.",
+    "text": "Hai! Saya @fields.avatar_name! Selamat datang ke @fields.prog_name. Saya teruja untuk menjadi teman anda dalam program ini. Anda sudah pun mengenali saya. Sekarang, saya ingin tahu lebih lanjut tentang anda pula. Ini akan membantu saya mencipta program yang khusus untuk anda. Jom kita mulakan!",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "What is your name?",
+    "text": "Siapakah nama anda?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "This looks too long. Please enter a shorter name.",
+    "text": "Nama anda terlalu panjang. Sila masukkan nama yang lebih pendek.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "It's really nice to meet you, @fields.first_user_name.",
+    "text": "Gembira dapat berkenalan dengan anda, @fields.first_user_name.",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
     "SourceText": "Are you a WOMAN or MAN?",
@@ -46,6 +166,30 @@
     "text": "Di manakah anda tinggal?",
     "type": "text",
     "note": ""
+  },
+  {
+    "SourceText": "What is your ethnicity?",
+    "text": "Apakah kaum/etnik anda?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Please enter the 4-character group ID shared by your facilitator.",
+    "text": "Sila berikan ID Kumpulan 4-aksara yang dikongsi oleh fasilitator anda.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "This is an invalid entry. Please enter a 4-character group ID.",
+    "text": "Apa yang anda taip tidak sah. Sila berikan ID Kumpulan 4-aksara.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Thanks, @fields.first_user_name. Now let's get to know your child. You might have more than one, but we're going to start by focusing on just one.",
+    "text": "Terima kasih, @fields.first_user_name. Sekarang, jom kita kenali anak anda pula. Anda mungkin mempunyai lebih daripada seorang anak, tetapi kita akan mulakan dengan fokus kepada seorang dahulu.",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
     "SourceText": "What is your child's name?",
@@ -72,10 +216,64 @@
     "note": ""
   },
   {
+    "SourceText": "How many years old is @fields.child_nickname?",
+    "text": "Berapakah umur @fields.child_nickname?",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "How many years old is your child?",
+    "text": "Berapakah umur anak anda?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Let's try that again. How many years old is @fields.child_nickname? Please enter a number between 2-7.",
+    "text": "Mari kita cuba sekali lagi. Berapakah umur @fields.child_nickname? Sila masukkan nombor antara 2-7.",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "Let's try that again. How many years old is your child? Please enter a number between 2-7.",
+    "text": "Mari kita cuba sekali lagi. Berapakah umur anak anda? Sila masukkan nombor antara 2-7.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Oops! This programme is only for parents of children ages 2-7. Let's try that again. How many years old is @fields.child_nickname? Please enter a number between 2-7.",
+    "text": "Ups! Program ini hanya untuk ibu bapa yang ada anak berumur antara 2 hingga 7 tahun. Jom kita cuba sekali lagi. Berapakah umur @fields.child_nickname? Sila masukkan nombor antara 2 hingga 7.",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "Oops! This programme is only for parents of children ages 2-7. Let's try that again. How many years old is your child? Please enter a number between 2-7.",
+    "text": "Ups! Program ini hanya untuk ibu bapa yang ada anak berumur antara 2 hingga 7 tahun. Jom kita cuba sekali lagi. Berapakah umur? Sila masukkan nombor antara 2 hingga 7.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Perfect! I've got your programme ready for you and you are all set to begin.",
+    "text": "Program khusus untuk anda sudah sedia dan anda boleh mula sekarang.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "@fields.prog_name is easiest to use when you receive content as videos, images and text. Videos are fun and engaging, but we understand if you have limited mobile data. To save on data, you can choose to receive the same content with a smaller audio file or text. How would you like to receive @fields.prog_name?",
+    "text": "@fields.prog_name paling mudah digunakan apabila anda menerima kandungan dalam bentuk video, imej dan teks. Video lebih menyeronokkan dan interaktif, tetapi kami faham jika anda mempunyai data yang terhad. Untuk menjimatkan data, anda boleh memilih untuk menerima kandungan yang sama dalam bentuk fail audio yang lebih kecil atau teks. Bagaimanakah anda ingin menerima @fields.prog_name?",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
     "SourceText": "How helpful has this programme been in improving your relationship with your child?",
     "text": "Sejauh manakah program ini telah memperbaiki hubungan anda dengan anak anda?",
     "type": "text",
     "note": ""
+  },
+  {
+    "SourceText": "NEXT",
+    "text": "TERUSKAN",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
   {
     "SourceText": "English",
@@ -96,8 +294,26 @@
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
   {
+    "SourceText": "NO",
+    "text": "TIDAK",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
     "SourceText": "BACK",
     "text": "KEMBALI",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Teja",
+    "text": "Teja",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Tuah",
+    "text": "Tuah",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
@@ -282,12 +498,6 @@
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
   {
-    "SourceText": "NEXT",
-    "text": "TERUSKAN",
-    "type": "quick_replies",
-    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
-  },
-  {
     "SourceText": "Girl",
     "text": "Perempuan",
     "type": "quick_replies",
@@ -331,7 +541,7 @@
   },
   {
     "SourceText": "Neutral",
-    "text": "Neutral (berkecuali)",
+    "text": "Biasa Sahaja",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
@@ -380,6 +590,18 @@
   {
     "SourceText": "no",
     "text": "tidak",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "teja",
+    "text": "teja",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "tuah",
+    "text": "tuah",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
@@ -613,7 +835,7 @@
   },
   {
     "SourceText": "neutral",
-    "text": "neutral (berkecuali)",
+    "text": "Biasa Sahaja",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },

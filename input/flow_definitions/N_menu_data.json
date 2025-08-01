@@ -140,6 +140,26 @@
         "tags.4": ""
       }
     ],
+    "menu_messages": [
+      {
+        "ID": "settings_update_get_ipv",
+        "msg": "Thank you for updating your relationship status. You've unlocked a new learning goal: @results.name. ",
+        "next_button_option": "",
+        "metadata.description": "message after changing relationship status that make ipv course available (if it wasn't already and if existing)\ndo not edit \"@results.name\""
+      },
+      {
+        "ID": "exit_menu",
+        "msg": "We hope this was helpful! You can access the Main Menu at any time by typing {MENU}. ",
+        "next_button_option": "",
+        "metadata.description": "Message when selecting to exit the menu"
+      },
+      {
+        "ID": "share",
+        "msg": "To invite someone to join, share this link and ask them to type {READY} to join!\n{share_link}",
+        "next_button_option": "",
+        "metadata.description": ""
+      }
+    ],
     "settings_profile_data": [
       {
         "ID": "username",
@@ -324,26 +344,6 @@
         "var.4.alias": "",
         "var.5.val": "",
         "var.5.alias": ""
-      }
-    ],
-    "menu_messages": [
-      {
-        "ID": "settings_update_get_ipv",
-        "msg": "Thank you for updating your relationship status. You've unlocked a new learning goal: @results.name. ",
-        "next_button_option": "",
-        "metadata.description": "message after changing relationship status that make ipv course available (if it wasn't already and if existing)\ndo not edit \"@results.name\""
-      },
-      {
-        "ID": "exit_menu",
-        "msg": "We hope this was helpful! You can access the Main Menu at any time by typing {MENU}. ",
-        "next_button_option": "",
-        "metadata.description": "Message when selecting to exit the menu"
-      },
-      {
-        "ID": "share",
-        "msg": "To invite someone to join, share this link!\n{share_link}",
-        "next_button_option": "",
-        "metadata.description": ""
       }
     ],
     "menu_data": [

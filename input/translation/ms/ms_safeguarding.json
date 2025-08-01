@@ -145,7 +145,7 @@
   },
   {
     "SourceText": "Welcome back to ParentText!",
-    "text": "Selamat kembali ke ParentText!",
+    "text": "Selamat kembali ke NKText!",
     "type": "text",
     "note": ""
   },
@@ -157,7 +157,7 @@
   },
   {
     "SourceText": "Please type {MENU} to access resources and review completed modules, {PLAY} to receive a playful activity you can complete with your child, or {HELP} to access local support resources for a crisis.",
-    "text": "Sila taip {MENU} untuk mengakses sumber dan semak semula modul yang telah lengkap, {PLAY} untuk menerima aktiviti ceria yang anda boleh selesaikan bersama anak anda, atau {HELP} untuk mendapatkan bantuan sokongan tempatan bagi menghadapi krisis.",
+    "text": "Sila taip {MENU} untuk mengakses sumber dan semak semula kemahiran yang telah lengkap, {PLAY} untuk menerima aktiviti ceria yang anda boleh selesaikan bersama anak anda, atau {HELP} untuk mendapatkan bantuan sokongan tempatan bagi menghadapi krisis.",
     "type": "text",
     "note": ""
   },
@@ -169,19 +169,19 @@
   },
   {
     "SourceText": "If you ever decide to participate in the programme, type HELLO. ",
-    "text": "Taip HELO jika anda kembali untuk menyertai program ini. ",
+    "text": "Taip HELO jika anda ingin kembali untuk menyertai program ini. ",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "We hope to see you again soon, and we wish you a happy and peaceful day! ",
-    "text": "Semoga berjumpa lagi! Selamat sejahtera! ",
+    "SourceText": "We hope to see you again soon, and we wish you a happy and peaceful day!",
+    "text": "Semoga berjumpa lagi! Selamat sejahtera!",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "Parenting is hard. ParentText may help. You've completed @fields.n_goals_completed out of @fields.n_goals_prog parenting goals. Would you like to continue your progress?",
-    "text": "Keibubapaan adalah sukar. ParentText mungkin boleh membantu. Anda telah melengkapkan @fields.n_goals_completed daripada matlamat keibubapaan @fields.n_goals_prog. Adakah anda ingin meneruskan kemajuan anda?",
+    "text": "Saya faham, memang sukar untuk menjadi ibu bapa yang hebat. NKText mungkin boleh membantu anda. Anda telah melengkapkan @fields.n_goals_completed daripada matlamat keibubapaan @fields.n_goals_prog. Adakah anda ingin meneruskan kemajuan anda?",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
@@ -192,20 +192,20 @@
     "note": ""
   },
   {
-    "SourceText": "You are already part of ParentText! ",
-    "text": "Anda adalah sebahagian daripada ParentText! ",
+    "SourceText": "You are already part of ParentText!",
+    "text": "Anda sudah menyertai ParentText!",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "You have already completed ParentText!",
-    "text": "Anda telah melengkapkan ParentText!",
+    "text": "Anda telah melengkapkan NKText!",
     "type": "text",
     "note": ""
   },
   {
     "SourceText": "Staying in ParentText helps you and your child. Are you sure you want to exit the programme?",
-    "text": "Kekal berada dalam ParentText boleh membantu anda dan anak anda. Adakah anda pasti ingin keluar daripada program ini?",
+    "text": "Jika anda kekal berada dalam NKText, saya boleh membantu anda dan anak anda. Adakah anda pasti ingin keluar daripada program ini?",
     "type": "text",
     "note": ""
   },
@@ -228,14 +228,20 @@
     "note": ""
   },
   {
-    "SourceText": "We hope to see you again soon! ",
-    "text": "Kami harap dapat berjumpa anda semula tidak lama lagi! ",
+    "SourceText": "We hope to see you again soon!",
+    "text": "Kami harap dapat berjumpa anda lagi tidak lama lagi!",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "Your user ID is @fields.research_id",
-    "text": "ID pengguna anda ialah @fields.research_id",
+    "SourceText": "We are so glad you want to stick around! We will resume your progress tomorrow.",
+    "text": "Kami sangat gembira kerana anda ingin terus bersama kami! Kita akan sambung semula kemajuan anda esok.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Your parent ID is @fields.research_id. Please share this ID with your facilitator.",
+    "text": "ID ibu bapa anda ialah @fields.research_id. Sila kongsi ID ini dengan fasilitator anda.",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
@@ -252,8 +258,8 @@
     "note": ""
   },
   {
-    "SourceText": "Thank you for taking a pause with me today. ",
-    "text": "Terima kasih kerana berhenti seketika bersama saya pada hari ini. ",
+    "SourceText": "Thank you for taking a pause with me today.",
+    "text": "Terima kasih kerana berhenti seketika bersama saya pada hari ini.",
     "type": "text",
     "note": ""
   },
@@ -487,13 +493,13 @@
   },
   {
     "SourceText": "violence prevention hotline",
-    "text": "talian penting pencegahan keganasan",
+    "text": "talian pencegahan keganasan",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
   {
     "SourceText": "suicide prevention hotline",
-    "text": "talian penting pencegahan bunuh diri",
+    "text": "talian pencegahan bunuh diri",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
@@ -570,20 +576,50 @@
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
   {
-    "SourceText": "masw csos",
-    "text": "masw csos",
+    "SourceText": "csos",
+    "text": "csos",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
   {
-    "SourceText": "family keluarga",
+    "SourceText": "masw",
+    "text": "masw",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "family",
     "text": "keluarga",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
   {
-    "SourceText": "ready sedia",
+    "SourceText": "keluarga",
+    "text": "keluarga",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "thsn",
+    "text": "thsn",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "ready",
+    "text": "ready",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "sedia",
     "text": "sedia",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "training",
+    "text": "training",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   }

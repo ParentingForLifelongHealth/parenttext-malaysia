@@ -87,6 +87,81 @@
         "sheet_name": "urls_transl",
         "status": "released",
         "order": "1"
+      },
+      {
+        "flow_type": "flow_editing",
+        "flow_name": "",
+        "sheet_name": "bold_eng_consistent",
+        "status": "released",
+        "order": "0"
+      },
+      {
+        "flow_type": "flow_editing",
+        "flow_name": "",
+        "sheet_name": "bold_eng_urn",
+        "status": "released",
+        "order": "1"
+      },
+      {
+        "flow_type": "translation_editing",
+        "flow_name": "",
+        "sheet_name": "bold_transl_consistent",
+        "status": "released",
+        "order": "0"
+      },
+      {
+        "flow_type": "translation_editing",
+        "flow_name": "",
+        "sheet_name": "bold_transl_urn",
+        "status": "released",
+        "order": "2"
+      }
+    ],
+    "bold_eng_consistent": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*\\*\\*.*",
+        "change": "**",
+        "condition_var": "",
+        "category": "*"
+      }
+    ],
+    "bold_eng_urn": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*\\*.*",
+        "change": "*",
+        "condition_var": "@(urn_parts(contact.urn).scheme)",
+        "category": "*",
+        "category:telegram": "**",
+        "condition:telegram": "telegram",
+        "condition_type:telegram": "has_only_phrase"
+      }
+    ],
+    "bold_transl_consistent": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*\\*\\*.*",
+        "original": "**",
+        "language": "msa",
+        "replacement": "*"
+      }
+    ],
+    "bold_transl_urn": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*\\*\\*.*",
+        "original": "*",
+        "language": "msa",
+        "replacement": "**"
       }
     ],
     "parenttext_name_eng": [
@@ -375,10 +450,37 @@
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "share",
         "original_row_id": "",
-        "node_identifier": "Regex:.*{insert link}.*",
-        "change": "{insert link}",
+        "node_identifier": "Regex:.*{share_link}.*",
+        "change": "{share_link}",
         "condition_var": "",
-        "category": "https://wa.me/60122927434?text=READY"
+        "category": "https://t.me/NKText_bot"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "post_programme_checkin",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{share_link}.*",
+        "change": "{share_link}",
+        "condition_var": "",
+        "category": "https://t.me/NKText_bot"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "survey - onb - question - consent",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{consent}.*",
+        "change": "{consent}",
+        "condition_var": "",
+        "category": "https://bit.ly/nktcs-en"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "survey - onb - question - welcome",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{URL}.*",
+        "change": "{URL}",
+        "condition_var": "",
+        "category": "https://bit.ly/nkwelcome-en"
       }
     ],
     "urls_transl": [
@@ -386,10 +488,37 @@
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "share",
         "original_row_id": "",
-        "node_identifier": "Regex:.*{insert link}.*",
-        "original": "{insert link}",
+        "node_identifier": "Regex:.*{share_link}.*",
+        "original": "{share_link}",
         "language": "msa",
-        "replacement": "https://wa.me/60122927434?text=SEDIA"
+        "replacement": "https://t.me/NKText_bot"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "post_programme_checkin",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{share_link}.*",
+        "original": "{share_link}",
+        "language": "msa",
+        "replacement": "https://t.me/NKText_bot"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "survey - onb - question - consent",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{consent}.*",
+        "original": "{consent}",
+        "language": "msa",
+        "replacement": "https://bit.ly/nktcs-my"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "survey - onb - question - welcome",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{URL}",
+        "original": "{URL}",
+        "language": "msa",
+        "replacement": "https://bit.ly/nkwelcome-my"
       }
     ],
     "triggers_eng": [
@@ -473,6 +602,33 @@
         "change": "{PAUSE}",
         "condition_var": "",
         "category": "PAUSE"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{READY}.*",
+        "change": "{READY}",
+        "condition_var": "",
+        "category": "READY"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{FACSTART}.*",
+        "change": "{FACSTART}",
+        "condition_var": "",
+        "category": "TRAINING"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{RESET}.*",
+        "change": "{RESET}",
+        "condition_var": "",
+        "category": "RESET"
       }
     ],
     "triggers_transl": [
@@ -556,6 +712,33 @@
         "original": "{PAUSE}",
         "language": "msa",
         "replacement": "BERHENTI"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{READY}.*",
+        "original": "{READY}",
+        "language": "msa",
+        "replacement": "SEDIA"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{FACSTART}.*",
+        "original": "{FACSTART}",
+        "language": "msa",
+        "replacement": "TRAINING"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{RESET}.*",
+        "original": "{RESET}",
+        "language": "msa",
+        "replacement": "RESET"
       }
     ],
     "external_references_eng": [
@@ -566,7 +749,7 @@
         "node_identifier": "Regex:.*{development resources 1}.*",
         "change": "{development resources 1}",
         "condition_var": "",
-        "category": "https://www.malaysia.gov.my/portal/content/27608"
+        "category": "https://www.malaysia.gov.my/portal/subcategory/1625"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -604,7 +787,7 @@
         "node_identifier": "Regex:.*{development resources 1}.*",
         "original": "{development resources 1}",
         "language": "msa",
-        "replacement": "https://www.malaysia.gov.my/portal/content/27608"
+        "replacement": "https://www.malaysia.gov.my/portal/subcategory/1625"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -642,7 +825,7 @@
         "node_identifier": "Regex:.*{generic referrals}.*",
         "change": "{generic referrals}",
         "condition_var": "",
-        "category": "Malaysia Emergency Response System (MERS) (All in one) hotline: 999"
+        "category": "Malaysia Emergency Response System - MERS - (All in one) hotline: 999"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -660,7 +843,7 @@
         "node_identifier": "Regex:.*{health referrals}.*",
         "change": "{health referrals}",
         "condition_var": "",
-        "category": "Malaysia Emergency Response System (MERS) (All in one) hotline: 999"
+        "category": "Malaysia Emergency Response System - MERS - (All in one) hotline: 999"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -678,7 +861,7 @@
         "node_identifier": "Regex:.*{natural_disasters referrals}.*",
         "change": "{natural_disasters referrals}",
         "condition_var": "",
-        "category": "Malaysia Emergency Response System (MERS) (All in one) hotline: 999\nFire and Rescue Department hotline: 994"
+        "category": "Malaysia Emergency Response System - MERS - (All in one) hotline: 999\nFire and Rescue Department hotline: 994"
       },
       {
         "type_of_edit": "replace_bit_of_text",

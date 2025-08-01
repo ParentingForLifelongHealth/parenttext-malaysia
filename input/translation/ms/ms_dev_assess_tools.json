@@ -1,7 +1,31 @@
 [
   {
+    "SourceText": "Thanks for taking the time to complete your child’s development assessment. 🌱This short activity is to help you better understand how @fields.child_nickname is growing and learning.",
+    "text": "Terima kasih kerana meluangkan masa untuk melengkapkan penilaian perkembangan anak anda. 🌱 Aktiviti ringkas ini bertujuan untuk membantu anda memahami dengan lebih baik bagaimana @fields.child_nickname sedang membesar dan belajar.",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
     "SourceText": ";",
     "text": ";",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Every child develops in their own way. This tool is not a professional test, and is just here to help you learn about activities that support your child’s positive growth. 💚",
+    "text": "Setiap anak membesar dengan tahap perkembangan sendiri. Alat ini bukan ujian profesional, tetapi hanya bertujuan untuk membantu anda mengenal pasti aktiviti yang dapat menyokong perkembangan positif anak anda. 💚",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Let’s get started! Just answer the questions as best as you can. There are no right or wrong answers. 😊",
+    "text": "Jom kita mulakan! Jawab sahaja soalan-soalan ini sebaik mungkin. Tiada jawapan yang betul atau salah. 😊",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Thanks for taking the time to complete your child’s development assessment. 🌱This short activity is to help you better understand how your child is growing and learning.",
+    "text": "Terima kasih kerana meluangkan masa untuk melengkapkan penilaian perkembangan anak anda. 🌱 Aktiviti ringkas ini bertujuan untuk membantu anda memahami dengan lebih baik bagaimana anak anda sedang membesar dan belajar.",
     "type": "text",
     "note": ""
   },
@@ -19,7 +43,7 @@
   },
   {
     "SourceText": "Here are some resources that might help",
-    "text": "Ini merupakan beberapa sumber yang mungkin membantu",
+    "text": "Ini merupakan sumber yang mungkin membantu:",
     "type": "text",
     "note": ""
   },
@@ -120,8 +144,26 @@
     "note": ""
   },
   {
+    "SourceText": "You’re finished! Thank you for taking the time! Remember, while this is not a professional test and is not a diagnosis tool, you may notice a few developmental milestones where extra support could be helpful. If you want to speak with a professional, here are some resources that might help",
+    "text": "Anda telah selesai! Terima kasih kerana meluangkan masa. Walaupun ini bukan ujian profesional, anda mungkin perasan beberapa perkembangan anak yang perlukan sokongan tambahan. Jika perlu, berikut sumber yang boleh membantu:",
+    "type": "text",
+    "note": ""
+  },
+  {
     "SourceText": "Remember, if you ever need support type {HELP}.",
     "text": "Ingat, taip {HELP} jika anda memerlukan sokongan.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "You’re finished! Thank you for taking the time! Remember, this is not a professional test, but a tool to help you better understand how @fields.child_nickname is growing and learning. It looks like your child is developing well. That's great!",
+    "text": "Anda telah selesai! Terima kasih kerana meluangkan masa. Ini bukan ujian profesional, tetapi alat untuk membantu anda memahami bagaimana @fields.child_nickname sedang membesar dan belajar. Nampaknya anak anda sedang berkembang dengan baik. Bagus sekali!",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "You’re finished! Thank you for taking the time! Remember, this is not a professional test, but a tool to help you better understand how your child is growing and learning. It looks like your child is developing well. That's great!",
+    "text": "Anda telah selesai! Terima kasih kerana meluangkan masa. Ini bukan ujian profesional, tetapi alat untuk membantu anda memahami bagaimana anak anda sedang membesar dan belajar. Nampaknya anak anda sedang berkembang dengan baik. Bagus sekali!",
     "type": "text",
     "note": ""
   },
@@ -229,7 +271,7 @@
   },
   {
     "SourceText": "Asks questions beginning with \"why\" or \"how\" - like \"Why no cookie?\"",
-    "text": "Bertanya soalan yang dimulai dengan \"kenapa\" atau \"bagaimana\" - seperti \"Kenapa tiada biskut?\"",
+    "text": "Mampu bertanya soalan yang bermula dengan \"kenapa\" atau \"bagaimana\" - seperti \"Kenapa tiada biskut?\"",
     "type": "text",
     "note": ""
   },
@@ -253,7 +295,7 @@
   },
   {
     "SourceText": "Answers questions like \"What do you do when you are cold?\" or \"…when you are sleepy?",
-    "text": "Soalan seperti \"Apa yang kamu lakukan ketika sejuk?\" atau \"…apabila kamu mengantuk? dapat dijawab dengan baik.",
+    "text": "Soalan seperti \"Apa yang kamu lakukan ketika sejuk?\" atau \"…apabila kamu mengantuk? dapat dijawab dengan baik",
     "type": "text",
     "note": ""
   },
@@ -289,7 +331,7 @@
   },
   {
     "SourceText": "Follows simple rules when playing a board game or card game",
-    "text": "Dapat mengikut peraturan mudah ketika bermain permainan papan atau permainan kad",
+    "text": "Dapat mengikut peraturan mudah ketika bermain permainan papan (board game) atau permainan kad",
     "type": "text",
     "note": ""
   },
@@ -307,7 +349,7 @@
   },
   {
     "SourceText": "When was @fields.child_nickname born? Enter their date of birth in the following format: DD/MM/YYYY. For example, if your child was born on May 19, 2015, enter 19/05/2015.",
-    "text": "Bilakah tarikh lahir @fields.child_nickname? Masukkan tarikh lahir mereka mengikut format ini: HH/BB/TTTT. Sebagai contoh: masukkan 19/05/2015 jika anak anda lahir pada 19 Mei 2015.",
+    "text": "Bilakah tarikh lahir @fields.child_nickname? Sila masukkan dalam format berikut: HH/BB/TTTT. Contohnya, jika anak anda lahir pada 19 Mei 2015, taip 19/05/2015.",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
@@ -330,10 +372,40 @@
     "note": ""
   },
   {
+    "SourceText": "Your child was born on @(replace(format_date(results.date, \"DD-MM-YYYY\"), \"-\", \"/\")), is that correct?",
+    "text": "Anak anda dilahirkan pada @(replace(format_date(results.date, \"DD-MM-YYYY\"), \"-\", \"/\")), adakah ini betul?",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
     "SourceText": "Let's try again. Please write your child's date of birth in this way: DD/MM/YYYY. For example, if your child was born on May 19, 2015, write 19/05/2015.",
     "text": "Sila cuba sekali lagi. Masukkan tarikh lahir anak anda seperti ini: HH/BB/TTTT. Sebagai contoh, masukkan 19/05/2015 jika anak anda lahir pada 19 Mei 2015.",
     "type": "text",
     "note": ""
+  },
+  {
+    "SourceText": "According to the date you provided, @fields.child_nickname would be under 23 months old. This tool is only for children aged over 23 months. Please enter a valid date.",
+    "text": "Berdasarkan tarikh yang anda berikan, @fields.child_nickname berumur kurang daripada 23 bulan. Alat ini hanya untuk kanak-kanak berumur lebih daripada 23 bulan. Sila masukkan tarikh yang sah.",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "According to the date you provided, your child would be under 23 months old. This tool is only for children aged over 23 months. Please enter a valid date.",
+    "text": "Berdasarkan tarikh yang anda berikan, anak anda berumur kurang daripada 23 bulan. Alat ini hanya untuk kanak-kanak berumur lebih daripada 23 bulan. Sila masukkan tarikh yang sah.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "According to the date you gave, @fields.child_nickname would be @(round_down(datetime_diff(results.date,now(),\"Y\"))) years old. This tool is only for children aged 2-7. Please enter a valid date.",
+    "text": "Berdasarkan tarikh yang anda berikan, @fields.child_nickname berusia @(round_down(datetime_diff(results.date,now(),\"Y\"))) tahun. NKText hanya untuk anak-anak yang berumur 2 hingga 7 tahun.",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "According to the date you gave, your child would be @(round_down(datetime_diff(results.date,now(),\"Y\"))) years old. This tool is only for children aged 2-7. Please enter a valid date.",
+    "text": "Berdasarkan tarikh yang anda berikan, anak anda berumur @(round_down(datetime_diff(results.date,now(),\"Y\"))) tahun. NKText hanya untuk kanak-kanak berumur 2 hingga 7 tahun. Sila masukkan tarikh yang sah.",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
     "SourceText": "No Difficulty",
