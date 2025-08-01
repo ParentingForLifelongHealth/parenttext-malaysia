@@ -5,12 +5,13 @@
     },
     "parents": {
         "survey": {
-            "location": "https://github.com/IDEMSInternational/rapidpro-survey-templates/archive/refs/tags/v1.3.0.zip"
+            "location": "https://github.com/IDEMSInternational/rapidpro-survey-templates/archive/refs/tags/v1.3.1.zip"
         }
     },
     "flows_outputbasename": "parenttext_all",
     "output_split_number": 1,
     "sheet_names": {
+        "T_survey": "1dewoAzGyWAIljHK5KnL3TNP8g5pz0Vt6Lux2O6rycYU",
         "MY_Triggers": "1xvGo_ETOnYpCvp-R9vPq9PWcqyY0eV4QkYi2I1E83jk",
         "MY_sheets": "13XUkS7VbGJSg1xiOb2tVOIFcoiochpxqaQeBTk2Ibns",
         "T_content": "1hcH8pFdiHZN0UvZgyv3Zht9ARBTx-VXhNBI2o8L7fHU",
