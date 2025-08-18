@@ -409,7 +409,7 @@
   },
   {
     "SourceText": "Do you want to catch up and proceed to the next skill?",
-    "text": "Adakah anda ingin mengejar sasaran anda dan teruskan dengan kemahiran yang seterusnya?",
+    "text": "Adakah anda ingin mengejar pembelajaran anda dan teruskan dengan kemahiran yang seterusnya?",
     "type": "text",
     "note": ""
   },
@@ -1362,7 +1362,7 @@
     "note": ""
   },
   {
-    "SourceText": "Thanks for participating in @fields.prog_name! Parenting is better with family and friends. To invite them to join, send this link to share @fields.prog_name and ask them to type {READY} to join! {share_link}",
+    "SourceText": "Thanks for participating in @fields.prog_name! Parenting is better with family and friends. To invite them to join @fields.prog_name, share this link and ask them to type {READY} to join! {share_link}",
     "text": "Terima kasih kerana menyertai @fields.prog_name! Perjalanan keibubapaan lebih hebat jika mempunyai sokongan keluarga dan rakan. Untuk mengajak sesiapa menyertai @fields.prog_name, kongsi pautan ini dan minta mereka taip {READY} untuk memulakan program! {share_link}",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."

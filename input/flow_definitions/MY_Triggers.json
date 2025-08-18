@@ -132,38 +132,38 @@
       },
       {
         "ID": "8",
-        "Joining Trigger (EN)": "",
+        "Joining Trigger (EN)": "ibubapa",
         "Joining Trigger (MS)": "",
         "Expired User Groups": "",
-        "User Group": "",
-        "UNICEF pre/post survey ?s": "",
-        "Course Offering Summary": "",
-        "Eligible Age Groups": "",
+        "User Group": "mpms",
+        "UNICEF pre/post survey ?s": "yes",
+        "Course Offering Summary": "Goals relation, develop, behave with no integration to FaciNK. ",
+        "Eligible Age Groups": "2-7",
         "Link": "",
         "QR": "",
-        "Experience (user group)": "",
-        "Recruitment  | Campaign": "",
-        "Included in Scale? ": "",
-        "Ministry (additional user groups), if applicable": "",
-        "Description": "",
+        "Experience (user group)": "hybrid",
+        "Recruitment  | Campaign": "Sabah",
+        "Included in Scale? ": "Yes",
+        "Ministry (additional user groups), if applicable": "MPMS",
+        "Description": "This is for a scaling effort to 500 families in Sabah. Users joining with this trigger are not asked their location - they are added directly to Sabah. ",
         "Expired User Group": ""
       },
       {
         "ID": "9",
-        "Joining Trigger (EN)": "",
+        "Joining Trigger (EN)": "mpms",
         "Joining Trigger (MS)": "",
         "Expired User Groups": "",
-        "User Group": "",
-        "UNICEF pre/post survey ?s": "",
-        "Course Offering Summary": "",
-        "Eligible Age Groups": "",
+        "User Group": "testers",
+        "UNICEF pre/post survey ?s": "yes",
+        "Course Offering Summary": "Goals relation, develop, behave with no integration to FaciNK. ",
+        "Eligible Age Groups": "2-7",
         "Link": "",
         "QR": "",
-        "Experience (user group)": "",
-        "Recruitment  | Campaign": "",
-        "Included in Scale? ": "",
+        "Experience (user group)": "hybrid",
+        "Recruitment  | Campaign": "Sabah",
+        "Included in Scale? ": "No",
         "Ministry (additional user groups), if applicable": "",
-        "Description": "",
+        "Description": "This is for training of facilitators for the scaling effort to 500 families in Sabah. Users joining with this trigger are not asked their location - they are added directly to Sabah. ",
         "Expired User Group": ""
       },
       {
@@ -334,6 +334,36 @@
         "Expired User Groups": ""
       },
       {
+        "ID": "mpms",
+        "Joining Trigger (EN)": "ibubapa",
+        "Joining Trigger (MS)": "",
+        "Experience (user group)": "digital",
+        "Recruitment  | Campaign": "",
+        "Included in Scale? ": "scale",
+        "Programme name": "NKText",
+        "UNICEF pre/post survey?": "yes",
+        "Course Offering Summary": "Goals relation, develop, behave",
+        "Eligible Age Groups": "2-7",
+        "Link": "",
+        "Description": "UNICEF is working with Ministerial officials in Sabah region to deliver a shortened version of NK hybrid programming. This programme is not delivered in coordination with the FaciNK app.",
+        "Expired User Groups": ""
+      },
+      {
+        "ID": "mpms testers",
+        "Joining Trigger (EN)": "mpms",
+        "Joining Trigger (MS)": "",
+        "Experience (user group)": "digital",
+        "Recruitment  | Campaign": "testers",
+        "Included in Scale? ": "",
+        "Programme name": "NKText",
+        "UNICEF pre/post survey?": "yes",
+        "Course Offering Summary": "Goals relation, develop, behave",
+        "Eligible Age Groups": "2-7",
+        "Link": "",
+        "Description": "",
+        "Expired User Groups": ""
+      },
+      {
         "ID": "testers",
         "Joining Trigger (EN)": "training",
         "Joining Trigger (MS)": "",
@@ -479,7 +509,9 @@
         "cap": "",
         "location": "",
         "variables.1.name": "prog name",
-        "variables.1.value": "NKText"
+        "variables.1.value": "NKText",
+        "variables.2.name": "",
+        "variables.2.value": ""
       },
       {
         "ID": "MASW",
@@ -488,7 +520,9 @@
         "cap": "",
         "location": "",
         "variables.1.name": "prog name",
-        "variables.1.value": "NKText"
+        "variables.1.value": "NKText",
+        "variables.2.name": "",
+        "variables.2.value": ""
       },
       {
         "ID": "UNICEF",
@@ -497,7 +531,9 @@
         "cap": "",
         "location": "",
         "variables.1.name": "prog name",
-        "variables.1.value": "Naungan Kasih Text"
+        "variables.1.value": "Naungan Kasih Text",
+        "variables.2.name": "",
+        "variables.2.value": ""
       },
       {
         "ID": "THSN",
@@ -506,7 +542,9 @@
         "cap": "",
         "location": "",
         "variables.1.name": "prog name",
-        "variables.1.value": "Naungan Kasih Text"
+        "variables.1.value": "Naungan Kasih Text",
+        "variables.2.name": "",
+        "variables.2.value": ""
       },
       {
         "ID": "share",
@@ -515,7 +553,31 @@
         "cap": "",
         "location": "",
         "variables.1.name": "prog name",
-        "variables.1.value": "Naungan Kasih Text"
+        "variables.1.value": "Naungan Kasih Text",
+        "variables.2.name": "",
+        "variables.2.value": ""
+      },
+      {
+        "ID": "mpms",
+        "triggers": "ibubapa",
+        "groups": "digital;scale",
+        "cap": "",
+        "location": "Sabah ",
+        "variables.1.name": "prog name",
+        "variables.1.value": "NKText",
+        "variables.2.name": "location",
+        "variables.2.value": "Sabah "
+      },
+      {
+        "ID": "mpms testers",
+        "triggers": "mpms",
+        "groups": "digital;testers",
+        "cap": "",
+        "location": "Sabah ",
+        "variables.1.name": "prog name",
+        "variables.1.value": "NKText",
+        "variables.2.name": "location",
+        "variables.2.value": "Sabah "
       },
       {
         "ID": "testers",
@@ -524,7 +586,9 @@
         "cap": "",
         "location": "",
         "variables.1.name": "prog name",
-        "variables.1.value": "NKText"
+        "variables.1.value": "NKText",
+        "variables.2.name": "",
+        "variables.2.value": ""
       }
     ]
   }

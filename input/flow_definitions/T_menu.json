@@ -1653,12 +1653,6 @@
         "no_response": ""
       }
     ],
-    "Sheet15": [
-      {
-        "get_curr_goal_var_value": "update_curr_goal_var_value",
-        "goal_data;sheet|goal_id_expression|var_key": "goal_data;sheet|goal_id_expression|update_value"
-      }
-    ],
     "menu_leave_programme": [
       {
         "row_id": "",
@@ -1896,36 +1890,10 @@
       },
       {
         "row_id": "",
-        "type": "split_by_value",
-        "from": "",
-        "loop_variable": "",
-        "condition": "",
-        "condition_var": "",
-        "condition_type": "",
-        "condition_name": "",
-        "include_if": "",
-        "save_name": "",
-        "message_text": "@results.result",
-        "template_arguments": "",
-        "data_sheet": "",
-        "data_row_id": "",
-        "choices.1": "",
-        "choices.2": "",
-        "image": "",
-        "audio": "",
-        "video": "",
-        "obj_name": "",
-        "obj_id": "",
-        "node_name": "",
-        "_nodeId": "",
-        "no_response": ""
-      },
-      {
-        "row_id": "",
         "type": "send_message",
         "from": "",
         "loop_variable": "",
-        "condition": "Success",
+        "condition": "",
         "condition_var": "",
         "condition_type": "",
         "condition_name": "",

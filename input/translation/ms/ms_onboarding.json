@@ -115,7 +115,7 @@
   },
   {
     "SourceText": "Tuah is 36 years old. He is a father of four and works as a school counsellor. During weekends, he enjoys playing futsal and brings his daughters and sons along. Before this, he often felt stressed when his children behaved difficultly, but now he uses simple parenting skills to stay calm and guide them with love. He shares these tips with other parents too.",
-    "text": "Tuah berumur 36 tahun. Beliau merupakan bapa kepada empat orang anak dan bekerja sebagai kaunselor Sskolah. Pada hujung minggu, dia gemar bermain futsal dan membawa anak-anak perempuannya dan lelakinya bersama. Dahulu, dia sering berasa tertekan apabila anak-anaknya berkelakuan nakal, tetapi kini dia menggunakan kemahiran keibubapaan yang ringkas untuk kekal tenang dan membimbing mereka dengan kasih sayang. Dia juga berkongsi tip-tip ini dengan ibu bapa lain.",
+    "text": "Tuah berumur 36 tahun. Beliau merupakan bapa kepada empat orang anak dan bekerja sebagai kaunselor sekolah. Pada hujung minggu, beliau gemar bermain futsal dan membawa anak-anak perempuannya dan lelakinya bersama. Dahulu, Tuah sering berasa tertekan apabila anak-anaknya berkelakuan nakal, tetapi kini beliau menggunakan kemahiran keibubapaan yang ringkas untuk kekal tenang dan membimbing mereka dengan kasih sayang. Beliau juga berkongsi tip-tip ini dengan ibu bapa lain.",
     "type": "text",
     "note": ""
   },
@@ -469,7 +469,7 @@
   },
   {
     "SourceText": "Malay",
-    "text": "Bahasa Melayu",
+    "text": "Melayu",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
@@ -757,7 +757,7 @@
   },
   {
     "SourceText": "malay",
-    "text": "bahasa melayu",
+    "text": "melayu",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
