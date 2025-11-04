@@ -212,12 +212,21 @@
         "expiration_msg": "",
         "var.name": "",
         "var.value": ""
+      },
+      {
+        "ID": "print",
+        "disabled_not_completed_registration": "This feature will be available once you complete @fields.prog_name and receive your certificate. Please continue your progress!",
+        "disabled_not_selected_first_goal": "This feature will be available once you complete @fields.prog_name and receive your certificate. Please continue your progress!",
+        "conclusion_msg": "",
+        "expiration_msg": "",
+        "var.name": "",
+        "var.value": ""
       }
     ],
     "safeguarding_leave_programme_data": [
       {
         "ID": "intro",
-        "msg": "Staying in ParentText helps you and your child. Are you sure you want to exit the programme?",
+        "msg": "Staying in @fields.prog_name helps you and your child. Are you sure you want to exit the programme?",
         "metadata.description": ""
       },
       {
@@ -249,22 +258,22 @@
     "safeguarding_start_programme_data": [
       {
         "ID": "join_again_in_program",
-        "msg": "You are already part of ParentText! ",
+        "msg": "You are already part of @fields.prog_name! ",
         "metadata.description": ""
       },
       {
         "ID": "instructions",
-        "msg": "Please type {MENU} to access resources and review completed modules, {PLAY} to receive a playful activity you can complete with your child, or {HELP} to access local support resources for a crisis.",
+        "msg": "Please type {MENU} to access resources and review your progress, {PLAY} to receive a playful activity you can complete with your child, or {HELP} to access local support resources.\n\nType {NEWCONV} and then @input.text if you'd like to reset all your progress and start @fields.prog_name from the beginning.",
         "metadata.description": ""
       },
       {
         "ID": "join_again_completed",
-        "msg": "You have already completed ParentText!",
+        "msg": "You have already completed @fields.prog_name!",
         "metadata.description": ""
       },
       {
         "ID": "rejoin_greeting",
-        "msg": "Welcome back to ParentText!",
+        "msg": "Welcome back to @fields.prog_name!",
         "metadata.description": ""
       }
     ],
@@ -466,7 +475,7 @@
     "uncaught_message_flow_data": [
       {
         "ID": "rejoin_greetings",
-        "msg": "Welcome back to ParentText!",
+        "msg": "Welcome back to @fields.prog_name!",
         "metadata.description": ""
       },
       {
@@ -496,7 +505,7 @@
       },
       {
         "ID": "rejoin_question",
-        "msg": "Parenting is hard. ParentText may help. You've completed @fields.n_goals_completed out of @fields.n_goals_prog parenting goals. Would you like to continue your progress?",
+        "msg": "Parenting is hard. @fields.prog_name may help. You've completed @fields.n_goals_completed out of @fields.n_goals_prog parenting goals. Would you like to continue your progress?",
         "metadata.description": ""
       },
       {
