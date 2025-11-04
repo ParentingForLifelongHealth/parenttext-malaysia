@@ -181,28 +181,28 @@
         "tags.4": ""
       },
       {
-        "type": "survey",
-        "sheet_name": "",
-        "data_sheet": "certificate_name_data",
-        "data_row_id": "",
-        "new_name": "cert",
-        "data_model": "",
-        "template_arguments": "survey_defaults",
-        "operation": "",
-        "status": "",
-        "group": "",
-        "tags.1": "delivery",
-        "tags.2": "",
-        "tags.3": "",
-        "tags.4": ""
-      },
-      {
         "type": "data_sheet",
         "sheet_name": "closing_survey_data",
         "data_sheet": "",
         "data_row_id": "",
         "new_name": "",
         "data_model": "SurveyQuestionRowModel",
+        "template_arguments": "",
+        "operation": "",
+        "status": "",
+        "group": "",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": "",
+        "tags.4": ""
+      },
+      {
+        "type": "data_sheet",
+        "sheet_name": "reprint_completion_certificate_data",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "SingleMessageModel",
         "template_arguments": "",
         "operation": "",
         "status": "",
@@ -222,7 +222,7 @@
       {
         "ID": "final_completion",
         "msg": "🎉Yahoo!🎉 Great work, @fields.first_user_name. Here's your certificate to keep and share. ",
-        "extra_msg": ""
+        "extra_msg": "If you ever need to reprint this certificate, send {PRINT}."
       },
       {
         "ID": "take_a_pause_completion",
@@ -264,12 +264,59 @@
         "confirmation.condition.variable": "",
         "confirmation.condition.value": "",
         "confirmation.condition.type": "",
-        "confirmation.question": "The name you would like to have on you certificate is @answer. Is that correct?",
+        "confirmation.question": "The name you would like to have on your certificate is @answer. Is that correct?",
         "confirmation.confirm_option": "Yes",
         "confirmation.back_option": "No",
         "postprocessing.flow": "",
         "postprocessing.assignments.1.variable": "certificate name",
         "postprocessing.assignments.1.value": "@answer"
+      }
+    ],
+    "reprint_completion_certificate_data": [
+      {
+        "ID": "not_completed_programme",
+        "msg": "This feature will be available once you complete @fields.prog_name and receive your certificate.",
+        "metadata.description": "if the trigger is used before the user has completed the prog"
+      },
+      {
+        "ID": "too_many_reprints",
+        "msg": "Sorry, it looks like you've reached your limit of @fields.max_reprints reprints for your certificate.",
+        "metadata.description": "if the user has already reprinted the certificate the max number of times allowed"
+      },
+      {
+        "ID": "current_name",
+        "msg": "I'll prepare your certificate with the name @fields.certificate_name. ",
+        "metadata.description": "if the user is eligible to reprint (completed prog + not reprinted too many times) and has provided a name. We ask to confirm the name"
+      },
+      {
+        "ID": "confirm_name",
+        "msg": "Is that right? ",
+        "metadata.description": ""
+      },
+      {
+        "ID": "change_name",
+        "msg": "No, change my name.",
+        "metadata.description": "if the user selects this option they are asked to enter their name as specified in the \"name\" row in the tab \"certificate_name_data\""
+      },
+      {
+        "ID": "use_name",
+        "msg": "Yes, that's right!",
+        "metadata.description": "if the user selects this option the certificate is printed with the current name"
+      },
+      {
+        "ID": "no_name_provided",
+        "msg": "It looks like we don’t have a name for your certificate yet.",
+        "metadata.description": "if the user is eligible to reprint (completed prog + not reprinted too many times) and has not provided a name because they expired during the UX before provinding the info. They receive this message and then they are asked to enter their name as specified in the \"name\" row in the tab \"certificate_name_data\""
+      },
+      {
+        "ID": "certificate",
+        "msg": "Here's your certificate!",
+        "metadata.description": "message accompanying the certificate"
+      },
+      {
+        "ID": "fail",
+        "msg": "Oops, something went wrong.",
+        "metadata.description": "if something goes wrong while producing the certificate"
       }
     ],
     "delivery_messages": [
