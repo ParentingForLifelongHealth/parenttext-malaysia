@@ -2950,12 +2950,7 @@
                     "qrow",
                     "BERKEMBANG",
                     "kembang",
-                    "besar",
-                    "membesar",
-                    "besa",
-                    "kebang",
-                    "tumbuh",
-                    "tumboh"
+                    "besar"
                 ]
             },
             "Translation": {
@@ -2972,11 +2967,32 @@
                         "qrow",
                         "BERKEMBANG",
                         "kembang",
-                        "besar",
+                        "besar"
+                    ]
+                }
+            }
+        },
+        {
+            "English": {
+                "keywords": [
+                    "membesar",
+                    "besa",
+                    "kebang",
+                    "tumbuh"
+                ],
+                "mispellings": [
+                    "tumboh"
+                ]
+            },
+            "Translation": {
+                "msa": {
+                    "keywords": [
                         "membesar",
                         "besa",
                         "kebang",
-                        "tumbuh",
+                        "tumbuh"
+                    ],
+                    "mispellings": [
                         "tumboh"
                     ]
                 }
@@ -3095,7 +3111,8 @@
                 "msa": {
                     "keywords": [
                         "ibubapa",
-                        "mpms"
+                        "mpms",
+                        "demo"
                     ],
                     "mispellings": []
                 }
@@ -3172,6 +3189,26 @@
                         "berhinti",
                         "hinti"
                     ]
+                }
+            }
+        }
+    ],
+    "print": [
+        {
+            "English": {
+                "keywords": [
+                    "cert",
+                    "sijil"
+                ],
+                "mispellings": []
+            },
+            "Translation": {
+                "msa": {
+                    "keywords": [
+                        "sijil",
+                        "cert"
+                    ],
+                    "mispellings": []
                 }
             }
         }
