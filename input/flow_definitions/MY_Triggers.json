@@ -3,14 +3,31 @@
     "version": "0.1.0"
   },
   "sheets": {
+    "content_index": [
+      {
+        "type": "data_sheet",
+        "sheet_name": "joining_triggers_data",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "JoiningTriggerModel",
+        "template_arguments": "",
+        "operation": "",
+        "status": "",
+        "group": "",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": ""
+      }
+    ],
     "JoiningTriggers": [
       {
         "ID": "KEMAS",
         "Joining Trigger (EN)": "kemas",
         "Joining Trigger (MS)": "",
-        "Experience (user group)": "hybrid",
+        "Experience (user group)": "Hybrid",
         "Recruitment  | Campaign": "KEMAS Scale",
-        "Included in Scale? ": "scale",
+        "Included in Scale? ": "Scale",
         "Programme name": "NKText",
         "UNICEF pre/post survey?": "yes",
         "Course Offering Summary": "Goals 1 to 8, ipv optional based on relationship status.",
@@ -23,9 +40,9 @@
         "ID": "MASW",
         "Joining Trigger (EN)": "csos",
         "Joining Trigger (MS)": "masw",
-        "Experience (user group)": "hybrid",
+        "Experience (user group)": "Hybrid",
         "Recruitment  | Campaign": "NGO Scale",
-        "Included in Scale? ": "scale",
+        "Included in Scale? ": "Scale",
         "Programme name": "NKText",
         "UNICEF pre/post survey?": "yes",
         "Course Offering Summary": "Goals 1 to 8, ipv optional based on relationship status.",
@@ -38,9 +55,9 @@
         "ID": "UNICEF",
         "Joining Trigger (EN)": "family",
         "Joining Trigger (MS)": "keluarga",
-        "Experience (user group)": "digital",
+        "Experience (user group)": "Digital",
         "Recruitment  | Campaign": "Social Sharing",
-        "Included in Scale? ": "scale",
+        "Included in Scale? ": "Scale",
         "Programme name": "Naungan Kasih Text",
         "UNICEF pre/post survey?": "yes",
         "Course Offering Summary": "Goals 1 to 8, ipv optional based on relationship status.",
@@ -53,9 +70,9 @@
         "ID": "THSN",
         "Joining Trigger (EN)": "thsn",
         "Joining Trigger (MS)": "",
-        "Experience (user group)": "digital",
+        "Experience (user group)": "Digital",
         "Recruitment  | Campaign": "Social Sharing",
-        "Included in Scale? ": "scale",
+        "Included in Scale? ": "Scale",
         "Programme name": "Naungan Kasih Text",
         "UNICEF pre/post survey?": "yes",
         "Course Offering Summary": "Goals 1 to 8, ipv optional based on relationship status.",
@@ -65,12 +82,12 @@
         "Expired User Groups": ""
       },
       {
-        "ID": "share",
+        "ID": "Share",
         "Joining Trigger (EN)": "ready",
         "Joining Trigger (MS)": "sedia",
-        "Experience (user group)": "digital",
+        "Experience (user group)": "Digital",
         "Recruitment  | Campaign": "Social Sharing",
-        "Included in Scale? ": "scale",
+        "Included in Scale? ": "Scale",
         "Programme name": "Naungan Kasih Text",
         "UNICEF pre/post survey?": "yes",
         "Course Offering Summary": "Goals 1 to 8, ipv optional based on relationship status.",
@@ -80,12 +97,12 @@
         "Expired User Groups": ""
       },
       {
-        "ID": "mpms",
+        "ID": "MPMS",
         "Joining Trigger (EN)": "ibubapa",
         "Joining Trigger (MS)": "",
-        "Experience (user group)": "encouraged",
+        "Experience (user group)": "Encouraged",
         "Recruitment  | Campaign": "",
-        "Included in Scale? ": "scale",
+        "Included in Scale? ": "Scale",
         "Programme name": "NKText",
         "UNICEF pre/post survey?": "yes",
         "Course Offering Summary": "Goals relation, develop, behave",
@@ -95,10 +112,10 @@
         "Expired User Groups": ""
       },
       {
-        "ID": "mpms testers",
+        "ID": "MPMS Testers",
         "Joining Trigger (EN)": "mpms",
         "Joining Trigger (MS)": "",
-        "Experience (user group)": "encouraged",
+        "Experience (user group)": "Encouraged",
         "Recruitment  | Campaign": "testers",
         "Included in Scale? ": "",
         "Programme name": "NKText",
@@ -110,10 +127,10 @@
         "Expired User Groups": ""
       },
       {
-        "ID": "training",
+        "ID": "Training",
         "Joining Trigger (EN)": "training",
         "Joining Trigger (MS)": "",
-        "Experience (user group)": "hybrid",
+        "Experience (user group)": "Hybrid",
         "Recruitment  | Campaign": "testers",
         "Included in Scale? ": "",
         "Programme name": "NKText",
@@ -125,18 +142,18 @@
         "Expired User Groups": ""
       },
       {
-        "ID": "demo testers",
+        "ID": "Demo Testers",
         "Joining Trigger (EN)": "demo",
         "Joining Trigger (MS)": "",
-        "Experience (user group)": "digital",
+        "Experience (user group)": "Digital",
         "Recruitment  | Campaign": "testers",
         "Included in Scale? ": "",
         "Programme name": "NKText",
-        "UNICEF pre/post survey?": "yes",
+        "UNICEF pre/post survey?": "",
         "Course Offering Summary": "Goals 1 to 8, ipv optional based on relationship status.",
         "Eligible Age Groups": "2-7",
         "Link": "",
-        "Description": "This is for demo use with the full user experience.",
+        "Description": "This is for demo use with only Day 1 included. Users won't be aware of the trigger \"newday\" to progress to day 2 and won't receive push notifications",
         "Expired User Groups": ""
       },
       {
@@ -230,28 +247,11 @@
         "Expired User Groups": ""
       }
     ],
-    "content_index": [
-      {
-        "type": "data_sheet",
-        "sheet_name": "joining_triggers_data",
-        "data_sheet": "",
-        "data_row_id": "",
-        "new_name": "",
-        "data_model": "JoiningTriggerModel",
-        "template_arguments": "",
-        "operation": "",
-        "status": "",
-        "group": "",
-        "tags.1": "",
-        "tags.2": "",
-        "tags.3": ""
-      }
-    ],
     "joining_triggers_data": [
       {
         "ID": "KEMAS",
         "triggers": "kemas",
-        "groups": "hybrid;KEMAS Scale;scale",
+        "groups": "Hybrid;KEMAS Scale;Scale",
         "cap": "",
         "location": "",
         "variables.1.name": "prog name",
@@ -262,7 +262,7 @@
       {
         "ID": "MASW",
         "triggers": "csos;masw",
-        "groups": "hybrid;NGO Scale;scale",
+        "groups": "Hybrid;NGO Scale;Scale",
         "cap": "",
         "location": "",
         "variables.1.name": "prog name",
@@ -273,7 +273,7 @@
       {
         "ID": "UNICEF",
         "triggers": "family;keluarga",
-        "groups": "digital;Social Sharing;scale",
+        "groups": "Digital;Social Sharing;Scale",
         "cap": "",
         "location": "",
         "variables.1.name": "prog name",
@@ -284,7 +284,7 @@
       {
         "ID": "THSN",
         "triggers": "thsn",
-        "groups": "digital;Social Sharing;scale",
+        "groups": "Digital;Social Sharing;Scale",
         "cap": "",
         "location": "",
         "variables.1.name": "prog name",
@@ -293,9 +293,9 @@
         "variables.2.value": ""
       },
       {
-        "ID": "share",
+        "ID": "Share",
         "triggers": "ready;sedia",
-        "groups": "digital;Social Sharing;scale",
+        "groups": "Digital;Social Sharing;Scale",
         "cap": "",
         "location": "",
         "variables.1.name": "prog name",
@@ -304,9 +304,9 @@
         "variables.2.value": ""
       },
       {
-        "ID": "mpms",
+        "ID": "MPMS",
         "triggers": "ibubapa",
-        "groups": "encouraged;scale",
+        "groups": "Encouraged;Scale",
         "cap": "",
         "location": "Sabah ",
         "variables.1.name": "prog name",
@@ -315,9 +315,9 @@
         "variables.2.value": "Sabah "
       },
       {
-        "ID": "mpms testers",
+        "ID": "MPMS Testers",
         "triggers": "mpms",
-        "groups": "encouraged;testers",
+        "groups": "Encouraged;testers",
         "cap": "",
         "location": "Sabah ",
         "variables.1.name": "prog name",
@@ -326,9 +326,9 @@
         "variables.2.value": "Sabah "
       },
       {
-        "ID": "training",
+        "ID": "Training",
         "triggers": "training",
-        "groups": "hybrid;testers",
+        "groups": "Hybrid;testers",
         "cap": "",
         "location": "",
         "variables.1.name": "prog name",
@@ -337,9 +337,9 @@
         "variables.2.value": ""
       },
       {
-        "ID": "demo testers",
+        "ID": "Demo Testers",
         "triggers": "demo",
-        "groups": "digital;testers",
+        "groups": "Digital;testers",
         "cap": "",
         "location": "",
         "variables.1.name": "prog name",
