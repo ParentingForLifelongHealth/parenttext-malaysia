@@ -336,6 +336,12 @@
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
+    "SourceText": "If you ever need to reprint this certificate, send {PRINT}.",
+    "text": "Jika anda perlu mencetak semula sijil ini, hantarkan {PRINT}.",
+    "type": "text",
+    "note": ""
+  },
+  {
     "SourceText": "🎉CONGRATULATIONS!🎉 You have earned a badge and completed the goal @results.name. Well done!",
     "text": "🎉TAHNIAH!🎉 Anda telah mendapat lencana dan menyelesaikan matlamat @results.name. Syabas!",
     "type": "text",
@@ -1261,7 +1267,7 @@
   },
   {
     "SourceText": "@fields.child_nickname's gender has been updated.",
-    "text": "jantina @fields.child_nickname's telah dikemas kini.",
+    "text": "jantina @fields.child_nickname telah dikemas kini.",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
@@ -1326,6 +1332,30 @@
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
+    "SourceText": "Current Status: You are receiving content as Text, Images, and Videos.",
+    "text": "Status Semasa: Anda sedang menerima kandungan dalam bentuk Teks, Imej dan Video.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Current Status: You are receiving content as Text, Images, and Audio.",
+    "text": "Status Semasa: Anda sedang menerima kandungan dalam bentuk Teks, Imej dan Audio.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Current Status: You are receiving content as Text and Images Only.",
+    "text": "Status Semasa: Anda sedang menerima kandungan dalam bentuk Teks dan Imej sahaja.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Current Status: You are receiving content as",
+    "text": "Status Semasa: Anda sedang menerima kandungan dalam bentuk",
+    "type": "text",
+    "note": ""
+  },
+  {
     "SourceText": "You are currently receiving messages in English.",
     "text": "Buat masa ini, anda menerima mesej dalam bahasa Inggeris.",
     "type": "text",
@@ -1376,6 +1406,48 @@
   {
     "SourceText": "Please select your language:",
     "text": "Sila pilih bahasa anda:",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "This feature will be available once you complete @fields.prog_name and receive your certificate.",
+    "text": "Ciri ini akan tersedia selepas anda melengkapkan @fields.prog_name dan menerima sijil anda.",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "Sorry, it looks like you've reached your limit of @fields.max_reprints reprints for your certificate.",
+    "text": "Maaf, nampaknya anda telah mencapai had maksimum @fields.max_reprints cetakan semula untuk sijil anda.",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "It looks like we don’t have a name for your certificate yet.",
+    "text": "Nampaknya kami belum mempunyai nama untuk sijil anda.",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "I'll prepare your certificate with the name @fields.certificate_name.",
+    "text": "Saya akan menyediakan sijil anda dengan nama @fields.certificate_name.",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "Is that right?",
+    "text": "Adakah itu nama yang anda ingin gunakan untuk sijil anda?",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Here's your certificate!",
+    "text": "Ini sijil anda!",
+    "type": "text",
+    "note": ""
+  },
+  {
+    "SourceText": "Oops, something went wrong.",
+    "text": "Alamak, ada sesuatu yang tidak kena.",
     "type": "text",
     "note": ""
   },
@@ -1482,7 +1554,7 @@
     "note": ""
   },
   {
-    "SourceText": "The name you would like to have on you certificate is @fields.sq_cert_name. Is that correct?",
+    "SourceText": "The name you would like to have on your certificate is @fields.sq_cert_name. Is that correct?",
     "text": "Nama yang anda ingin letakkan pada sijil ialah @fields.sq_cert_name. Adakah betul?",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
@@ -1776,6 +1848,12 @@
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
   {
+    "SourceText": "Your Partner in Parenting",
+    "text": "Rakan Anda dalam Keibubapaan",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
     "SourceText": "Your Gender",
     "text": "Jantina Anda",
     "type": "quick_replies",
@@ -1795,13 +1873,13 @@
   },
   {
     "SourceText": "Your Child's Nickname",
-    "text": "Nama Panggilan Your Child",
+    "text": "Nama Panggilan Anak Anda",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
   {
     "SourceText": "Your Child's Gender",
-    "text": "Jantina Your Child",
+    "text": "Jantina Anak Anda",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
@@ -1814,6 +1892,18 @@
   {
     "SourceText": "Bahasa Melayu",
     "text": "Bahasa Melayu",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "No, change my name.",
+    "text": "Tidak, tukar nama saya.",
+    "type": "quick_replies",
+    "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "Yes, that's right!",
+    "text": "Ya, itu betul!",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
   },
@@ -2106,6 +2196,12 @@
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
   {
+    "SourceText": "your partner in parenting",
+    "text": "rakan anda dalam keibubapaan",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
     "SourceText": "your gender",
     "text": "jantina anda",
     "type": "arguments",
@@ -2156,6 +2252,18 @@
   {
     "SourceText": "bahasa melayu",
     "text": "bahasa Melayu",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "no, change my name.",
+    "text": "tidak, tukar nama saya.",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "yes, that's right!",
+    "text": "ya, itu betul!",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   }

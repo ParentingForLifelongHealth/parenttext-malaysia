@@ -36,8 +36,8 @@
     "note": ""
   },
   {
-    "SourceText": "It looks like this is not a good time.",
-    "text": "Nampaknya, sekarang bukan masa yang sesuai.",
+    "SourceText": "It looks like this is not a good time. Please type 1 if you'd like to continue.",
+    "text": "Nampaknya ini bukan masa yang sesuai. Sila taip 1 jika anda ingin teruskan.",
     "type": "text",
     "note": ""
   },
@@ -262,6 +262,12 @@
     "text": "@fields.prog_name paling mudah digunakan apabila anda menerima kandungan dalam bentuk video, imej dan teks. Video lebih menyeronokkan dan interaktif, tetapi kami faham jika anda mempunyai data yang terhad. Untuk menjimatkan data, anda boleh memilih untuk menerima kandungan yang sama dalam bentuk fail audio yang lebih kecil atau teks. Bagaimanakah anda ingin menerima @fields.prog_name?",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "Illustrations in @fields.prog_name help explain parenting skills. They are original works by Orli Setton created for Parenting for Lifelong Health, and shared under a CC BY-SA 4.0 International licence.",
+    "text": "Ilustrasi dalam @fields.prog_name membantu menerangkan kemahiran keibubapaan. Ia adalah hasil karya asal oleh Orli Setton yang dihasilkan untuk Parenting for Lifelong Health, dan dikongsi di bawah lesen CC BY-SA 4.0 International.",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated. @results.n_skills_week and results.n_skills are numbers"
   },
   {
     "SourceText": "How helpful has this programme been in improving your relationship with your child?",

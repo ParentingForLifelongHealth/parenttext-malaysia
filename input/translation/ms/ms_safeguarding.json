@@ -144,10 +144,10 @@
     "note": ""
   },
   {
-    "SourceText": "Welcome back to ParentText!",
-    "text": "Selamat kembali ke NKText!",
+    "SourceText": "Welcome back to @fields.prog_name!",
+    "text": "Selamat kembali ke @fields.prog_name!",
     "type": "text",
-    "note": ""
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
     "SourceText": "I don't understand your message.",
@@ -180,8 +180,8 @@
     "note": ""
   },
   {
-    "SourceText": "Parenting is hard. ParentText may help. You've completed @fields.n_goals_completed out of @fields.n_goals_prog parenting goals. Would you like to continue your progress?",
-    "text": "Saya faham, memang sukar untuk menjadi ibu bapa yang hebat. NKText mungkin boleh membantu anda. Anda telah melengkapkan @fields.n_goals_completed daripada matlamat keibubapaan @fields.n_goals_prog. Adakah anda ingin meneruskan kemajuan anda?",
+    "SourceText": "Parenting is hard. @fields.prog_name may help. You've completed @fields.n_goals_completed out of @fields.n_goals_prog parenting goals. Would you like to continue your progress?",
+    "text": "Keibubapaan bukanlah sesuatu yang mudah. @fields.prog_name mungkin dapat membantu anda. Anda telah menyiapkan @fields.n_goals_completed daripada @fields.n_goals_prog matlamat keibubapaan. Adakah anda ingin meneruskan kemajuan anda?",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
@@ -192,22 +192,34 @@
     "note": ""
   },
   {
-    "SourceText": "You are already part of ParentText!",
-    "text": "Anda sudah menyertai ParentText!",
+    "SourceText": "You are already part of @fields.prog_name!",
+    "text": "Anda sudah menjadi sebahagian daripada @fields.prog_name!",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "Please type {MENU} to access resources and review your progress, {PLAY} to receive a playful activity you can complete with your child, or {HELP} to access local support resources.",
+    "text": "Sila taip {MENU} untuk dapatkan sumber dan menyemak kemajuan anda, {PLAY} untuk menerima aktiviti menyeronokkan yang boleh anda lakukan bersama anak anda, atau {HELP} untuk mendapatkan sumber sokongan setempat.",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "You have already completed ParentText!",
-    "text": "Anda telah melengkapkan NKText!",
+    "SourceText": "Type {NEWCONV} and then @input.text if you'd like to reset all your progress and start @fields.prog_name from the beginning.",
+    "text": "Taip {NEWCONV} dan kemudian @input.text jika anda ingin menetapkan semula semua kemajuan anda dan memulakan semula @fields.prog_name dari awal.",
     "type": "text",
-    "note": ""
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
-    "SourceText": "Staying in ParentText helps you and your child. Are you sure you want to exit the programme?",
-    "text": "Jika anda kekal berada dalam NKText, saya boleh membantu anda dan anak anda. Adakah anda pasti ingin keluar daripada program ini?",
+    "SourceText": "You have already completed @fields.prog_name!",
+    "text": "Anda telah pun melengkapkan @fields.prog_name!",
     "type": "text",
-    "note": ""
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
+    "SourceText": "Staying in @fields.prog_name helps you and your child. Are you sure you want to exit the programme?",
+    "text": "Terus kekal dalam @fields.prog_name dapat membantu anda dan anak anda. Adakah anda pasti ingin keluar daripada program ini?",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
     "SourceText": "If you do not want to receive any more messages, please type \"EXIT\".",
@@ -250,6 +262,12 @@
     "text": "Selepas anda melengkapkan pendaftaran, ciri ini akan sedia ada untuk anda. Ia tidak akan mengambil masa yang lama. Sila teruskan dengan pendaftaran!",
     "type": "text",
     "note": ""
+  },
+  {
+    "SourceText": "This feature will be available once you complete @fields.prog_name and receive your certificate. Please continue your progress!",
+    "text": "Ciri ini akan tersedia selepas anda melengkapkan @fields.prog_name dan menerima sijil anda. Sila teruskan usaha anda!",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
     "SourceText": "The menu will be available once you have completed registration. It won’t take long. Please continue your progress!",
@@ -358,6 +376,18 @@
     "text": "KEMBALI",
     "type": "quick_replies",
     "note": "This is a quick reply and its translation should be uniquely identified by the corresponding argument"
+  },
+  {
+    "SourceText": "facilitator",
+    "text": "fasilitator",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "print",
+    "text": "cetak",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
   {
     "SourceText": "generic",
@@ -618,8 +648,26 @@
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   },
   {
+    "SourceText": "ibubapa",
+    "text": "ibubapa",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "mpms",
+    "text": "mpms",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
     "SourceText": "training",
     "text": "training",
+    "type": "arguments",
+    "note": "This is an argument and it may be used to identify a corresponding quick reply"
+  },
+  {
+    "SourceText": "demo",
+    "text": "demo",
     "type": "arguments",
     "note": "This is an argument and it may be used to identify a corresponding quick reply"
   }
