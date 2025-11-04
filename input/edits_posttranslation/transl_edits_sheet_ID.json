@@ -72,7 +72,7 @@
         "flow_name": "",
         "sheet_name": "parenttext_name_transl",
         "status": "released",
-        "order": "2"
+        "order": "1"
       },
       {
         "flow_type": "flow_editing",
@@ -99,7 +99,7 @@
         "flow_type": "flow_editing",
         "flow_name": "",
         "sheet_name": "bold_eng_urn",
-        "status": "released",
+        "status": "draft",
         "order": "1"
       },
       {
@@ -113,8 +113,15 @@
         "flow_type": "translation_editing",
         "flow_name": "",
         "sheet_name": "bold_transl_urn",
-        "status": "released",
+        "status": "draft",
         "order": "2"
+      },
+      {
+        "flow_type": "flow_editing",
+        "flow_name": "",
+        "sheet_name": "add_split_by_urn",
+        "status": "released",
+        "order": "0"
       }
     ],
     "bold_eng_consistent": [
@@ -126,6 +133,17 @@
         "change": "**",
         "condition_var": "",
         "category": "*"
+      }
+    ],
+    "bold_transl_consistent": [
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*\\*\\*.*",
+        "original": "**",
+        "language": "msa",
+        "replacement": "*"
       }
     ],
     "bold_eng_urn": [
@@ -142,15 +160,30 @@
         "condition_type:telegram": "has_only_phrase"
       }
     ],
-    "bold_transl_consistent": [
+    "add_split_by_urn": [
       {
         "type_of_edit": "replace_bit_of_text",
-        "flow_id": "Regex:.*",
+        "flow_id": "share",
         "original_row_id": "",
-        "node_identifier": "Regex:.*\\*\\*.*",
-        "original": "**",
-        "language": "msa",
-        "replacement": "*"
+        "node_identifier": "Regex:.*{share_link}.*",
+        "change": "{share_link}",
+        "condition_var": "@(urn_parts(contact.urn).scheme)",
+        "category": "{share_link}",
+        "category:telegram": "{share_link_telegram}",
+        "condition:telegram": "telegram",
+        "condition_type:telegram": "has_only_phrase"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "post_programme_checkin",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{share_link}.*",
+        "change": "{share_link}",
+        "condition_var": "@(urn_parts(contact.urn).scheme)",
+        "category": "{share_link}",
+        "category:telegram": "{share_link_telegram}",
+        "condition:telegram": "telegram",
+        "condition_type:telegram": "has_only_phrase"
       }
     ],
     "bold_transl_urn": [
@@ -171,11 +204,17 @@
         "original_row_id": "",
         "node_identifier": "Regex:.*ParentText.*",
         "change": "ParentText",
-        "condition_var": "@fields.scale_up",
-        "category": "NKText",
-        "category:yes": "Naungan Kasih Text",
-        "condition:yes": "yes",
-        "condition_type:yes": "has_only_phrase"
+        "condition_var": "",
+        "category": "@fields.prog_name"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*NKText.*",
+        "change": "NKText",
+        "condition_var": "",
+        "category": "@fields.prog_name"
       }
     ],
     "parenttext_name_transl": [
@@ -186,16 +225,34 @@
         "node_identifier": "Regex:.*NKText.*",
         "original": "ParentText",
         "language": "msa",
-        "replacement": "NKText"
+        "replacement": "@fields.prog_name"
       },
       {
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "Regex:.*",
         "original_row_id": "",
-        "node_identifier": "Regex:.*Naungan Kasih Text.*",
+        "node_identifier": "Regex:.*NKText.*",
+        "original": "NKText",
+        "language": "msa",
+        "replacement": "@fields.prog_name"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*ParentText.*",
         "original": "ParentText",
         "language": "msa",
-        "replacement": "Naungan Kasih Text"
+        "replacement": "@fields.prog_name"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*ParentText.*",
+        "original": "NKText",
+        "language": "msa",
+        "replacement": "@fields.prog_name"
       }
     ],
     "comic_names_eng_additional": [
@@ -448,24 +505,6 @@
     "urls_eng": [
       {
         "type_of_edit": "replace_bit_of_text",
-        "flow_id": "share",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{share_link}.*",
-        "change": "{share_link}",
-        "condition_var": "",
-        "category": "https://t.me/NKText_bot"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
-        "flow_id": "post_programme_checkin",
-        "original_row_id": "",
-        "node_identifier": "Regex:.*{share_link}.*",
-        "change": "{share_link}",
-        "condition_var": "",
-        "category": "https://t.me/NKText_bot"
-      },
-      {
-        "type_of_edit": "replace_bit_of_text",
         "flow_id": "survey - onb - question - consent",
         "original_row_id": "",
         "node_identifier": "Regex:.*{consent}.*",
@@ -481,27 +520,45 @@
         "change": "{URL}",
         "condition_var": "",
         "category": "https://bit.ly/nkwelcome-en"
-      }
-    ],
-    "urls_transl": [
+      },
       {
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "share",
         "original_row_id": "",
         "node_identifier": "Regex:.*{share_link}.*",
-        "original": "{share_link}",
-        "language": "msa",
-        "replacement": "https://t.me/NKText_bot"
+        "change": "{share_link}",
+        "condition_var": "",
+        "category": "https://t.me/NKText_bot"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "share",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{share_link_telegram}.*",
+        "change": "{share_link_telegram}",
+        "condition_var": "",
+        "category": "https://t.me/NKText\\_bot"
       },
       {
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "post_programme_checkin",
         "original_row_id": "",
         "node_identifier": "Regex:.*{share_link}.*",
-        "original": "{share_link}",
-        "language": "msa",
-        "replacement": "https://t.me/NKText_bot"
+        "change": "{share_link}",
+        "condition_var": "",
+        "category": "https://t.me/NKText_bot"
       },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "post_programme_checkin",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{share_link_telegram}.*",
+        "change": "{share_link_telegram}",
+        "condition_var": "",
+        "category": "https://t.me/NKText\\_bot"
+      }
+    ],
+    "urls_transl": [
       {
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "survey - onb - question - consent",
@@ -519,6 +576,42 @@
         "original": "{URL}",
         "language": "msa",
         "replacement": "https://bit.ly/nkwelcome-my"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "share",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{share_link}.*",
+        "original": "{share_link}",
+        "language": "msa",
+        "replacement": "https://t.me/NKText_bot"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "share",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{share_link_telegram}.*",
+        "original": "{share_link}",
+        "language": "msa",
+        "replacement": "https://t.me/NKText\\_bot"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "post_programme_checkin",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{share_link}.*",
+        "original": "{share_link}",
+        "language": "msa",
+        "replacement": "https://t.me/NKText_bot"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "post_programme_checkin",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{share_link_telegram}.*",
+        "original": "{share_link}",
+        "language": "msa",
+        "replacement": "https://t.me/NKText\\_bot"
       }
     ],
     "triggers_eng": [
@@ -629,6 +722,24 @@
         "change": "{RESET}",
         "condition_var": "",
         "category": "RESET"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{NEWCONV}.*",
+        "change": "{NEWCONV}",
+        "condition_var": "",
+        "category": "NEWCONV"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{PRINT}.*",
+        "change": "{PRINT}",
+        "condition_var": "",
+        "category": "CERT"
       }
     ],
     "triggers_transl": [
@@ -739,6 +850,24 @@
         "original": "{RESET}",
         "language": "msa",
         "replacement": "RESET"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{NEWCONV}.*",
+        "original": "{NEWCONV}",
+        "language": "msa",
+        "replacement": "NEWCONV"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "Regex:.*",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{PRINT}.*",
+        "original": "{PRINT}",
+        "language": "msa",
+        "replacement": "SIJIL"
       }
     ],
     "external_references_eng": [
@@ -870,7 +999,7 @@
         "node_identifier": "Regex:.*{drugs referrals}.*",
         "change": "{drugs referrals}",
         "condition_var": "",
-        "category": "National Anti-Drugs Agency \nHotline: 1-800-22-2235 \nWebsite: https://www.adk.gov.my/en/"
+        "category": "National Anti-Drugs Agency \nHotline: 1-800-22-2235 \nWebsite: https://www.aadk.gov.my/en/enforcement/hotline-operations-center/"
       },
       {
         "type_of_edit": "replace_bit_of_text",
@@ -935,7 +1064,7 @@
         "node_identifier": "Regex:.*{drugs referrals}.*",
         "original": "{drugs referrals}",
         "language": "msa",
-        "replacement": "Agensi Anti-Dadah Kebangsaan. Hotline: 1-800-22-2235 \nLaman Web: https://www.adk.gov.my/"
+        "replacement": "Agensi Anti-Dadah Kebangsaan. Hotline: 1-800-22-2235 \nLaman Web: https://www.aadk.gov.my/penguatkuasaan/pusat-gerakan-hotline/"
       },
       {
         "type_of_edit": "replace_bit_of_text",
