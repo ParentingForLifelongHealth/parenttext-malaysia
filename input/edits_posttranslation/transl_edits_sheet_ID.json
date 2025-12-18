@@ -184,6 +184,18 @@
         "category:telegram": "{share_link_telegram}",
         "condition:telegram": "telegram",
         "condition_type:telegram": "has_only_phrase"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "goal_completion_congrats",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{share_link}.*",
+        "change": "{share_link}",
+        "condition_var": "@(urn_parts(contact.urn).scheme)",
+        "category": "{share_link}",
+        "category:telegram": "{share_link_telegram}",
+        "condition:telegram": "telegram",
+        "condition_type:telegram": "has_only_phrase"
       }
     ],
     "bold_transl_urn": [
@@ -556,6 +568,24 @@
         "change": "{share_link_telegram}",
         "condition_var": "",
         "category": "https://t.me/NKText\\_bot"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "goal_completion_congrats",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{share_link}.*",
+        "change": "{share_link}",
+        "condition_var": "",
+        "category": "https://t.me/NKText_bot"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "goal_completion_congrats",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{share_link_telegram}.*",
+        "change": "{share_link_telegram}",
+        "condition_var": "",
+        "category": "https://t.me/NKText\\_bot"
       }
     ],
     "urls_transl": [
@@ -607,6 +637,24 @@
       {
         "type_of_edit": "replace_bit_of_text",
         "flow_id": "post_programme_checkin",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{share_link_telegram}.*",
+        "original": "{share_link}",
+        "language": "msa",
+        "replacement": "https://t.me/NKText\\_bot"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "goal_completion_congrats",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{share_link}.*",
+        "original": "{share_link}",
+        "language": "msa",
+        "replacement": "https://t.me/NKText_bot"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "goal_completion_congrats",
         "original_row_id": "",
         "node_identifier": "Regex:.*{share_link_telegram}.*",
         "original": "{share_link}",
