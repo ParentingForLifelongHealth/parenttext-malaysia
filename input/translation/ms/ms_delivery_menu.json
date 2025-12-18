@@ -354,6 +354,12 @@
     "note": ""
   },
   {
+    "SourceText": "Parenting is better with family and friends! If you know someone who would enjoy @fields.prog_name, share this and invite them to join you. They can also join through this link – just type {READY} to get started! {share_link}",
+    "text": "Keibubapaan lebih seronok bila dikongsi bersama keluarga dan rakan-rakan!\nJika anda kenal sesiapa yang mungkin mendapat manfaat daripada @fields.prog_name, kongsikan jemputan ini dengan mereka.\n\nMereka juga boleh sertai melalui pautan ini, hanya taip {READY} untuk mula! {share_link}",
+    "type": "text",
+    "note": "Strings like @fields.xxx and @results.yyy should not be translated."
+  },
+  {
     "SourceText": "I've got another lesson ready for you! Are you ready to continue with your goal, @results.name?",
     "text": "Saya ada menyediakan pelajaran lain untuk anda! Adakah anda bersedia untuk meneruskan matlamat anda, @results.name?",
     "type": "text",
