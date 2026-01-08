@@ -5,7 +5,7 @@
     },
     "parents": {
         "plh": {
-            "location": "https://github.com/IDEMSInternational/parenttext-templates/archive/refs/heads/no-onboarding.zip"
+            "location": "https://github.com/IDEMSInternational/parenttext-templates/archive/refs/tags/v1.1.5-no_onboarding.zip"
         },
         "survey": {
             "location": "https://github.com/IDEMSInternational/rapidpro-survey-templates/archive/refs/tags/v1.3.1.zip"
