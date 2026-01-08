@@ -4,6 +4,9 @@
         "pipeline_version": "1.0.0"
     },
     "parents": {
+        "plh": {
+            "location": "https://github.com/IDEMSInternational/parenttext-templates/archive/refs/heads/no-onboarding.zip"
+        },
         "survey": {
             "location": "https://github.com/IDEMSInternational/rapidpro-survey-templates/archive/refs/tags/v1.3.1.zip"
         }
@@ -11,29 +14,26 @@
     "flows_outputbasename": "parenttext_all",
     "output_split_number": 1,
     "sheet_names": {
-        "T_survey": "1dewoAzGyWAIljHK5KnL3TNP8g5pz0Vt6Lux2O6rycYU",
         "MY_Triggers": "1xvGo_ETOnYpCvp-R9vPq9PWcqyY0eV4QkYi2I1E83jk",
         "MY_sheets": "13XUkS7VbGJSg1xiOb2tVOIFcoiochpxqaQeBTk2Ibns",
-        "T_content": "1hcH8pFdiHZN0UvZgyv3Zht9ARBTx-VXhNBI2o8L7fHU",
         "N_onboarding_data": "1_m_Plv3EgM6bSyokcI4qgY5sCE8s6zf4Bz1qli2zDSk",
         "C_ltp_activities": "1AdcFsatjGdbDYRqgw359JEhSZn6nkRbZHVZr-5yQe6I",
         "C_modules": "1435mczruh5CZoI7u0fWNuKGnJw062Si9j7er_NOwqT0",
         "C_goal_checkin": "115XSdB5AJ9A9Nwr7Cs1PER5htOjctWcVTnqxipFiRUY",
         "C_dev_asess_tool" : "1azmH-v6DIJe6w_hpkvkI5scla2pgcC5c3Iyg7hBkyq8",
         "N_safeguarding_data": "1BKwGQJvtvIlZhirvaZ5UFOmMxVe0pB4eM3_4F0_Snu4",
-        "T_safeguarding": "1bWOyM5yShTTJSaxwqRCrjUzkwbp7DF6_nSF_96YcZ2c",
-        "T_delivery": "1q6E2c4Bg_UvqTmhxAsTIQngwAtj0aFoqu8wsPHnqmaU",
         "N_delivery_data": "1JcWCrDWTWQsg5yV0wHmeS-Ln8JPpVET5U6akOJIFUK4",
-        "T_menu": "1lIiFjZKS0eXzzo6XwDdqYv4e1A73WFCpWZg5ju-tCZE",
         "N_menu_data": "1W42uFzCBUbiYXCUh-nxgCDMsjcJMC4IZXG00TVGUZxA",
-        "ab_testing_sheet_ID": "1i_oqiJYkeoMsYdeFOcKlvvjnNCEdQnZlsm17fgNvK0s",
         "localisation_sheet_ID" : "1RhsMtslpwyTmMLsZJZaaNqweKX7ONpmwR4-rQVpo_qw", 
         "eng_edits_sheet_ID" : "1Ab8H_s26EuOiS4nZ6HGADjD4CZw55586LL66fl8tEWI",
         "transl_edits_sheet_ID" : "1tbwzqlie87UMOe7yhdeeUxkTa4NtqRyivgX9NtxAFe8"
     },
     "sources": {
         "flow_definitions": {
-            "parent_sources": ["survey.flow_definitions"],
+            "parent_sources": [
+                "plh.flow_definitions",
+                "survey.flow_definitions"
+            ],
             "format": "sheets",
             "subformat": "google_sheets",
             "files_list": [
@@ -42,32 +42,30 @@
                     "C_modules",
                     "C_goal_checkin",
                     "C_dev_asess_tool",
-                    "T_content",
                     "N_safeguarding_data",
-                    "T_safeguarding",
                     "N_delivery_data",
-                    "T_delivery",
                     "N_menu_data",
-                    "T_menu",
                     "MY_Triggers",
                     "MY_sheets"
                 ]
         },
         "edits_pretranslation": {
-            "parent_sources": [ ],
+            "parent_sources": [
+                "plh.edits_pretranslation"
+            ],
             "format": "sheets",
             "subformat": "google_sheets",
             "files_list": [
-                "ab_testing_sheet_ID",
                 "localisation_sheet_ID"
             ]
         },
         "edits_posttranslation": {
-            "parent_sources": [],
+            "parent_sources": [
+                "plh.edits_posttranslation"
+            ],
             "format": "sheets",
             "subformat": "google_sheets",
             "files_list": [
-                "eng_edits_sheet_ID",
                 "transl_edits_sheet_ID"
             ]
         },
@@ -123,7 +121,7 @@
                 }
             },
             "path_template": [
-            "{% if format == 'image' %}{% if folder == 'Comics' %}comic/{{ name }}{% else %}image/universal/{{ name }}{% endif %}{% else %}voiceover/resourceType/{{ format }}/gender/{{ (annotations['Caregiver Gender'] or 'unknown') }}/language/{{ (language or 'unknown') }}/{{ name }}{% endif %}"
+            "{% if format == 'image' %}{% if folder == 'Comics' %}comic/{{ name }}{% else %}image/universal/{{ name }}{% endif %}{% else %}voiceover/resourceType/{{ format }}/gender/{{ (annotations['Caregiver Gender'] or 'unknown') }}/{{ (language or 'unknown') }}/{{ name }}{% endif %}"
             ],
             "storage": {
                 "system": "canto",
