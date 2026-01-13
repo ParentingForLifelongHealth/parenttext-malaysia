@@ -567,7 +567,7 @@
         "new_name": "",
         "data_model": "",
         "operation": "",
-        "template_arguments": "7",
+        "template_arguments": "7;demo_messages",
         "status": "",
         "group": "",
         "tags.1": "delivery",

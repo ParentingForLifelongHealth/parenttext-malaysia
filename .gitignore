@@ -290,3 +290,5 @@ cython_debug/
 canto/
 transcoded/
 ffmpeg2*
+diffable/
+.vscode/
