@@ -166,6 +166,22 @@
       },
       {
         "type": "data_sheet",
+        "sheet_name": "pre_post_goal_checkin_messages",
+        "data_sheet": "",
+        "data_row_id": "",
+        "new_name": "",
+        "data_model": "SingleMessageModel",
+        "template_arguments": "",
+        "operation": "",
+        "status": "",
+        "group": "",
+        "tags.1": "",
+        "tags.2": "",
+        "tags.3": "",
+        "tags.4": ""
+      },
+      {
+        "type": "data_sheet",
         "sheet_name": "certificate_name_data",
         "data_sheet": "",
         "data_row_id": "",
@@ -1071,6 +1087,28 @@
       {
         "ID": "12",
         "msg": "Great! You're showing up for your family, and I'm proud of you. Let's keep going tomorrow!"
+      }
+    ],
+    "pre_post_goal_checkin_messages": [
+      {
+        "ID": "skip_reply",
+        "msg": "That's okay.",
+        "metadata.description": "pre/post"
+      },
+      {
+        "ID": "next_offer",
+        "msg": "What do you want to do next?",
+        "metadata.description": "post after troubleshooting"
+      },
+      {
+        "ID": "more_help_option",
+        "msg": "Yes",
+        "metadata.description": "post after troubleshooting"
+      },
+      {
+        "ID": "stop_option",
+        "msg": "No",
+        "metadata.description": "post after troubleshooting"
       }
     ]
   }

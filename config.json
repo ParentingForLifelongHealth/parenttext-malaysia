@@ -5,7 +5,7 @@
     },
     "parents": {
         "plh": {
-            "location": "https://github.com/IDEMSInternational/parenttext-templates/archive/refs/tags/v1.1.5-no_onboarding.zip"
+            "location": "https://github.com/IDEMSInternational/parenttext-templates/archive/refs/tags/v1.2.0-no_onboarding.zip"
         },
         "survey": {
             "location": "https://github.com/IDEMSInternational/rapidpro-survey-templates/archive/refs/tags/v1.3.1.zip"
@@ -22,7 +22,7 @@
         "C_goal_checkin": "115XSdB5AJ9A9Nwr7Cs1PER5htOjctWcVTnqxipFiRUY",
         "C_dev_asess_tool" : "1azmH-v6DIJe6w_hpkvkI5scla2pgcC5c3Iyg7hBkyq8",
         "N_safeguarding_data": "1BKwGQJvtvIlZhirvaZ5UFOmMxVe0pB4eM3_4F0_Snu4",
-        "N_delivery_data": "1JcWCrDWTWQsg5yV0wHmeS-Ln8JPpVET5U6akOJIFUK4",
+        "N_delivery_data": "1lfkg8e1cZApybRkbs7cDF-Zinn733bPlN1QJWXNGwng",
         "N_menu_data": "1W42uFzCBUbiYXCUh-nxgCDMsjcJMC4IZXG00TVGUZxA",
         "localisation_sheet_ID" : "1RhsMtslpwyTmMLsZJZaaNqweKX7ONpmwR4-rQVpo_qw", 
         "eng_edits_sheet_ID" : "1Ab8H_s26EuOiS4nZ6HGADjD4CZw55586LL66fl8tEWI",
