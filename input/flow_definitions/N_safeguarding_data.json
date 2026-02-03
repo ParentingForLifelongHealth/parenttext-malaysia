@@ -522,6 +522,11 @@
         "ID": "no_rejoin_msg",
         "msg": "That's okay. If you ever decide to come back, type HELLO. \nWe hope to see you again soon, and we wish you a happy and peaceful day! ",
         "metadata.description": ""
+      },
+      {
+        "ID": "wrong_trigger",
+        "msg": "Hi there! ✨ Thanks for your interest in Naungan Kasih Text. Parenting is better together! I don't recognise the message you sent. Please double check your joining word.\n\nHai! ✨ Terima kasih kerana berminat dengan Naungan Kasih Text. Jadi ibu bapa lebih seronok bila kita bersama-sama! Mesej yang anda hantar tidak dapat dikenal pasti. Sila semak semula kata kunci anda untuk menyertai Naungan Kasih Text.",
+        "metadata.description": ""
       }
     ]
   }
