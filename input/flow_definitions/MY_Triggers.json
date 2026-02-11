@@ -97,6 +97,21 @@
         "Expired User Groups": ""
       },
       {
+        "ID": "RCT Control",
+        "Joining Trigger (EN)": "selangor",
+        "Joining Trigger (MS)": "",
+        "Experience (user group)": "Digital",
+        "Recruitment  | Campaign": "KEMAS Scale",
+        "Included in Scale? ": "Scale",
+        "Programme name": "NKText",
+        "UNICEF pre/post survey?": "yes",
+        "Course Offering Summary": "Goals 1 to 8, ipv optional based on relationship status.",
+        "Eligible Age Groups": "2-7",
+        "Link": "",
+        "Description": "This is for the RCT control group that will receive the digital-only programme on Telegram. The count is included under Phase 2 KEMAS Scale.",
+        "Expired User Groups": ""
+      },
+      {
         "ID": "MPMS",
         "Joining Trigger (EN)": "ibubapa",
         "Joining Trigger (MS)": "",
@@ -214,11 +229,22 @@
         "variables.2.value": ""
       },
       {
+        "ID": "RCT Control",
+        "triggers": "selangor",
+        "groups": "Digital;KEMAS Scale;Scale",
+        "cap": "",
+        "location": "",
+        "variables.1.name": "prog name",
+        "variables.1.value": "NKText",
+        "variables.2.name": "",
+        "variables.2.value": ""
+      },
+      {
         "ID": "MPMS",
         "triggers": "ibubapa",
         "groups": "Encouraged;Sabah;Scale",
         "cap": "",
-        "location": "Sabah ",
+        "location": "",
         "variables.1.name": "prog name",
         "variables.1.value": "NKText",
         "variables.2.name": "location",
@@ -229,7 +255,7 @@
         "triggers": "mpms",
         "groups": "Encouraged;testers",
         "cap": "",
-        "location": "Sabah ",
+        "location": "",
         "variables.1.name": "prog name",
         "variables.1.value": "NKText",
         "variables.2.name": "location",
