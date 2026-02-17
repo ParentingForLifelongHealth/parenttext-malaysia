@@ -72,7 +72,7 @@
       },
       {
         "ID": "error_too_old",
-        "msg": "According to the date you gave, Your Child would be @(round_down(datetime_diff(results.date,now(),\"Y\"))) years old. This tool is only for children aged 2-7. Please enter a valid date."
+        "msg": "According to the date you gave, Your Child would be @(round_down(datetime_diff(results.date,now(),\"Y\"))) years old. This tool is only for children aged 2-9. Please enter a valid date."
       },
       {
         "ID": "confirm_dob",
@@ -94,9 +94,9 @@
     "wg_unicef_survey_data": [
       {
         "ID": "child",
-        "intro": "Thanks for taking the time to complete your child’s development assessment. 🌱This short activity is to help you better understand how Your Child is growing and learning.\n;\nEvery child develops in their own way. This tool is not a professional test, and is just here to help you learn about activities that support your child’s positive growth. 💚\n;\nLet’s get started! Just answer the questions as best as you can. There are no right or wrong answers. 😊",
+        "intro": "Thanks for taking the time to complete your child’s development assessment. 🌱This short activity is to help you better understand how Your Child is growing and learning.\n\nEvery child develops in their own way. This tool is not a professional test, and is just here to help you learn about activities that support your child’s positive growth. 💚\n\nLet’s get started! Just answer the questions as best as you can. There are no right or wrong answers. 😊",
         "end_message_concerning": "You’re finished! Thank you for taking the time! Remember, while this is not a professional test and is not a diagnosis tool, you may notice a few developmental milestones where extra support could be helpful. If you want to speak with a professional, here are some resources that might help\n{development resources 1}",
-        "end_message_not_concerning": "You’re finished! Thank you for taking the time! Remember, this is not a professional test, but a tool to help you better understand how Your Child is growing and learning. It looks like your child is developing well. That's great! ; \n\nRemember, if you ever need support type {HELP}.",
+        "end_message_not_concerning": "You’re finished! Thank you for taking the time! Remember, this is not a professional test, but a tool to help you better understand how Your Child is growing and learning. It looks like your child is developing well. That's great!\n\nRemember, if you ever need support type {HELP}.",
         "questions_ids.1": "1_child",
         "questions_ids.2": "2_child",
         "questions_ids.3": "3_child",
@@ -105,7 +105,7 @@
         "questions_ids.6": "6_child",
         "questions_ids.7": "7_child",
         "questions_ids.8": "8_child",
-        "attached_single_doc": "https://docs.google.com/document/d/1Zdbik9TQvrc9X68Wev0I2ZtMvRIug2UMC_4jr56SN38"
+        "attached_single_doc": ""
       }
     ],
     "wg_unicef_survey_questions_data": [
