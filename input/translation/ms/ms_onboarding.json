@@ -228,26 +228,26 @@
     "note": ""
   },
   {
-    "SourceText": "Let's try that again. How many years old is @fields.child_nickname? Please enter a number between 2-7.",
-    "text": "Mari kita cuba sekali lagi. Berapakah umur @fields.child_nickname? Sila masukkan nombor antara 2-7.",
+    "SourceText": "Let's try that again. How many years old is @fields.child_nickname? Please enter a number between 2-9.",
+    "text": "Mari kita cuba sekali lagi. Berapakah umur @fields.child_nickname? Sila masukkan nombor antara 2-9.",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
-    "SourceText": "Let's try that again. How many years old is your child? Please enter a number between 2-7.",
-    "text": "Mari kita cuba sekali lagi. Berapakah umur anak anda? Sila masukkan nombor antara 2-7.",
+    "SourceText": "Let's try that again. How many years old is your child? Please enter a number between 2-9.",
+    "text": "Mari kita cuba sekali lagi. Berapakah umur anak anda? Sila masukkan nombor antara 2-9.",
     "type": "text",
     "note": ""
   },
   {
-    "SourceText": "Oops! This programme is only for parents of children ages 2-7. Let's try that again. How many years old is @fields.child_nickname? Please enter a number between 2-7.",
-    "text": "Ups! Program ini hanya untuk ibu bapa yang ada anak berumur antara 2 hingga 7 tahun. Jom kita cuba sekali lagi. Berapakah umur @fields.child_nickname? Sila masukkan nombor antara 2 hingga 7.",
+    "SourceText": "Oops! This programme is only for parents of children ages 2-9. Let's try that again. How many years old is @fields.child_nickname? Please enter a number between 2-9.",
+    "text": "Ups! Program ini hanya untuk ibu bapa yang ada anak berumur antara 2 hingga 9 tahun. Jom kita cuba sekali lagi. Berapakah umur @fields.child_nickname? Sila masukkan nombor antara 2 hingga 9.",
     "type": "text",
     "note": "Strings like @fields.xxx and @results.yyy should not be translated."
   },
   {
-    "SourceText": "Oops! This programme is only for parents of children ages 2-7. Let's try that again. How many years old is your child? Please enter a number between 2-7.",
-    "text": "Ups! Program ini hanya untuk ibu bapa yang ada anak berumur antara 2 hingga 7 tahun. Jom kita cuba sekali lagi. Berapakah umur? Sila masukkan nombor antara 2 hingga 7.",
+    "SourceText": "Oops! This programme is only for parents of children ages 2-9. Let's try that again. How many years old is your child? Please enter a number between 2-9.",
+    "text": "Ups! Program ini hanya untuk ibu bapa yang ada anak berumur antara 2 hingga 9 tahun. Jom kita cuba sekali lagi. Berapakah umur? Sila masukkan nombor antara 2 hingga 9.",
     "type": "text",
     "note": ""
   },
