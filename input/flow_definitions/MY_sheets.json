@@ -2645,7 +2645,7 @@
         "ID": "language_yc",
         "topic_ID": "language",
         "priority_in_topic": "",
-        "age": "2|3| 4 | 5 | 6 |7",
+        "age": "2|3| 4 | 5 | 6 | 7 | 8 | 9",
         "child_gender": "male|female",
         "name.eng": "Help Your Child’s Language Skills",
         "name.msa": "Bantu Kemahiran Berbahasa Anak Anda"
@@ -2654,7 +2654,7 @@
         "ID": "reading1_4to6_yc",
         "topic_ID": "reading",
         "priority_in_topic": "1",
-        "age": "4 | 5 | 6|7",
+        "age": "4 | 5 | 6|7|8|9",
         "child_gender": "male|female",
         "name.eng": "Help Your Child Learn to Read, Part 1",
         "name.msa": "Bantu Anak Anda Belajar Membaca, Bahagian 1"
@@ -2663,7 +2663,7 @@
         "ID": "reading2_4to6_yc",
         "topic_ID": "reading",
         "priority_in_topic": "2",
-        "age": "4 | 5 | 6|7",
+        "age": "4 | 5 | 6|7|8|9",
         "child_gender": "male|female",
         "name.eng": "Help Your Child Learn to Read, Part 2",
         "name.msa": "Bantu Anak Anda Belajar Membaca, Bahagian 2"
@@ -2672,7 +2672,7 @@
         "ID": "maths1_4to6_yc",
         "topic_ID": "maths",
         "priority_in_topic": "1",
-        "age": "4 | 5 | 6|7",
+        "age": "4 | 5 | 6|7|8|9",
         "child_gender": "male|female",
         "name.eng": "Get Your Child Ready for Maths, Part 1",
         "name.msa": "Persiapkan Diri Anak Anda untuk Matematik, Bahagian 1"
@@ -2681,7 +2681,7 @@
         "ID": "maths2_4to6_yc",
         "topic_ID": "maths",
         "priority_in_topic": "2",
-        "age": "4 | 5 | 6|7",
+        "age": "4 | 5 | 6|7|8|9",
         "child_gender": "male|female",
         "name.eng": "Get Your Child Ready for Maths, Part 2",
         "name.msa": "Persiapkan Diri Anak Anda untuk Matematik, Bahagian 2"
@@ -2708,7 +2708,7 @@
         "ID": "engage_school_3to6_yc",
         "topic_ID": "engage_school",
         "priority_in_topic": "",
-        "age": "3| 4 | 5 | 6|7",
+        "age": "3| 4 | 5 | 6|7|8|9",
         "child_gender": "male|female",
         "name.eng": "Engage with Your Child’s School",
         "name.msa": "Membina Hubungan bersama Sekolah Anak Anda"
@@ -3291,12 +3291,12 @@
     "set_up_prog_var_data": [
       {
         "ID": "content",
-        "ranges.1.limit": "8",
+        "ranges.1.limit": "10",
         "ranges.1.value": "c"
       },
       {
         "ID": "names",
-        "ranges.1.limit": "8",
+        "ranges.1.limit": "10",
         "ranges.1.value": "c"
       }
     ],
@@ -7025,10 +7025,10 @@
         "type": "send_message",
         "from": "3",
         "loop_variable": "",
-        "condition": "84",
+        "condition": "120",
         "condition_var": "",
         "condition_type": "has_number_lte",
-        "condition_name": "below 8",
+        "condition_name": "below 10",
         "save_name": "",
         "message_text": "{{messages[\"confirm_dob\"].msg}}",
         "choices.1": "{{messages[\"confirm_dob_yes\"].msg}}",
