@@ -586,6 +586,24 @@
         "change": "{share_link_telegram}",
         "condition_var": "",
         "category": "https://t.me/NKText\\_bot"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "uncaught_message_flow",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{share_link}.*",
+        "change": "{share_link}",
+        "condition_var": "",
+        "category": "https://t.me/NKText_bot"
+      },
+      {
+        "type_of_edit": "replace_bit_of_text",
+        "flow_id": "joining_trigger_confirmation",
+        "original_row_id": "",
+        "node_identifier": "Regex:.*{share_link}.*",
+        "change": "{share_link}",
+        "condition_var": "",
+        "category": "https://t.me/NKText_bot"
       }
     ],
     "urls_transl": [
