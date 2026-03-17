@@ -481,7 +481,7 @@
       {
         "ID": "consent",
         "type": "multiple_choice",
-        "messages.1.text": "✅ Your personal information is safe and private. To read our privacy policy, visit {consent}. If you are over 16 and consent to our privacy policy, select YES.  Type \"EXIT\" if you do not want to participate. ",
+        "messages.1.text": "✅ Your personal information is safe and private. To read our privacy policy, visit {consent}. If you are over 18 and consent to our privacy policy, select YES.  Type \"EXIT\" if you do not want to participate. ",
         "messages.1.image": "",
         "skipoption.text": "",
         "skipoption.choice": "",

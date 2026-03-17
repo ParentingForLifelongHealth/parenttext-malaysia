@@ -84,8 +84,8 @@
     "note": ""
   },
   {
-    "SourceText": "✅ Your personal information is safe and private. To read our privacy policy, visit {consent}. If you are over 16 and consent to our privacy policy, select YES.  Type \"EXIT\" if you do not want to participate.",
-    "text": "✅ Maklumat peribadi anda adalah selamat dan dirahsiakan. Untuk membaca dasar privasi kami, sila layari {consent}. Jika anda berumur 16 tahun ke atas dan bersetuju dengan dasar privasi kami, pilih YA. Taip \"KELUAR\" jika anda tidak mahu mengambil bahagian.",
+    "SourceText": "✅ Your personal information is safe and private. To read our privacy policy, visit {consent}. If you are over 18 and consent to our privacy policy, select YES.  Type \"EXIT\" if you do not want to participate.",
+    "text": "✅ Maklumat peribadi anda adalah selamat dan dirahsiakan. Untuk membaca dasar privasi kami, sila layari {consent}. Jika anda berumur 18 tahun ke atas dan bersetuju dengan dasar privasi kami, pilih YA. Taip \"KELUAR\" jika anda tidak mahu mengambil bahagian.",
     "type": "text",
     "note": ""
   },
